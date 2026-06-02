@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32 Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/Pangotag.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "preLaunchTask": "Build STM32",
+
+            "servertype": "openocd",
+
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32l4x.cfg"
+            ],
+            "swoConfig": {
+                "enabled": true,
+                "cpuFrequency": 4000000,
+                "swoFrequency": 1000000,
+                "source": "probe",
+                "decoders": [
+                    {
+                        "port": 0,
+                        "type": "console"
+                    }
+                ]
+            },
+
+            "runToEntryPoint": "main"
+        }
+    ]
+}
