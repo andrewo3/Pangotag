@@ -57,22 +57,19 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define TMP_Int_Pin GPIO_PIN_0
-#define TMP_Int_GPIO_Port GPIOC
-#define ACC2_Int_Pin GPIO_PIN_1
-#define ACC2_Int_GPIO_Port GPIOC
+#define ACC2_INT_Pin GPIO_PIN_1
+#define ACC2_INT_GPIO_Port GPIOC
+#define ACC2_INT_EXTI_IRQn EXTI1_IRQn
 #define Battery_LED_Pin GPIO_PIN_3
 #define Battery_LED_GPIO_Port GPIOC
 #define Power_Disable_Pin GPIO_PIN_1
 #define Power_Disable_GPIO_Port GPIOA
 #define Error_LED_Pin GPIO_PIN_6
 #define Error_LED_GPIO_Port GPIOA
-#define Timepulse_Pin GPIO_PIN_15
-#define Timepulse_GPIO_Port GPIOB
 #define SD_Detect_Pin GPIO_PIN_10
 #define SD_Detect_GPIO_Port GPIOA
-#define GPS_EXTINT_Pin GPIO_PIN_11
-#define GPS_EXTINT_GPIO_Port GPIOA
+#define USART_RX_Pin GPIO_PIN_7
+#define USART_RX_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

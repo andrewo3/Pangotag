@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
   28:FATFS/Target/bsp_driver_sd.c **** 
   29:FATFS/Target/bsp_driver_sd.c **** /* USER CODE END 0 */
   30:FATFS/Target/bsp_driver_sd.c **** #else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 2
 
 
   31:FATFS/Target/bsp_driver_sd.c **** /* USER CODE BEGIN FirstSection */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
   33              		@ link register save eliminated.
   81:FATFS/Target/bsp_driver_sd.c ****   /* Code to be updated by the user or replaced by one from the FW pack (in a stmxxxx_sd.c file) */
   82:FATFS/Target/bsp_driver_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 3
 
 
   83:FATFS/Target/bsp_driver_sd.c ****   return (uint8_t)0;
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
   69              	.LVL2:
   70              		.loc 1 103 7 view .LVU8
   71 0008 0A46     		mov	r2, r1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 4
 
 
   72              	.LVL3:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  120:FATFS/Target/bsp_driver_sd.c ****   * @retval SD status
  121:FATFS/Target/bsp_driver_sd.c ****   */
  122:FATFS/Target/bsp_driver_sd.c **** __weak uint8_t BSP_SD_WriteBlocks(uint32_t *pData, uint32_t WriteAddr, uint32_t NumOfBlocks, uint32
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 5
 
 
  123:FATFS/Target/bsp_driver_sd.c **** {
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  156              	.L13:
  157 001a 00BF     		.align	2
  158              	.L12:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 6
 
 
  159 001c 00000000 		.word	hsd1
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  198              	.LVL21:
  199              		.loc 1 149 6 discriminator 1 view .LVU37
  200 000e 00B1     		cbz	r0, .L15
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 7
 
 
  150:FATFS/Target/bsp_driver_sd.c ****   {
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  237              	.LVL24:
  170:FATFS/Target/bsp_driver_sd.c **** 
  171:FATFS/Target/bsp_driver_sd.c ****   /* Write block(s) in DMA transfer mode */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 8
 
 
  172:FATFS/Target/bsp_driver_sd.c ****   if (HAL_SD_WriteBlocks_DMA(&hsd1, (uint8_t *)pData, WriteAddr, NumOfBlocks) != HAL_OK)
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  189:FATFS/Target/bsp_driver_sd.c **** __weak uint8_t BSP_SD_Erase(uint32_t StartAddr, uint32_t EndAddr)
  190:FATFS/Target/bsp_driver_sd.c **** {
  277              		.loc 1 190 1 is_stmt 1 view -0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 9
 
 
  278              		.cfi_startproc
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  200:FATFS/Target/bsp_driver_sd.c **** 
  201:FATFS/Target/bsp_driver_sd.c **** /* USER CODE BEGIN BeforeGetCardStateSection */
  202:FATFS/Target/bsp_driver_sd.c **** /* can be used to modify previous code / undefine following code / add code */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 10
 
 
  203:FATFS/Target/bsp_driver_sd.c **** /* USER CODE END BeforeGetCardStateSection */
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  223:FATFS/Target/bsp_driver_sd.c **** __weak void BSP_SD_GetCardInfo(BSP_SD_CardInfo *CardInfo)
  224:FATFS/Target/bsp_driver_sd.c **** {
  361              		.loc 1 224 1 is_stmt 1 view -0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 11
 
 
  362              		.cfi_startproc
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  247:FATFS/Target/bsp_driver_sd.c **** void HAL_SD_TxCpltCallback(SD_HandleTypeDef *hsd)
  248:FATFS/Target/bsp_driver_sd.c **** {
  249:FATFS/Target/bsp_driver_sd.c ****   BSP_SD_WriteCpltCallback();
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 12
 
 
  250:FATFS/Target/bsp_driver_sd.c **** }
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  427 0002 FFF7FEFF 		bl	BSP_SD_AbortCallback
  428              	.LVL41:
  240:FATFS/Target/bsp_driver_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 13
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 13
 
 
  429              		.loc 1 240 1 is_stmt 0 view .LVU78
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  474 0002 FFF7FEFF 		bl	BSP_SD_WriteCpltCallback
  475              	.LVL43:
  250:FATFS/Target/bsp_driver_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 14
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 14
 
 
  476              		.loc 1 250 1 is_stmt 0 view .LVU84
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  521 0002 FFF7FEFF 		bl	BSP_SD_ReadCpltCallback
  522              	.LVL45:
  260:FATFS/Target/bsp_driver_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 15
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 15
 
 
  523              		.loc 1 260 1 is_stmt 0 view .LVU90
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  309:FATFS/Target/bsp_driver_sd.c ****   return status;
  562              		.loc 1 309 3 is_stmt 1 view .LVU99
  563              		.loc 1 309 10 is_stmt 0 view .LVU100
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 16
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 16
 
 
  564 0014 9DF80700 		ldrb	r0, [sp, #7]	@ zero_extendqisi2
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  612              	.L57:
   69:FATFS/Target/bsp_driver_sd.c **** /* USER CODE BEGIN AfterInitSection */
  613              		.loc 1 69 1 view .LVU109
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 17
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 17
 
 
  614 0012 0546     		mov	r5, r0
@@ -1015,51 +1015,51 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 1
  656              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h"
  657              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
  658              		.file 10 "FATFS/Target/fatfs_platform.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s 			page 18
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 bsp_driver_sd.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:21     .text.BSP_SD_ITConfig:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:27     .text.BSP_SD_ITConfig:00000000 BSP_SD_ITConfig
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:42     .text.BSP_SD_ReadBlocks:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:48     .text.BSP_SD_ReadBlocks:00000000 BSP_SD_ReadBlocks
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:98     .text.BSP_SD_ReadBlocks:0000001c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:103    .text.BSP_SD_WriteBlocks:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:109    .text.BSP_SD_WriteBlocks:00000000 BSP_SD_WriteBlocks
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:159    .text.BSP_SD_WriteBlocks:0000001c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:164    .text.BSP_SD_ReadBlocks_DMA:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:170    .text.BSP_SD_ReadBlocks_DMA:00000000 BSP_SD_ReadBlocks_DMA
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:211    .text.BSP_SD_ReadBlocks_DMA:00000014 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:216    .text.BSP_SD_WriteBlocks_DMA:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:222    .text.BSP_SD_WriteBlocks_DMA:00000000 BSP_SD_WriteBlocks_DMA
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:263    .text.BSP_SD_WriteBlocks_DMA:00000014 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:268    .text.BSP_SD_Erase:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:274    .text.BSP_SD_Erase:00000000 BSP_SD_Erase
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:312    .text.BSP_SD_Erase:00000014 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:317    .text.BSP_SD_GetCardState:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:323    .text.BSP_SD_GetCardState:00000000 BSP_SD_GetCardState
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:347    .text.BSP_SD_GetCardState:00000010 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:352    .text.BSP_SD_GetCardInfo:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:358    .text.BSP_SD_GetCardInfo:00000000 BSP_SD_GetCardInfo
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:383    .text.BSP_SD_GetCardInfo:0000000c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:388    .text.BSP_SD_AbortCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:394    .text.BSP_SD_AbortCallback:00000000 BSP_SD_AbortCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:407    .text.HAL_SD_AbortCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:413    .text.HAL_SD_AbortCallback:00000000 HAL_SD_AbortCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:435    .text.BSP_SD_WriteCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:441    .text.BSP_SD_WriteCpltCallback:00000000 BSP_SD_WriteCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:454    .text.HAL_SD_TxCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:460    .text.HAL_SD_TxCpltCallback:00000000 HAL_SD_TxCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:482    .text.BSP_SD_ReadCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:488    .text.BSP_SD_ReadCpltCallback:00000000 BSP_SD_ReadCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:501    .text.HAL_SD_RxCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:507    .text.HAL_SD_RxCpltCallback:00000000 HAL_SD_RxCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:529    .text.BSP_SD_IsDetected:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:535    .text.BSP_SD_IsDetected:00000000 BSP_SD_IsDetected
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:575    .text.BSP_SD_Init:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:581    .text.BSP_SD_Init:00000000 BSP_SD_Init
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccCflPQY.s:644    .text.BSP_SD_Init:00000034 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:21     .text.BSP_SD_ITConfig:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:27     .text.BSP_SD_ITConfig:00000000 BSP_SD_ITConfig
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:42     .text.BSP_SD_ReadBlocks:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:48     .text.BSP_SD_ReadBlocks:00000000 BSP_SD_ReadBlocks
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:98     .text.BSP_SD_ReadBlocks:0000001c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:103    .text.BSP_SD_WriteBlocks:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:109    .text.BSP_SD_WriteBlocks:00000000 BSP_SD_WriteBlocks
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:159    .text.BSP_SD_WriteBlocks:0000001c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:164    .text.BSP_SD_ReadBlocks_DMA:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:170    .text.BSP_SD_ReadBlocks_DMA:00000000 BSP_SD_ReadBlocks_DMA
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:211    .text.BSP_SD_ReadBlocks_DMA:00000014 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:216    .text.BSP_SD_WriteBlocks_DMA:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:222    .text.BSP_SD_WriteBlocks_DMA:00000000 BSP_SD_WriteBlocks_DMA
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:263    .text.BSP_SD_WriteBlocks_DMA:00000014 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:268    .text.BSP_SD_Erase:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:274    .text.BSP_SD_Erase:00000000 BSP_SD_Erase
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:312    .text.BSP_SD_Erase:00000014 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:317    .text.BSP_SD_GetCardState:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:323    .text.BSP_SD_GetCardState:00000000 BSP_SD_GetCardState
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:347    .text.BSP_SD_GetCardState:00000010 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:352    .text.BSP_SD_GetCardInfo:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:358    .text.BSP_SD_GetCardInfo:00000000 BSP_SD_GetCardInfo
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:383    .text.BSP_SD_GetCardInfo:0000000c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:388    .text.BSP_SD_AbortCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:394    .text.BSP_SD_AbortCallback:00000000 BSP_SD_AbortCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:407    .text.HAL_SD_AbortCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:413    .text.HAL_SD_AbortCallback:00000000 HAL_SD_AbortCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:435    .text.BSP_SD_WriteCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:441    .text.BSP_SD_WriteCpltCallback:00000000 BSP_SD_WriteCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:454    .text.HAL_SD_TxCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:460    .text.HAL_SD_TxCpltCallback:00000000 HAL_SD_TxCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:482    .text.BSP_SD_ReadCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:488    .text.BSP_SD_ReadCpltCallback:00000000 BSP_SD_ReadCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:501    .text.HAL_SD_RxCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:507    .text.HAL_SD_RxCpltCallback:00000000 HAL_SD_RxCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:529    .text.BSP_SD_IsDetected:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:535    .text.BSP_SD_IsDetected:00000000 BSP_SD_IsDetected
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:575    .text.BSP_SD_Init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:581    .text.BSP_SD_Init:00000000 BSP_SD_Init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWldZct.s:644    .text.BSP_SD_Init:00000034 $d
 
 UNDEFINED SYMBOLS
 HAL_SD_ReadBlocks

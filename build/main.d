@@ -25,17 +25,16 @@ build/main.o: Core/Src/main.c Core/Inc/main.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- FATFS/App/fatfs.h Middlewares/Third_Party/FatFs/src/ff.h \
+ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h FATFS/App/fatfs.h \
+ Middlewares/Third_Party/FatFs/src/ff.h \
  Middlewares/Third_Party/FatFs/src/integer.h FATFS/Target/ffconf.h \
  FATFS/Target/bsp_driver_sd.h FATFS/Target/fatfs_platform.h \
  Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  Middlewares/Third_Party/FatFs/src/diskio.h \
  Middlewares/Third_Party/FatFs/src/ff.h FATFS/Target/sd_diskio.h \
- Core/Inc/i2c.h Core/Inc/main.h Core/Inc/sdmmc.h Core/Inc/usart.h \
- Core/Inc/gpio.h
+ Core/Inc/i2c.h Core/Inc/main.h Core/Inc/sdmmc.h Core/Inc/gpio.h \
+ Core/Src/bmi270/bmi270.h Core/Src/bmi270/bmi2.h \
+ Core/Src/bmi270/bmi2_defs.h
 Core/Inc/main.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 Core/Inc/stm32l4xx_hal_conf.h:
@@ -66,8 +65,6 @@ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h:
-Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
-Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 FATFS/App/fatfs.h:
 Middlewares/Third_Party/FatFs/src/ff.h:
 Middlewares/Third_Party/FatFs/src/integer.h:
@@ -81,5 +78,7 @@ FATFS/Target/sd_diskio.h:
 Core/Inc/i2c.h:
 Core/Inc/main.h:
 Core/Inc/sdmmc.h:
-Core/Inc/usart.h:
 Core/Inc/gpio.h:
+Core/Src/bmi270/bmi270.h:
+Core/Src/bmi270/bmi2.h:
+Core/Src/bmi270/bmi2_defs.h:

@@ -28,8 +28,6 @@ build/fatfs.o: FATFS/App/fatfs.c FATFS/App/fatfs.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
  FATFS/Target/bsp_driver_sd.h FATFS/Target/fatfs_platform.h \
  Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  Middlewares/Third_Party/FatFs/src/diskio.h \
@@ -68,8 +66,6 @@ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h:
-Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
-Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 FATFS/Target/bsp_driver_sd.h:
 FATFS/Target/fatfs_platform.h:
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:

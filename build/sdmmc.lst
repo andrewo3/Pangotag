@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
   28:Core/Src/sdmmc.c **** 
   29:Core/Src/sdmmc.c **** /* SDMMC1 init function */
   30:Core/Src/sdmmc.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 2
 
 
   31:Core/Src/sdmmc.c **** void MX_SDMMC1_SD_Init(void)
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
   61              	.L3:
   62 001a 00BF     		.align	2
   63              	.L2:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 3
 
 
   64 001c 00000000 		.word	hsd1
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  113              		.loc 1 59 14 is_stmt 0 view .LVU24
  114 001a 2268     		ldr	r2, [r4]
  115              		.loc 1 59 5 view .LVU25
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 4
 
 
  116 001c 2A4B     		ldr	r3, .L10
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  109:Core/Src/sdmmc.c ****   /* USER CODE BEGIN SDMMC1_MspInit 1 */
  110:Core/Src/sdmmc.c **** 
  111:Core/Src/sdmmc.c ****   /* USER CODE END SDMMC1_MspInit 1 */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 5
 
 
  112:Core/Src/sdmmc.c ****   }
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
   74:Core/Src/sdmmc.c ****     PeriphClkInit.PLLSAI1.PLLSAI1ClockOut = RCC_PLLSAI1_48M2CLK;
  159              		.loc 1 74 5 is_stmt 1 view .LVU41
   74:Core/Src/sdmmc.c ****     PeriphClkInit.PLLSAI1.PLLSAI1ClockOut = RCC_PLLSAI1_48M2CLK;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 6
 
 
  160              		.loc 1 74 36 is_stmt 0 view .LVU42
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  199 0072 DA6C     		ldr	r2, [r3, #76]
  200 0074 02F00402 		and	r2, r2, #4
  201 0078 0192     		str	r2, [sp, #4]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 7
 
 
   84:Core/Src/sdmmc.c ****     __HAL_RCC_GPIOD_CLK_ENABLE();
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
   99:Core/Src/sdmmc.c ****     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
  239              		.loc 1 99 5 is_stmt 1 view .LVU75
   99:Core/Src/sdmmc.c ****     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 8
 
 
  240              		.loc 1 99 31 is_stmt 0 view .LVU76
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  281 00cc 00100240 		.word	1073876992
  282 00d0 00080048 		.word	1207961600
  283 00d4 000C0048 		.word	1207962624
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 9
 
 
  284              		.cfi_endproc
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  138:Core/Src/sdmmc.c **** 
  139:Core/Src/sdmmc.c ****   /* USER CODE BEGIN SDMMC1_MspDeInit 1 */
  140:Core/Src/sdmmc.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 10
 
 
  141:Core/Src/sdmmc.c ****   /* USER CODE END SDMMC1_MspDeInit 1 */
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  362              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h"
  363              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  364              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 11
 
 
  365              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h"
@@ -607,22 +607,22 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 1
  368              		.file 12 "Core/Inc/sdmmc.h"
  369              		.file 13 "Core/Inc/main.h"
  370              		.file 14 "<built-in>"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 sdmmc.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:21     .text.MX_SDMMC1_SD_Init:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:27     .text.MX_SDMMC1_SD_Init:00000000 MX_SDMMC1_SD_Init
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:64     .text.MX_SDMMC1_SD_Init:0000001c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:354    .bss.hsd1:00000000 hsd1
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:70     .text.HAL_SD_MspInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:76     .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:280    .text.HAL_SD_MspInit:000000c8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:288    .text.HAL_SD_MspDeInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:294    .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:342    .text.HAL_SD_MspDeInit:0000002c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cc6iQrGG.s:351    .bss.hsd1:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:21     .text.MX_SDMMC1_SD_Init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:27     .text.MX_SDMMC1_SD_Init:00000000 MX_SDMMC1_SD_Init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:64     .text.MX_SDMMC1_SD_Init:0000001c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:354    .bss.hsd1:00000000 hsd1
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:70     .text.HAL_SD_MspInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:76     .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:280    .text.HAL_SD_MspInit:000000c8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:288    .text.HAL_SD_MspDeInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:294    .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:342    .text.HAL_SD_MspDeInit:0000002c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccKNOsK6.s:351    .bss.hsd1:00000000 $d
 
 UNDEFINED SYMBOLS
 memset

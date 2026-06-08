@@ -1,0 +1,605 @@
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.arch armv7e-m
+   3              		.fpu fpv4-sp-d16
+   4              		.eabi_attribute 27, 1
+   5              		.eabi_attribute 28, 1
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.file	"bmi270_maximum_fifo.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.file 1 "Core/Src/bmi270/bmi270_maximum_fifo.c"
+  20              		.section	.text.null_ptr_check,"ax",%progbits
+  21              		.align	1
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	null_ptr_check:
+  27              	.LVL0:
+  28              	.LFB4:
+   1:Core/Src/bmi270/bmi270_maximum_fifo.c **** /**
+   2:Core/Src/bmi270/bmi270_maximum_fifo.c **** * Copyright (c) 2023 Bosch Sensortec GmbH. All rights reserved.
+   3:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+   4:Core/Src/bmi270/bmi270_maximum_fifo.c **** * BSD-3-Clause
+   5:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+   6:Core/Src/bmi270/bmi270_maximum_fifo.c **** * Redistribution and use in source and binary forms, with or without
+   7:Core/Src/bmi270/bmi270_maximum_fifo.c **** * modification, are permitted provided that the following conditions are met:
+   8:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+   9:Core/Src/bmi270/bmi270_maximum_fifo.c **** * 1. Redistributions of source code must retain the above copyright
+  10:Core/Src/bmi270/bmi270_maximum_fifo.c **** *    notice, this list of conditions and the following disclaimer.
+  11:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+  12:Core/Src/bmi270/bmi270_maximum_fifo.c **** * 2. Redistributions in binary form must reproduce the above copyright
+  13:Core/Src/bmi270/bmi270_maximum_fifo.c **** *    notice, this list of conditions and the following disclaimer in the
+  14:Core/Src/bmi270/bmi270_maximum_fifo.c **** *    documentation and/or other materials provided with the distribution.
+  15:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+  16:Core/Src/bmi270/bmi270_maximum_fifo.c **** * 3. Neither the name of the copyright holder nor the names of its
+  17:Core/Src/bmi270/bmi270_maximum_fifo.c **** *    contributors may be used to endorse or promote products derived from
+  18:Core/Src/bmi270/bmi270_maximum_fifo.c **** *    this software without specific prior written permission.
+  19:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+  20:Core/Src/bmi270/bmi270_maximum_fifo.c **** * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  21:Core/Src/bmi270/bmi270_maximum_fifo.c **** * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  22:Core/Src/bmi270/bmi270_maximum_fifo.c **** * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+  23:Core/Src/bmi270/bmi270_maximum_fifo.c **** * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+  24:Core/Src/bmi270/bmi270_maximum_fifo.c **** * COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  25:Core/Src/bmi270/bmi270_maximum_fifo.c **** * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  26:Core/Src/bmi270/bmi270_maximum_fifo.c **** * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  27:Core/Src/bmi270/bmi270_maximum_fifo.c **** * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  28:Core/Src/bmi270/bmi270_maximum_fifo.c **** * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+  29:Core/Src/bmi270/bmi270_maximum_fifo.c **** * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+  30:Core/Src/bmi270/bmi270_maximum_fifo.c **** * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 2
+
+
+  31:Core/Src/bmi270/bmi270_maximum_fifo.c **** * POSSIBILITY OF SUCH DAMAGE.
+  32:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+  33:Core/Src/bmi270/bmi270_maximum_fifo.c **** * @file       bmi270_maximum_fifo.c
+  34:Core/Src/bmi270/bmi270_maximum_fifo.c **** * @date       2023-05-03
+  35:Core/Src/bmi270/bmi270_maximum_fifo.c **** * @version    v2.86.1
+  36:Core/Src/bmi270/bmi270_maximum_fifo.c **** *
+  37:Core/Src/bmi270/bmi270_maximum_fifo.c **** */
+  38:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  39:Core/Src/bmi270/bmi270_maximum_fifo.c **** /***************************************************************************/
+  40:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  41:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!             Header files
+  42:Core/Src/bmi270/bmi270_maximum_fifo.c ****  ****************************************************************************/
+  43:Core/Src/bmi270/bmi270_maximum_fifo.c **** #include "bmi270_maximum_fifo.h"
+  44:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  45:Core/Src/bmi270/bmi270_maximum_fifo.c **** /***************************************************************************/
+  46:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  47:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!              Global Variable
+  48:Core/Src/bmi270/bmi270_maximum_fifo.c ****  ****************************************************************************/
+  49:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  50:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*! @name  Global array that stores the configuration file of BMI270 */
+  51:Core/Src/bmi270/bmi270_maximum_fifo.c **** const uint8_t bmi270_maximum_fifo_config_file[] = {
+  52:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0xc8, 0x2e, 0x00, 0x2e, 0x80, 0x2e, 0x1a, 0x00, 0xc8, 0x2e, 0x00, 0x2e, 0xc8, 0x2e, 0x00, 0x2e,
+  53:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x2e, 0xc8, 0x2e, 0x00, 0x2e, 0xc8, 0x2e, 0x00, 0x2e, 0xc8, 0x2e, 0x00, 0x2e, 0x90, 0x32, 0x21,
+  54:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x10, 0x30, 0x21, 0x2e, 0x6a, 0xf5, 0x1a, 0x24, 0x22, 0x00, 0x80, 0x2e, 0x3b, 0x00, 0xc8, 0x2e,
+  55:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x00, 0x37, 0x00, 0xa4, 0x00, 0xff, 0x0f, 0xd1, 0x00, 0x07, 0xad, 0x80, 0x2e, 0x00, 0xc1, 0x80,
+  56:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1,
+  57:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00,
+  58:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x00, 0x00, 0x00, 0x00, 0x11, 0x24, 0xfc, 0xf5, 0x80, 0x30, 0x40, 0x42, 0x50, 0x50, 0x00, 0x30,
+  59:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x00, 0x03, 0x30, 0x00, 0x2e, 0xc1, 0x86, 0x5a, 0x0e, 0xfb, 0x2f, 0x21, 0x2e, 0xfc, 0xf5, 0x13,
+  60:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0xe0, 0x3c, 0x48, 0x00, 0x22, 0x30, 0xf7, 0x80, 0xc2, 0x42, 0xe1, 0x7f, 0x3a, 0x25, 0xfc, 0x86,
+  61:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x33, 0x98, 0x2e, 0xc2, 0xc4, 0xd6, 0x6f, 0xf1, 0x30, 0xf1, 0x08, 0xc4, 0x6f, 0x11, 0x24, 0xff,
+  62:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x00, 0xfc, 0x61, 0x09, 0xa2, 0x08, 0x36, 0xbe, 0x2a, 0xb9, 0x13, 0x24, 0x38, 0x00, 0x64, 0xbb,
+  63:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x0a, 0x71, 0x08, 0xd5, 0x42, 0x21, 0xbd, 0x91, 0xbc, 0xd2, 0x42, 0xc1, 0x42, 0x00, 0xb2, 0xfe,
+  64:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x50, 0x30, 0x21, 0x2e, 0x21, 0xf2, 0x00, 0x2e, 0x00, 0x2e, 0xd0, 0x2e, 0xf0, 0x6f, 0x02, 0x30,
+  65:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x26, 0xe0, 0x6f, 0x02, 0x31, 0x03, 0x40, 0x9a, 0x0a, 0x02, 0x42, 0xf0, 0x37, 0x05, 0x2e, 0x5e,
+  66:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x12, 0x24, 0x1e, 0xf2, 0x80, 0x42, 0x83, 0x84, 0xf1, 0x7f, 0x0a, 0x25, 0x13, 0x30, 0x83, 0x42,
+  67:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x6f, 0x00, 0x2e, 0x00, 0x2e, 0xd0, 0x2e, 0x12, 0x40, 0x52, 0x42, 0x00, 0x2e, 0x12, 0x40, 0x52,
+  68:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0x00, 0x40, 0x40, 0x42, 0x7e, 0x82, 0xe1, 0x7f, 0xf2, 0x7f, 0x98, 0x2e, 0x6a, 0xd6, 0x21, 0x30,
+  69:Core/Src/bmi270/bmi270_maximum_fifo.c ****     0xf5, 0xeb, 0x2c, 0xe1, 0x6f
+  70:Core/Src/bmi270/bmi270_maximum_fifo.c **** };
+  71:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  72:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*! @name  Global array that stores the feature input configuration of BMI270 */
+  73:Core/Src/bmi270/bmi270_maximum_fifo.c **** const struct bmi2_feature_config bmi270_maximum_fifo_feat_in[BMI270_MAXIMUM_FIFO_MAX_FEAT_IN] = {
+  74:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  75:Core/Src/bmi270/bmi270_maximum_fifo.c **** };
+  76:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  77:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*! @name  Global array that stores the feature output configuration */
+  78:Core/Src/bmi270/bmi270_maximum_fifo.c **** const struct bmi2_feature_config bmi270_maximum_fifo_feat_out[BMI270_MAXIMUM_FIFO_MAX_FEAT_OUT] = {
+  79:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  80:Core/Src/bmi270/bmi270_maximum_fifo.c **** };
+  81:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  82:Core/Src/bmi270/bmi270_maximum_fifo.c **** /******************************************************************************/
+  83:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  84:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!         Local Function Prototypes
+  85:Core/Src/bmi270/bmi270_maximum_fifo.c ****  ******************************************************************************/
+  86:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  87:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 3
+
+
+  88:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @brief This internal API is used to validate the device pointer for
+  89:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * null conditions.
+  90:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *
+  91:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @param[in] dev : Structure instance of bmi2_dev.
+  92:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *
+  93:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @return Result of API execution status
+  94:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @retval 0 -> Success
+  95:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @retval < 0 -> Fail
+  96:Core/Src/bmi270/bmi270_maximum_fifo.c ****  */
+  97:Core/Src/bmi270/bmi270_maximum_fifo.c **** static int8_t null_ptr_check(const struct bmi2_dev *dev);
+  98:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  99:Core/Src/bmi270/bmi270_maximum_fifo.c **** /***************************************************************************/
+ 100:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 101:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!         User Interface Definitions
+ 102:Core/Src/bmi270/bmi270_maximum_fifo.c ****  ****************************************************************************/
+ 103:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 104:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!
+ 105:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  @brief This API:
+ 106:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  1) updates the device structure with address of the configuration file.
+ 107:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  2) Initializes BMI270 sensor.
+ 108:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  3) Writes the configuration file.
+ 109:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  4) Updates the feature offset parameters in the device structure.
+ 110:Core/Src/bmi270/bmi270_maximum_fifo.c ****  *  5) Updates the maximum number of pages, in the device structure.
+ 111:Core/Src/bmi270/bmi270_maximum_fifo.c ****  */
+ 112:Core/Src/bmi270/bmi270_maximum_fifo.c **** int8_t bmi270_maximum_fifo_init(struct bmi2_dev *dev)
+ 113:Core/Src/bmi270/bmi270_maximum_fifo.c **** {
+ 114:Core/Src/bmi270/bmi270_maximum_fifo.c ****     /* Variable to define result */
+ 115:Core/Src/bmi270/bmi270_maximum_fifo.c ****     int8_t rslt;
+ 116:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 117:Core/Src/bmi270/bmi270_maximum_fifo.c ****     /* Null-pointer check */
+ 118:Core/Src/bmi270/bmi270_maximum_fifo.c ****     rslt = null_ptr_check(dev);
+ 119:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 120:Core/Src/bmi270/bmi270_maximum_fifo.c ****     if (rslt == BMI2_OK)
+ 121:Core/Src/bmi270/bmi270_maximum_fifo.c ****     {
+ 122:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* Assign chip id of BMI270 */
+ 123:Core/Src/bmi270/bmi270_maximum_fifo.c ****         dev->chip_id = BMI270_MAXIMUM_FIFO_CHIP_ID;
+ 124:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 125:Core/Src/bmi270/bmi270_maximum_fifo.c ****         dev->config_size = sizeof(bmi270_maximum_fifo_config_file);
+ 126:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 127:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* Enable the variant specific features if any */
+ 128:Core/Src/bmi270/bmi270_maximum_fifo.c ****         dev->variant_feature = BMI2_GYRO_CROSS_SENS_ENABLE | BMI2_MAXIMUM_FIFO_VARIANT;
+ 129:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 130:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* An extra dummy byte is read during SPI read */
+ 131:Core/Src/bmi270/bmi270_maximum_fifo.c ****         if (dev->intf == BMI2_SPI_INTF)
+ 132:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 133:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->dummy_byte = 1;
+ 134:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 135:Core/Src/bmi270/bmi270_maximum_fifo.c ****         else
+ 136:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 137:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->dummy_byte = 0;
+ 138:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 139:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 140:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* If configuration file pointer is not assigned any address */
+ 141:Core/Src/bmi270/bmi270_maximum_fifo.c ****         if (!dev->config_file_ptr)
+ 142:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 143:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Give the address of the configuration file array to
+ 144:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * the device pointer
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 4
+
+
+ 145:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 146:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->config_file_ptr = bmi270_maximum_fifo_config_file;
+ 147:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 148:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 149:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* Initialize BMI2 sensor */
+ 150:Core/Src/bmi270/bmi270_maximum_fifo.c ****         rslt = bmi2_sec_init(dev);
+ 151:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 152:Core/Src/bmi270/bmi270_maximum_fifo.c ****         if (rslt == BMI2_OK)
+ 153:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 154:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Assign the offsets of the feature input
+ 155:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * configuration to the device structure
+ 156:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 157:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->feat_config = bmi270_maximum_fifo_feat_in;
+ 158:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 159:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Assign the offsets of the feature output to
+ 160:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * the device structure
+ 161:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 162:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->feat_output = bmi270_maximum_fifo_feat_out;
+ 163:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 164:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Assign the maximum number of pages to the
+ 165:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * device structure
+ 166:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 167:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->page_max = BMI270_MAXIMUM_FIFO_MAX_PAGE_NUM;
+ 168:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 169:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Assign maximum number of input sensors/
+ 170:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * features to device structure
+ 171:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 172:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->input_sens = BMI270_MAXIMUM_FIFO_MAX_FEAT_IN;
+ 173:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 174:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Assign maximum number of output sensors/
+ 175:Core/Src/bmi270/bmi270_maximum_fifo.c ****              * features to device structure
+ 176:Core/Src/bmi270/bmi270_maximum_fifo.c ****              */
+ 177:Core/Src/bmi270/bmi270_maximum_fifo.c ****             dev->out_sens = BMI270_MAXIMUM_FIFO_MAX_FEAT_OUT;
+ 178:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 179:Core/Src/bmi270/bmi270_maximum_fifo.c ****             /* Get the gyroscope cross axis sensitivity */
+ 180:Core/Src/bmi270/bmi270_maximum_fifo.c ****             rslt = bmi2_get_gyro_cross_sense(dev);
+ 181:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 182:Core/Src/bmi270/bmi270_maximum_fifo.c ****     }
+ 183:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 184:Core/Src/bmi270/bmi270_maximum_fifo.c ****     return rslt;
+ 185:Core/Src/bmi270/bmi270_maximum_fifo.c **** }
+ 186:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 187:Core/Src/bmi270/bmi270_maximum_fifo.c **** /***************************************************************************/
+ 188:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 189:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!         Local Function Definitions
+ 190:Core/Src/bmi270/bmi270_maximum_fifo.c ****  ****************************************************************************/
+ 191:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 192:Core/Src/bmi270/bmi270_maximum_fifo.c **** /*!
+ 193:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * @brief This internal API is used to validate the device structure pointer for
+ 194:Core/Src/bmi270/bmi270_maximum_fifo.c ****  * null conditions.
+ 195:Core/Src/bmi270/bmi270_maximum_fifo.c ****  */
+ 196:Core/Src/bmi270/bmi270_maximum_fifo.c **** static int8_t null_ptr_check(const struct bmi2_dev *dev)
+ 197:Core/Src/bmi270/bmi270_maximum_fifo.c **** {
+  29              		.loc 1 197 1 view -0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 5
+
+
+  33              		@ link register save eliminated.
+ 198:Core/Src/bmi270/bmi270_maximum_fifo.c ****     /* Variable to define result */
+ 199:Core/Src/bmi270/bmi270_maximum_fifo.c ****     int8_t rslt = BMI2_OK;
+  34              		.loc 1 199 5 view .LVU1
+ 200:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 201:Core/Src/bmi270/bmi270_maximum_fifo.c ****     if ((dev == NULL) || (dev->read == NULL) || (dev->write == NULL) || (dev->delay_us == NULL))
+  35              		.loc 1 201 5 view .LVU2
+  36              		.loc 1 201 8 is_stmt 0 view .LVU3
+  37 0000 38B1     		cbz	r0, .L3
+  38              		.loc 1 201 30 discriminator 1 view .LVU4
+  39 0002 826B     		ldr	r2, [r0, #56]
+  40              		.loc 1 201 23 discriminator 1 view .LVU5
+  41 0004 42B1     		cbz	r2, .L4
+  42              		.loc 1 201 53 discriminator 2 view .LVU6
+  43 0006 C26B     		ldr	r2, [r0, #60]
+  44              		.loc 1 201 46 discriminator 2 view .LVU7
+  45 0008 4AB1     		cbz	r2, .L5
+  46              		.loc 1 201 77 discriminator 3 view .LVU8
+  47 000a 036C     		ldr	r3, [r0, #64]
+  48              		.loc 1 201 70 discriminator 3 view .LVU9
+  49 000c 53B1     		cbz	r3, .L6
+ 199:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  50              		.loc 1 199 12 view .LVU10
+  51 000e 0020     		movs	r0, #0
+  52              	.LVL1:
+ 199:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+  53              		.loc 1 199 12 view .LVU11
+  54 0010 7047     		bx	lr
+  55              	.LVL2:
+  56              	.L3:
+ 202:Core/Src/bmi270/bmi270_maximum_fifo.c ****     {
+ 203:Core/Src/bmi270/bmi270_maximum_fifo.c ****         /* Device structure pointer is not valid */
+ 204:Core/Src/bmi270/bmi270_maximum_fifo.c ****         rslt = BMI2_E_NULL_PTR;
+  57              		.loc 1 204 14 view .LVU12
+  58 0012 4FF0FF30 		mov	r0, #-1
+  59              	.LVL3:
+  60              		.loc 1 204 14 view .LVU13
+  61 0016 7047     		bx	lr
+  62              	.LVL4:
+  63              	.L4:
+  64              		.loc 1 204 14 view .LVU14
+  65 0018 4FF0FF30 		mov	r0, #-1
+  66              	.LVL5:
+  67              		.loc 1 204 14 view .LVU15
+  68 001c 7047     		bx	lr
+  69              	.LVL6:
+  70              	.L5:
+  71              		.loc 1 204 14 view .LVU16
+  72 001e 4FF0FF30 		mov	r0, #-1
+  73              	.LVL7:
+  74              		.loc 1 204 14 view .LVU17
+  75 0022 7047     		bx	lr
+  76              	.LVL8:
+  77              	.L6:
+  78              		.loc 1 204 14 view .LVU18
+  79 0024 4FF0FF30 		mov	r0, #-1
+  80              	.LVL9:
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 6
+
+
+ 205:Core/Src/bmi270/bmi270_maximum_fifo.c ****     }
+ 206:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 207:Core/Src/bmi270/bmi270_maximum_fifo.c ****     return rslt;
+  81              		.loc 1 207 5 is_stmt 1 view .LVU19
+ 208:Core/Src/bmi270/bmi270_maximum_fifo.c **** }
+  82              		.loc 1 208 1 is_stmt 0 view .LVU20
+  83 0028 7047     		bx	lr
+  84              		.cfi_endproc
+  85              	.LFE4:
+  87              		.section	.text.bmi270_maximum_fifo_init,"ax",%progbits
+  88              		.align	1
+  89              		.global	bmi270_maximum_fifo_init
+  90              		.syntax unified
+  91              		.thumb
+  92              		.thumb_func
+  94              	bmi270_maximum_fifo_init:
+  95              	.LVL10:
+  96              	.LFB3:
+ 113:Core/Src/bmi270/bmi270_maximum_fifo.c ****     /* Variable to define result */
+  97              		.loc 1 113 1 is_stmt 1 view -0
+  98              		.cfi_startproc
+  99              		@ args = 0, pretend = 0, frame = 0
+ 100              		@ frame_needed = 0, uses_anonymous_args = 0
+ 113:Core/Src/bmi270/bmi270_maximum_fifo.c ****     /* Variable to define result */
+ 101              		.loc 1 113 1 is_stmt 0 view .LVU22
+ 102 0000 10B5     		push	{r4, lr}
+ 103              	.LCFI0:
+ 104              		.cfi_def_cfa_offset 8
+ 105              		.cfi_offset 4, -8
+ 106              		.cfi_offset 14, -4
+ 107 0002 0446     		mov	r4, r0
+ 115:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 108              		.loc 1 115 5 is_stmt 1 view .LVU23
+ 118:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 109              		.loc 1 118 5 view .LVU24
+ 118:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 110              		.loc 1 118 12 is_stmt 0 view .LVU25
+ 111 0004 FFF7FEFF 		bl	null_ptr_check
+ 112              	.LVL11:
+ 120:Core/Src/bmi270/bmi270_maximum_fifo.c ****     {
+ 113              		.loc 1 120 5 is_stmt 1 view .LVU26
+ 120:Core/Src/bmi270/bmi270_maximum_fifo.c ****     {
+ 114              		.loc 1 120 8 is_stmt 0 view .LVU27
+ 115 0008 90B9     		cbnz	r0, .L8
+ 123:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 116              		.loc 1 123 9 is_stmt 1 view .LVU28
+ 123:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 117              		.loc 1 123 22 is_stmt 0 view .LVU29
+ 118 000a 2423     		movs	r3, #36
+ 119 000c 2370     		strb	r3, [r4]
+ 125:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 120              		.loc 1 125 9 is_stmt 1 view .LVU30
+ 125:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 121              		.loc 1 125 26 is_stmt 0 view .LVU31
+ 122 000e 4FF4A473 		mov	r3, #328
+ 123 0012 A4F84A30 		strh	r3, [r4, #74]	@ movhi
+ 128:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 7
+
+
+ 124              		.loc 1 128 9 is_stmt 1 view .LVU32
+ 128:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 125              		.loc 1 128 30 is_stmt 0 view .LVU33
+ 126 0016 2223     		movs	r3, #34
+ 127 0018 A4F84830 		strh	r3, [r4, #72]	@ movhi
+ 131:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 128              		.loc 1 131 9 is_stmt 1 view .LVU34
+ 131:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 129              		.loc 1 131 16 is_stmt 0 view .LVU35
+ 130 001c 637A     		ldrb	r3, [r4, #9]	@ zero_extendqisi2
+ 131:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 131              		.loc 1 131 12 view .LVU36
+ 132 001e 43B9     		cbnz	r3, .L9
+ 133:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 133              		.loc 1 133 13 is_stmt 1 view .LVU37
+ 133:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 134              		.loc 1 133 29 is_stmt 0 view .LVU38
+ 135 0020 0123     		movs	r3, #1
+ 136 0022 E372     		strb	r3, [r4, #11]
+ 137              	.L10:
+ 141:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 138              		.loc 1 141 9 is_stmt 1 view .LVU39
+ 141:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 139              		.loc 1 141 17 is_stmt 0 view .LVU40
+ 140 0024 6369     		ldr	r3, [r4, #20]
+ 141:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 141              		.loc 1 141 12 view .LVU41
+ 142 0026 3BB1     		cbz	r3, .L13
+ 143              	.L11:
+ 150:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 144              		.loc 1 150 9 is_stmt 1 view .LVU42
+ 150:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 145              		.loc 1 150 16 is_stmt 0 view .LVU43
+ 146 0028 2046     		mov	r0, r4
+ 147 002a FFF7FEFF 		bl	bmi2_sec_init
+ 148              	.LVL12:
+ 152:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 149              		.loc 1 152 9 is_stmt 1 view .LVU44
+ 152:Core/Src/bmi270/bmi270_maximum_fifo.c ****         {
+ 150              		.loc 1 152 12 is_stmt 0 view .LVU45
+ 151 002e 30B1     		cbz	r0, .L14
+ 152              	.LVL13:
+ 153              	.L8:
+ 184:Core/Src/bmi270/bmi270_maximum_fifo.c **** }
+ 154              		.loc 1 184 5 is_stmt 1 view .LVU46
+ 185:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 155              		.loc 1 185 1 is_stmt 0 view .LVU47
+ 156 0030 10BD     		pop	{r4, pc}
+ 157              	.LVL14:
+ 158              	.L9:
+ 137:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 159              		.loc 1 137 13 is_stmt 1 view .LVU48
+ 137:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 160              		.loc 1 137 29 is_stmt 0 view .LVU49
+ 161 0032 0023     		movs	r3, #0
+ 162 0034 E372     		strb	r3, [r4, #11]
+ 163 0036 F5E7     		b	.L10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 8
+
+
+ 164              	.L13:
+ 146:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 165              		.loc 1 146 13 is_stmt 1 view .LVU50
+ 146:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 166              		.loc 1 146 34 is_stmt 0 view .LVU51
+ 167 0038 074B     		ldr	r3, .L15
+ 168 003a 6361     		str	r3, [r4, #20]
+ 169 003c F4E7     		b	.L11
+ 170              	.LVL15:
+ 171              	.L14:
+ 157:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 172              		.loc 1 157 13 is_stmt 1 view .LVU52
+ 157:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 173              		.loc 1 157 30 is_stmt 0 view .LVU53
+ 174 003e 074B     		ldr	r3, .L15+4
+ 175 0040 2362     		str	r3, [r4, #32]
+ 162:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 176              		.loc 1 162 13 is_stmt 1 view .LVU54
+ 162:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 177              		.loc 1 162 30 is_stmt 0 view .LVU55
+ 178 0042 074B     		ldr	r3, .L15+8
+ 179 0044 6362     		str	r3, [r4, #36]
+ 167:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 180              		.loc 1 167 13 is_stmt 1 view .LVU56
+ 167:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 181              		.loc 1 167 27 is_stmt 0 view .LVU57
+ 182 0046 0023     		movs	r3, #0
+ 183 0048 2376     		strb	r3, [r4, #24]
+ 172:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 184              		.loc 1 172 13 is_stmt 1 view .LVU58
+ 172:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 185              		.loc 1 172 29 is_stmt 0 view .LVU59
+ 186 004a 6376     		strb	r3, [r4, #25]
+ 177:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 187              		.loc 1 177 13 is_stmt 1 view .LVU60
+ 177:Core/Src/bmi270/bmi270_maximum_fifo.c **** 
+ 188              		.loc 1 177 27 is_stmt 0 view .LVU61
+ 189 004c A376     		strb	r3, [r4, #26]
+ 180:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 190              		.loc 1 180 13 is_stmt 1 view .LVU62
+ 180:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 191              		.loc 1 180 20 is_stmt 0 view .LVU63
+ 192 004e 2046     		mov	r0, r4
+ 193              	.LVL16:
+ 180:Core/Src/bmi270/bmi270_maximum_fifo.c ****         }
+ 194              		.loc 1 180 20 view .LVU64
+ 195 0050 FFF7FEFF 		bl	bmi2_get_gyro_cross_sense
+ 196              	.LVL17:
+ 197 0054 ECE7     		b	.L8
+ 198              	.L16:
+ 199 0056 00BF     		.align	2
+ 200              	.L15:
+ 201 0058 00000000 		.word	bmi270_maximum_fifo_config_file
+ 202 005c 00000000 		.word	bmi270_maximum_fifo_feat_in
+ 203 0060 00000000 		.word	bmi270_maximum_fifo_feat_out
+ 204              		.cfi_endproc
+ 205              	.LFE3:
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 9
+
+
+ 207              		.global	bmi270_maximum_fifo_feat_out
+ 208              		.section	.rodata.bmi270_maximum_fifo_feat_out,"a"
+ 209              		.align	2
+ 212              	bmi270_maximum_fifo_feat_out:
+ 213              		.global	bmi270_maximum_fifo_feat_in
+ 214              		.section	.rodata.bmi270_maximum_fifo_feat_in,"a"
+ 215              		.align	2
+ 218              	bmi270_maximum_fifo_feat_in:
+ 219              		.global	bmi270_maximum_fifo_config_file
+ 220              		.section	.rodata.bmi270_maximum_fifo_config_file,"a"
+ 221              		.align	2
+ 224              	bmi270_maximum_fifo_config_file:
+ 225 0000 C82E002E 		.ascii	"\310.\000.\200.\032\000\310.\000.\310.\000.\310.\000"
+ 225      802E1A00 
+ 225      C82E002E 
+ 225      C82E002E 
+ 225      C82E00
+ 226 0013 2EC82E00 		.ascii	".\310.\000.\310.\000.\310.\000.\2202!.Y\365\0200!.j"
+ 226      2EC82E00 
+ 226      2EC82E00 
+ 226      2E903221 
+ 226      2E59F510 
+ 227 002b F51A2422 		.ascii	"\365\032$\"\000\200.;\000\310.DG\"\0007\000\244\000"
+ 227      00802E3B 
+ 227      00C82E44 
+ 227      47220037 
+ 227      00A400
+ 228 003e FF0FD100 		.ascii	"\377\017\321\000\007\255\200.\000\301\200.\000\301\200"
+ 228      07AD802E 
+ 228      00C1802E 
+ 228      00C180
+ 229 004d 2E00C180 		.ascii	".\000\301\200.\000\301\200.\000\301\200.\000\301\200"
+ 229      2E00C180 
+ 229      2E00C180 
+ 229      2E00C180 
+ 230 005d 2E00C180 		.ascii	".\000\301\200.\000\301\200.\000\301\200.\000\301\200"
+ 230      2E00C180 
+ 230      2E00C180 
+ 230      2E00C180 
+ 231 006d 2E00C100 		.ascii	".\000\301\000\000\000\000\000\000\021$\374\365\2000"
+ 231      00000000 
+ 231      001124FC 
+ 231      F58030
+ 232 007c 40425050 		.ascii	"@BPP\0000\022$\353\000\0030\000.\301\206Z\016\373/!"
+ 232      00301224 
+ 232      EB000330 
+ 232      002EC186 
+ 232      5A0EFB2F 
+ 233 0091 2EFCF513 		.ascii	".\374\365\023$c\365\340<H\000\"0\367\200\302B\341\177"
+ 233      2463F5E0 
+ 233      3C480022 
+ 233      30F780C2 
+ 233      42E17F
+ 234 00a4 3A25FC86 		.ascii	":%\374\206\360\177A3\230.\302\304\326o\3610\361\010"
+ 234      F07F4133 
+ 234      982EC2C4 
+ 234      D66FF130 
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 10
+
+
+ 234      F108
+ 235 00b6 C46F1124 		.ascii	"\304o\021$\377\003\022$\000\374a\011\242\0106\276*\271"
+ 235      FF031224 
+ 235      00FC6109 
+ 235      A20836BE 
+ 235      2AB9
+ 236 00c8 13243800 		.ascii	"\023$8\000d\273\321\276\224\012q\010\325B!\275\221\274"
+ 236      64BBD1BE 
+ 236      940A7108 
+ 236      D54221BD 
+ 236      91BC
+ 237 00da D242C142 		.ascii	"\322B\301B\000\262\376\202\005/P0!.!\362\000.\000.\320"
+ 237      00B2FE82 
+ 237      052F5030 
+ 237      212E21F2 
+ 237      002E002E 
+ 238 00ef 2EF06F02 		.ascii	".\360o\0020\002B &\340o\0021\003@\232\012\002B\3607"
+ 238      30024220 
+ 238      26E06F02 
+ 238      3103409A 
+ 238      0A0242F0 
+ 239 0104 052E5EF7 		.ascii	"\005.^\367\020\010\022$\036\362\200B\203\204\361\177"
+ 239      10081224 
+ 239      1EF28042 
+ 239      8384F17F 
+ 240 0114 0A251330 		.ascii	"\012%\0230\203B;\202\360o\000.\000.\320.\022@RB\000"
+ 240      83423B82 
+ 240      F06F002E 
+ 240      002ED02E 
+ 240      12405242 
+ 241 0129 2E124052 		.ascii	".\022@RB>\204\000@@B~\202\341\177\362\177\230.j\326"
+ 241      423E8400 
+ 241      4040427E 
+ 241      82E17FF2 
+ 241      7F982E6A 
+ 242 013e 2130232E 		.ascii	"!0#.a\365\353,\341o"
+ 242      61F5EB2C 
+ 242      E16F
+ 243              		.text
+ 244              	.Letext0:
+ 245              		.file 2 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_defa
+ 246              		.file 3 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
+ 247              		.file 4 "Core/Src/bmi270/bmi2_defs.h"
+ 248              		.file 5 "Core/Src/bmi270/bmi2.h"
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s 			page 11
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 bmi270_maximum_fifo.c
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:21     .text.null_ptr_check:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:26     .text.null_ptr_check:00000000 null_ptr_check
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:88     .text.bmi270_maximum_fifo_init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:94     .text.bmi270_maximum_fifo_init:00000000 bmi270_maximum_fifo_init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:201    .text.bmi270_maximum_fifo_init:00000058 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:224    .rodata.bmi270_maximum_fifo_config_file:00000000 bmi270_maximum_fifo_config_file
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:218    .rodata.bmi270_maximum_fifo_feat_in:00000000 bmi270_maximum_fifo_feat_in
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:212    .rodata.bmi270_maximum_fifo_feat_out:00000000 bmi270_maximum_fifo_feat_out
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccWwNeON.s:221    .rodata.bmi270_maximum_fifo_config_file:00000000 $d
+
+UNDEFINED SYMBOLS
+bmi2_sec_init
+bmi2_get_gyro_cross_sense
