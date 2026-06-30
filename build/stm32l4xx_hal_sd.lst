@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   [..]
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     This driver implements a high level communication layer for read and write from/to
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     this memory. The needed STM32 hardware resources (SDMMC and GPIO) are performed by
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     the user in HAL_SD_MspInit() function (MSP layer).
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****            SDMMC_CK = SDMMCCLK / (2 * ClockDiv) on STM32L4Rx/STM32L4Sxx devices
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****            SDMMC_CK = SDMMCCLK / (ClockDiv + 2) on other devices
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         In initialization mode and according to the SD Card standard,
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   [..]
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     (+) You can write to SD card in polling mode by using function HAL_SD_WriteBlocks().
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         This function support only 512-bytes block length (the block size should be
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 4
 
 
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         chosen as 512 bytes).
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     (+) __HAL_SD_DMA_ENABLE: Enable the SDMMC DMA transfer
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     (+) __HAL_SD_DMA_DISABLE: Disable the SDMMC DMA transfer
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     (+) __HAL_SD_ENABLE_IT: Enable the SD device interrupt
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 5
 
 
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     (+) __HAL_SD_DISABLE_IT: Disable the SD device interrupt
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     Exception done for MspInit/MspDeInit callbacks that can be registered/unregistered
  257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     in READY or RESET state, thus registered (user) MspInit/DeInit callbacks can be used
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     during the Init/DeInit.
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 6
 
 
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     In that case first register the MspInit/MspDeInit user callbacks
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  313:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static uint32_t SD_FindSCR(SD_HandleTypeDef *hsd, uint32_t *pSCR);
  314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static void SD_PowerOFF(SD_HandleTypeDef *hsd);
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static void SD_Write_IT(SD_HandleTypeDef *hsd);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 7
 
 
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static void SD_Read_IT(SD_HandleTypeDef *hsd);
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  370:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Check the parameters */
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   assert_param(IS_SDMMC_ALL_INSTANCE(hsd->Instance));
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 8
 
 
  373:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   assert_param(IS_SDMMC_CLOCK_EDGE(hsd->Init.ClockEdge));
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  427:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined(STM32L4P5xx) || defined(STM32L4Q5xx) || defined(STM32L4R5xx) || defined(STM32L4R7xx) ||
  428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (HAL_SD_GetCardStatus(hsd, &CardStatus) != HAL_OK)
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 9
 
 
  430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return HAL_ERROR;
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  484:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Initialize the SD state */
  485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->State = HAL_SD_STATE_READY;
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 10
 
 
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   return HAL_OK;
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  541:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  542:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if !defined(STM32L4P5xx) && !defined(STM32L4Q5xx) && !defined(STM32L4R5xx) && !defined(STM32L4R7xx
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Disable SDMMC Clock */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 11
 
 
  544:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   __HAL_SD_DISABLE(hsd);
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  598:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @param  hsd: Pointer to SD handle
  599:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @retval HAL status
  600:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 12
 
 
  601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_StatusTypeDef HAL_SD_DeInit(SD_HandleTypeDef *hsd)
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  655:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @retval None
  656:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   */
  657:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** __weak void HAL_SD_MspInit(SD_HandleTypeDef *hsd)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 13
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 13
 
 
  658:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  712:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   */
  713:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_StatusTypeDef HAL_SD_ReadBlocks(SD_HandleTypeDef *hsd, uint8_t *pData, uint32_t BlockAdd, uint3
  714:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****                                     uint32_t Timeout)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 14
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 14
 
 
  715:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  769:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  770:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       /* Read Multi Block command */
  771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       errorstate = SDMMC_CmdReadMultiBlock(hsd->Instance, add);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 15
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 15
 
 
  772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  827:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined(STM32L4P5xx) || defined(STM32L4Q5xx) || defined(STM32L4R5xx) || defined(STM32L4R7xx) ||
  828:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __SDMMC_CMDTRANS_DISABLE(hsd->Instance);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 16
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 16
 
 
  829:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* STM32L4P5xx || STM32L4Q5xx || STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx ||
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  883:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Empty FIFO if there is still any data */
  884:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     while ((__HAL_SD_GET_FLAG(hsd, SDMMC_FLAG_RXDAVL)) && (dataremaining > 0U))
  885:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 17
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 17
 
 
  886:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       data = SDMMC_ReadFIFO(hsd->Instance);
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  940:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
  941:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   SDMMC_DataInitTypeDef config;
  942:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 18
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 18
 
 
  943:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t tickstart = HAL_GetTick();
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  997:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  998:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     else
  999:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 19
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 19
 
 
 1000:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->Context = SD_CONTEXT_WRITE_SINGLE_BLOCK;
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1054:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* STM32L4P5xx || STM32L4Q5xx || STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx ||
 1055:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 1056:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Send stop transmission command in case of multiblock write */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 20
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 20
 
 
 1057:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     if (__HAL_SD_GET_FLAG(hsd, SDMMC_FLAG_DATAEND) && (NumberOfBlocks > 1U))
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1111:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->State = HAL_SD_STATE_READY;
 1112:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 1113:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return HAL_OK;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 21
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 21
 
 
 1114:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       add *= 512U;
 1169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 1170:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 22
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 22
 
 
 1171:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Configure the SD DPSM (Data Path State Machine) */
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1225:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @brief  Writes block(s) to a specified address in a card. The Data transfer
 1226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   *         is managed in interrupt mode.
 1227:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @note   This API should be followed by a check on the card state through
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 23
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 23
 
 
 1228:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   *         HAL_SD_GetCardState().
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1282:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 1283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __SDMMC_CMDTRANS_ENABLE(hsd->Instance);
 1284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* STM32L4P5xx || STM32L4Q5xx || STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx ||
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 24
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 24
 
 
 1285:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1339:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @note   You could also check the DMA transfer process through the SD Rx
 1340:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   *         interrupt event.
 1341:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @param  hsd: Pointer SD handle
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 25
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 25
 
 
 1342:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @param  pData: Pointer to the buffer that will contain the received data
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       return HAL_ERROR;
 1397:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 1398:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 26
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 26
 
 
 1399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1453:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->Context = SD_CONTEXT_NONE;
 1454:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         return HAL_ERROR;
 1455:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 27
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 27
 
 
 1456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1510:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Initialize data control register */
 1511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->Instance->DCTRL = 0U;
 1512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 28
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 28
 
 
 1513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined(STM32L4P5xx) || defined(STM32L4Q5xx) || defined(STM32L4R5xx) || defined(STM32L4R7xx) ||
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1567:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->ErrorCode |= errorstate;
 1568:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->State = HAL_SD_STATE_READY;
 1569:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->Context = SD_CONTEXT_NONE;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 29
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 29
 
 
 1570:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       return HAL_ERROR;
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_StatusTypeDef HAL_SD_Erase(SD_HandleTypeDef *hsd, uint32_t BlockStartAdd, uint32_t BlockEndAdd)
 1625:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
 1626:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 30
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 30
 
 
 1627:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t start_add = BlockStartAdd;
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         /* Clear all the static flags */
 1682:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         __HAL_SD_CLEAR_FLAG(hsd, SDMMC_STATIC_FLAGS);
 1683:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->ErrorCode |= errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 31
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 31
 
 
 1684:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->State = HAL_SD_STATE_READY;
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1738:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
 1739:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __HAL_SD_CLEAR_FLAG(hsd, SDMMC_FLAG_DATAEND);
 1740:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 32
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 32
 
 
 1741:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __HAL_SD_DISABLE_IT(hsd, SDMMC_IT_DATAEND  | SDMMC_IT_DCRCFAIL | SDMMC_IT_DTIMEOUT | \
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1795:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->Instance->IDMACTRL = SDMMC_DISABLE_IDMA;
 1796:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 1797:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       /* Stop Transfer for Write Multi blocks or Read Multi blocks */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 33
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 33
 
 
 1798:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       if (((context & SD_CONTEXT_READ_MULTIPLE_BLOCK) != 0U) || ((context & SD_CONTEXT_WRITE_MULTIP
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1852:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined (USE_HAL_SD_REGISTER_CALLBACKS) && (USE_HAL_SD_REGISTER_CALLBACKS == 1U)
 1853:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->TxCpltCallback(hsd);
 1854:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 34
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 34
 
 
 1855:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         HAL_SD_TxCpltCallback(hsd);
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1909:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __HAL_SD_CLEAR_FLAG(hsd, SDMMC_FLAG_DABORT);
 1910:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* STM32L4P5xx || STM32L4Q5xx || STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx ||
 1911:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     if ((context & SD_CONTEXT_IT) != 0U)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 35
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 35
 
 
 1912:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1966:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined (USE_HAL_SD_REGISTER_CALLBACKS) && (USE_HAL_SD_REGISTER_CALLBACKS == 1U)
 1967:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->AbortCpltCallback(hsd);
 1968:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 36
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 36
 
 
 1969:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         HAL_SD_AbortCallback(hsd);
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2023:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 2024:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
 2025:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* STM32L4P5xx || STM32L4Q5xx || STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx ||
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 37
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 37
 
 
 2026:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   else
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2080:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****    */
 2081:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** }
 2082:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 38
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 38
 
 
 2083:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** /**
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2137:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2138:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (pCallback == NULL)
 2139:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 39
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 39
 
 
 2140:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Update the error code */
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2194:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     switch (CallbackID)
 2195:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
 2196:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       case HAL_SD_MSP_INIT_CB_ID :
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 40
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 40
 
 
 2197:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->MspInitCallback = pCallback;
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2251:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
 2252:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       case HAL_SD_TX_CPLT_CB_ID :
 2253:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->TxCpltCallback = HAL_SD_TxCpltCallback;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 41
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 41
 
 
 2254:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         break;
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2308:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 2309:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
 2310:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 42
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 42
 
 
 2311:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2365:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @param hsd : SD handle
 2366:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @retval status
 2367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 43
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 43
 
 
 2368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_StatusTypeDef HAL_SD_UnRegisterTransceiverCallback(SD_HandleTypeDef *hsd)
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_StatusTypeDef HAL_SD_GetCardCID(SD_HandleTypeDef *hsd, HAL_SD_CardCIDTypeDef *pCID)
 2423:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
 2424:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCID->ManufacturerID = (uint8_t)((hsd->CID[0] & 0xFF000000U) >> 24U);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 44
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 44
 
 
 2425:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCSD->DSRImpl = (uint8_t)((hsd->CSD[1] & 0x00001000U) >> 12U);
 2480:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2481:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCSD->Reserved2 = 0U; /*!< Reserved */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 45
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 45
 
 
 2482:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2536:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2537:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCSD->WriteBlockPaPartial = (uint8_t)((hsd->CSD[3] & 0x00200000U) >> 21U);
 2538:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 46
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 46
 
 
 2539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCSD->Reserved3 = 0;
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2593:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****                                   ((sd_status[1] & 0xFF0000U) >> 8U) | ((sd_status[1] & 0xFF000000U
 2594:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2595:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     pStatus->SpeedClass = (uint8_t)(sd_status[2] & 0xFFU);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 47
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 47
 
 
 2596:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2650:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** }
 2651:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2652:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** /**
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 48
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 48
 
 
 2653:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   * @brief  Enables wide bus operation for the requested card if supported by
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2707:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
 2708:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Clear all the static flags */
 2709:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     __HAL_SD_CLEAR_FLAG(hsd, SDMMC_STATIC_FLAGS);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 49
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 49
 
 
 2710:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->State = HAL_SD_STATE_READY;
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2764:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       else
 2765:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
 2766:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         /* No High speed SD card, Max Frequency = 25Mhz */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 50
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 50
 
 
 2767:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         if (hsd->Init.ClockDiv == 0U)
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2821:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 2822:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Change State */
 2823:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->State = HAL_SD_STATE_READY;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 51
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 51
 
 
 2824:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2878:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****             status = HAL_ERROR;
 2879:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           }
 2880:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 52
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 52
 
 
 2881:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         else
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2935:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         {
 2936:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           /* Enable High Speed */
 2937:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           if (SD_HighSpeed(hsd) != HAL_SD_ERROR_NONE)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 53
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 53
 
 
 2938:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           {
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2992:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           {
 2993:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****             hsd->ErrorCode |= HAL_SD_ERROR_UNSUPPORTED_FEATURE;
 2994:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****             status = HAL_ERROR;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 54
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 54
 
 
 2995:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           }
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3049:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** HAL_SD_CardStateTypeDef HAL_SD_GetCardState(SD_HandleTypeDef *hsd)
 3050:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
 3051:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t cardstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 55
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 55
 
 
 3052:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t errorstate;
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3106:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Abort the SD DMA Rx channel */
 3107:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     else if (((context & SD_CONTEXT_READ_SINGLE_BLOCK) != 0U) || ((context & SD_CONTEXT_READ_MULTIP
 3108:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 56
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 56
 
 
 3109:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       if (HAL_DMA_Abort(hsd->hdmarx) != HAL_OK)
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3163:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->State = HAL_SD_STATE_READY;
 3164:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 3165:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if ((CardState == HAL_SD_CARD_RECEIVING) || (CardState == HAL_SD_CARD_SENDING))
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 57
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 57
 
 
 3166:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3220:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->State = HAL_SD_STATE_READY;
 3221:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->Context = SD_CONTEXT_NONE;
 3222:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     if ((CardState == HAL_SD_CARD_RECEIVING) || (CardState == HAL_SD_CARD_SENDING))
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 58
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 58
 
 
 3223:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
   38              		.loc 1 3267 3 is_stmt 1 view .LVU3
   39 0002 1A68     		ldr	r2, [r3]
   40 0004 D36B     		ldr	r3, [r2, #60]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 59
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 59
 
 
   41              	.LVL2:
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3305:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if (USE_HAL_SD_REGISTER_CALLBACKS == 1)
 3306:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->RxCpltCallback(hsd);
 3307:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 60
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 60
 
 
 3308:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   HAL_SD_RxCpltCallback(hsd);
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3362:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Clear All flags */
 3363:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   __HAL_SD_CLEAR_FLAG(hsd, SDMMC_STATIC_DATA_FLAGS);
 3364:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 61
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 61
 
 
 3365:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   CardState = HAL_SD_GetCardState(hsd);
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3419:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
 3420:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   else
 3421:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 62
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 62
 
 
 3422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if (USE_HAL_SD_REGISTER_CALLBACKS == 1)
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3476:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
 3477:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (hsd->SdCard.CardType != CARD_SECURED)
 3478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 63
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 63
 
 
 3479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     /* Get the SD card RCA */
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
   66              	.LCFI0:
   67              		.cfi_def_cfa_offset 16
   68              		.cfi_offset 4, -16
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 64
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 64
 
 
   69              		.cfi_offset 5, -12
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3554:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   else
 3555:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
 3556:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->SdCard.CardVersion = CARD_V2_X;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 65
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 65
 
 
 3557:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3611:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->Instance->POWER |= SDMMC_POWER_VSWITCHEN;
 3612:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 3613:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         /* Send CMD11 to switch 1.8V mode */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 66
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 66
 
 
 3614:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         errorstate = SDMMC_CmdVoltageSwitch(hsd->Instance);
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3668:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           /* Switch to 1.8V OK */
 3669:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 3670:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           /* Disable VSWITCH FLAG from SDMMC Peripheral */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 67
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 67
 
 
 3671:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           hsd->Instance->POWER = 0x13U;
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  124              		.loc 1 3559 18 is_stmt 0 view .LVU26
  125 0026 A36C     		ldr	r3, [r4, #72]
 3559:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 68
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 68
 
 
  126              		.loc 1 3559 6 view .LVU27
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3563:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  166              		.loc 1 3563 8 is_stmt 0 view .LVU42
  167 004c 0028     		cmp	r0, #0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 69
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 69
 
 
  168 004e EDD0     		beq	.L6
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  207              		.loc 1 3580 18 view .LVU57
  208 0078 FFF7FEFF 		bl	SDMMC_CmdAppOperCommand
  209              	.LVL23:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 70
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 70
 
 
 3581:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  247              		.loc 1 3602 26 is_stmt 0 view .LVU74
  248 00a0 0123     		movs	r3, #1
  249 00a2 6364     		str	r3, [r4, #68]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 71
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 71
 
 
  250 00a4 B6E7     		b	.L2
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  292              		.loc 1 3695 1 is_stmt 1 view -0
  293              		.cfi_startproc
  294              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 72
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 72
 
 
  295              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3724:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
 3725:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->ErrorCode |= HAL_SD_ERROR_NONE;
 3726:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 73
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 73
 
 
 3727:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3781:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
 3782:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return HAL_SD_ERROR_DATA_CRC_FAIL;
 3783:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 74
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 74
 
 
 3784:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   else if (__HAL_SD_GET_FLAG(hsd, SDMMC_FLAG_RXOVERR))
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3838:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   *pCardStatus = SDMMC_GetResponse(hsd->Instance, SDMMC_RESP1);
 3839:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 3840:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   return HAL_SD_ERROR_NONE;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 75
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 75
 
 
 3841:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** }
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3895:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static uint32_t SD_WideBus_Disable(SD_HandleTypeDef *hsd)
 3896:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
 3897:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t scr[2U] = {0U, 0U};
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 76
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 76
 
 
 3898:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t errorstate;
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3952:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
 3953:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Set Block Size To 8 Bytes */
 3954:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   errorstate = SDMMC_CmdBlockLength(hsd->Instance, 8U);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 77
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 77
 
 
 3955:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (errorstate != HAL_SD_ERROR_NONE)
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4009:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       break;
 4010:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 4011:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 78
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 78
 
 
 4012:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  324              		.cfi_startproc
  325              		@ args = 0, pretend = 0, frame = 0
  326              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 79
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 79
 
 
  327              		.loc 1 4064 1 is_stmt 0 view .LVU88
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4094:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** }
  352              		.loc 1 4094 1 view .LVU97
  353 0008 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 80
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 80
 
 
  354              	.LVL39:
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4087:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       dataremaining--;
  389              		.loc 1 4087 7 is_stmt 1 view .LVU117
 4087:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       dataremaining--;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 81
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 81
 
 
  390              		.loc 1 4087 10 is_stmt 0 view .LVU118
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4101:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   */
 4102:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** static void SD_Write_IT(SD_HandleTypeDef *hsd)
 4103:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 82
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 82
 
 
  431              		.loc 1 4103 1 is_stmt 1 view -0
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4127:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       (void)SDMMC_WriteFIFO(hsd->Instance, &data);
 4128:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
 4129:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 83
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 83
 
 
 4130:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->pTxBuffPtr = tmp;
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4123:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       data |= ((uint32_t)(*tmp) << 24U);
  498              		.loc 1 4123 7 view .LVU155
 4124:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       tmp++;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 84
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 84
 
 
  499              		.loc 1 4124 7 view .LVU156
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  538              		.loc 1 4113 16 view .LVU173
  539 0044 0025     		movs	r5, #0
  540 0046 F7E7     		b	.L32
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 85
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 85
 
 
  541              		.cfi_endproc
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  586              	.LVL65:
 3716:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  587              		.loc 1 3716 8 view .LVU185
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 86
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 86
 
 
  588 0012 FFF7FEFF 		bl	SDMMC_GetResponse
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3733:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return errorstate;
  626              		.loc 1 3733 5 is_stmt 1 view .LVU202
 3733:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 87
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 87
 
 
  627              		.loc 1 3733 8 is_stmt 0 view .LVU203
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  663              		.loc 1 3744 9 view .LVU221
  664 005e FFF7FEFF 		bl	SDMMC_ConfigData
  665              	.LVL71:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 88
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 88
 
 
 3747:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (errorstate != HAL_SD_ERROR_NONE)
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3770:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  704              		.loc 1 3770 10 is_stmt 0 view .LVU238
  705 0082 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 89
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 89
 
 
  706              	.LVL78:
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3784:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  744              		.loc 1 3784 11 view .LVU255
  745 00b6 13F0200F 		tst	r3, #32
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 90
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 90
 
 
  746 00ba 21D1     		bne	.L56
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3812:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  786              		.loc 1 3812 1 view .LVU270
  787 00ec 1846     		mov	r0, r3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 91
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 91
 
 
  788 00ee 07B0     		add	sp, sp, #28
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  838 0002 89B0     		sub	sp, sp, #36
  839              	.LCFI15:
  840              		.cfi_def_cfa_offset 56
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 92
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 92
 
 
  841 0004 0446     		mov	r4, r0
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  880              		@ sp needed
  881 0024 F0BD     		pop	{r4, r5, r6, r7, pc}
  882              	.LVL92:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 93
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 93
 
 
  883              	.L70:
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  920              		.loc 1 3972 3 is_stmt 1 view .LVU308
 3972:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   (void)SDMMC_ConfigData(hsd->Instance, &config);
  921              		.loc 1 3972 24 is_stmt 0 view .LVU309
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 94
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 94
 
 
  922 004a 0123     		movs	r3, #1
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  960              		.loc 1 4015 24 discriminator 1 view .LVU325
  961 0070 831B     		subs	r3, r0, r6
 4015:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 95
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 95
 
 
  962              		.loc 1 4015 8 discriminator 1 view .LVU326
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4034:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  1000              		.loc 1 4034 12 is_stmt 0 view .LVU343
  1001 00a2 456B     		ldr	r5, [r0, #52]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 96
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 96
 
 
  1002              	.LVL103:
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1039              		.loc 1 4049 92 view .LVU360
  1040 00dc 0B43     		orrs	r3, r3, r1
 4050:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 97
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 97
 
 
  1041              		.loc 1 4050 52 view .LVU361
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 4017:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  1080              		.loc 1 4017 14 view .LVU377
  1081 00fc 90E7     		b	.L58
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 98
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 98
 
 
  1082              		.cfi_endproc
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1127 001a 2046     		mov	r0, r4
  1128 001c FFF7FEFF 		bl	SD_FindSCR
  1129              	.LVL114:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 99
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 99
 
 
 3860:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1168              	.LCFI20:
  1169              		.cfi_remember_state
  1170              		.cfi_def_cfa_offset 8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 100
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 100
 
 
  1171              		@ sp needed
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3900:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  1218              		.loc 1 3900 8 view .LVU414
  1219 000e FFF7FEFF 		bl	SDMMC_GetResponse
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 101
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 101
 
 
  1220              	.LVL124:
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1258              	.LVL129:
 3924:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  1259              		.loc 1 3924 5 is_stmt 1 view .LVU431
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 102
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 102
 
 
  1260 003e 01E0     		b	.L80
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3825:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  1308              		.loc 1 3825 6 is_stmt 0 view .LVU440
  1309 0002 81B1     		cbz	r1, .L87
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 103
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 103
 
 
  1310 0004 0446     		mov	r4, r0
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1350 0026 4FF00063 		mov	r3, #134217728
  1351 002a 1E46     		mov	r6, r3
  1352 002c F3E7     		b	.L85
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 104
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 104
 
 
  1353              		.cfi_endproc
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1407              	.LFB230:
  602:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Check the SD handle allocation */
  1408              		.loc 1 602 1 is_stmt 1 view -0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 105
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 105
 
 
  1409              		.cfi_startproc
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1449              		.cfi_restore 14
  606:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  1450              		.loc 1 606 12 view .LVU476
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 106
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 106
 
 
  1451 0020 0120     		movs	r0, #1
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1499              		.loc 1 719 3 is_stmt 1 view .LVU484
  720:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint8_t *tempbuff = pData;
  1500              		.loc 1 720 3 view .LVU485
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 107
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 107
 
 
  721:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1537              		.loc 1 744 5 is_stmt 1 view .LVU503
  744:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  1538              		.loc 1 744 20 is_stmt 0 view .LVU504
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 108
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 108
 
 
  1539 0044 6B6C     		ldr	r3, [r5, #68]
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1575              		.loc 1 760 11 is_stmt 0 view .LVU522
  1576 0068 6946     		mov	r1, sp
  1577 006a 2868     		ldr	r0, [r5]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 109
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 109
 
 
  1578              	.LVL152:
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  726:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  1616              		.loc 1 726 5 is_stmt 1 view .LVU539
  726:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 110
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 110
 
 
  1617              		.loc 1 726 12 is_stmt 0 view .LVU540
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1656              		.loc 1 785 18 is_stmt 0 view .LVU555
  1657 00b8 0123     		movs	r3, #1
  1658 00ba 85F83430 		strb	r3, [r5, #52]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 111
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 111
 
 
  786:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       return HAL_ERROR;
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1697              		.loc 1 795 55 discriminator 1 view .LVU571
  1698 00e8 002F     		cmp	r7, #0
  1699 00ea EBD0     		beq	.L109
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 112
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 112
 
 
  1700              	.L110:
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1735              	.LVL170:
  810:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           tempbuff++;
  1736              		.loc 1 810 21 view .LVU591
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 113
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 113
 
 
  1737 0106 E070     		strb	r0, [r4, #3]
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1774              		.loc 1 823 16 is_stmt 0 view .LVU608
  1775 0128 4FF00309 		mov	r9, #3
  1776 012c 84E0     		b	.L101
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 114
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 114
 
 
  1777              	.L125:
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1815 0156 12F0200F 		tst	r2, #32
  1816 015a 52D1     		bne	.L129
  1817              	.L117:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 115
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 115
 
 
  884:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  895:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       *tempbuff = (uint8_t)((data >> 24U) & 0xFFU);
  1853              		.loc 1 895 7 view .LVU644
  896:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       tempbuff++;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 116
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 116
 
 
  1854              		.loc 1 896 7 view .LVU645
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  1892              		.loc 1 904 24 view .LVU661
  1893 019e 43F00043 		orr	r3, r3, #-2147483648
  1894 01a2 AB63     		str	r3, [r5, #56]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 117
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 117
 
 
  905:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->Context = SD_CONTEXT_NONE;
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  844:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           return HAL_ERROR;
  1932              		.loc 1 844 24 is_stmt 0 view .LVU679
  1933 01cc 0023     		movs	r3, #0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 118
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 118
 
 
  1934 01ce 2B63     		str	r3, [r5, #48]
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  865:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->Context = SD_CONTEXT_NONE;
  1971              		.loc 1 865 18 is_stmt 0 view .LVU697
  1972 01f6 0123     		movs	r3, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 119
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 119
 
 
  1973 01f8 85F83430 		strb	r3, [r5, #52]
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  917:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  2010              		.loc 1 917 5 is_stmt 1 view .LVU715
  917:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 120
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 120
 
 
  2011              		.loc 1 917 12 is_stmt 0 view .LVU716
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2058 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
  2059              	.LCFI32:
  2060              		.cfi_def_cfa_offset 36
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 121
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 121
 
 
  2061              		.cfi_offset 4, -36
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2101 0028 AB63     		str	r3, [r5, #56]
  958:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  2102              		.loc 1 958 5 is_stmt 1 view .LVU740
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 122
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 122
 
 
  958:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  976:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     config.DataBlockSize = SDMMC_DATABLOCK_SIZE_512B;
  2140              		.loc 1 976 26 view .LVU758
  2141 0052 0393     		str	r3, [sp, #12]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 123
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 123
 
 
  977:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     config.TransferDir   = SDMMC_TRANSFER_DIR_TO_CARD;
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2179              	.LVL201:
  2180 007a 8346     		mov	fp, r0
  2181              	.LVL202:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 124
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 124
 
 
  2182              	.L139:
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1000:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  2219              		.loc 1 1000 20 is_stmt 0 view .LVU793
  2220 009c 1023     		movs	r3, #16
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 125
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 125
 
 
  2221 009e 2B63     		str	r3, [r5, #48]
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2260 00c6 FFF7FEFF 		bl	HAL_GetTick
  2261              	.LVL210:
 1041:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 126
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 126
 
 
  2262              		.loc 1 1041 27 discriminator 1 view .LVU809
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1028:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           tempbuff++;
  2301              		.loc 1 1028 11 view .LVU825
 1028:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****           tempbuff++;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 127
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 127
 
 
  2302              		.loc 1 1028 31 is_stmt 0 view .LVU826
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1023:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         {
  2339              		.loc 1 1023 43 is_stmt 1 discriminator 3 view .LVU844
  2340 0118 0136     		adds	r6, r6, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 128
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 128
 
 
  2341              	.LVL218:
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2380              	.LVL220:
 1059:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
  2381              		.loc 1 1059 7 is_stmt 1 view .LVU860
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 129
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 129
 
 
 1059:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2419              		.loc 1 1099 18 is_stmt 0 view .LVU877
  2420 0174 0123     		movs	r3, #1
  2421 0176 85F83430 		strb	r3, [r5, #52]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 130
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 130
 
 
 1100:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       return HAL_ERROR;
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1070:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         }
  2459              		.loc 1 1070 18 is_stmt 0 view .LVU895
  2460 01a0 26E0     		b	.L134
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 131
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 131
 
 
  2461              	.LVL225:
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1091:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       return HAL_ERROR;
  2498              		.loc 1 1091 20 is_stmt 0 view .LVU913
  2499 01cc 0023     		movs	r3, #0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 132
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 132
 
 
  2500 01ce 2B63     		str	r3, [r5, #48]
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2539              		.loc 1 1120 1 view .LVU928
  2540              		.align	2
  2541              	.L159:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 133
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 133
 
 
  2542 01f8 FF054000 		.word	4195839
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1148:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  2589              		.loc 1 1148 10 view .LVU938
  2590 0014 DDB2     		uxtb	r5, r3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 134
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 134
 
 
 1148:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1166:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  2627              		.loc 1 1166 20 is_stmt 0 view .LVU957
  2628 003a 426C     		ldr	r2, [r0, #68]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 135
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 135
 
 
  2629              	.LVL234:
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2666              	.LVL236:
 1182:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined(STM32L4P5xx) || defined(STM32L4Q5xx) || defined(STM32L4R5xx) || defined(STM32L4R7xx) ||
  2667              		.loc 1 1182 11 view .LVU975
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 136
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 136
 
 
  2668 0060 FFF7FEFF 		bl	SDMMC_ConfigData
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1209:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  2706              		.loc 1 1209 7 is_stmt 1 view .LVU992
 1209:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 137
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 137
 
 
  2707              		.loc 1 1209 14 is_stmt 0 view .LVU993
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2747              	.L168:
 1213:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****                              SDMMC_IT_DATAEND | SDMMC_FLAG_RXFIFOHF));
  2748              		.loc 1 1213 5 is_stmt 1 view .LVU1008
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 138
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 138
 
 
  2749 00b2 2268     		ldr	r2, [r4]
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2798              		.cfi_offset 4, -16
  2799              		.cfi_offset 5, -12
  2800              		.cfi_offset 6, -8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 139
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 139
 
 
  2801              		.cfi_offset 14, -4
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2839 0024 84F83410 		strb	r1, [r4, #52]
 1263:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  2840              		.loc 1 1263 5 is_stmt 1 view .LVU1032
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 140
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 140
 
 
 1263:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2877 0046 1146     		mov	r1, r2
  2878 0048 2068     		ldr	r0, [r4]
  2879              	.LVL254:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 141
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 141
 
 
 1292:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2917              		.loc 1 1247 5 is_stmt 1 view .LVU1067
 1247:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  2918              		.loc 1 1247 12 is_stmt 0 view .LVU1068
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 142
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 142
 
 
  2919 0070 0123     		movs	r3, #1
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  2958              		.loc 1 1314 5 is_stmt 1 view .LVU1083
 1314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     config.DataBlockSize = SDMMC_DATABLOCK_SIZE_512B;
  2959              		.loc 1 1314 26 is_stmt 0 view .LVU1084
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 143
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 143
 
 
  2960 0094 0195     		str	r5, [sp, #4]
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1330:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  2999              		.loc 1 1330 12 view .LVU1100
  3000 00c0 1E46     		mov	r6, r3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 144
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 144
 
 
  3001              	.LVL269:
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3050              		.loc 1 1352 3 view .LVU1107
  3051              	.LVL272:
 1354:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 145
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 145
 
 
  3052              		.loc 1 1354 3 view .LVU1108
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  3090              		.loc 1 1367 14 is_stmt 0 view .LVU1125
  3091 0030 74E0     		b	.L191
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 146
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 146
 
 
  3092              	.LVL276:
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3130 0056 4863     		str	r0, [r1, #52]
 1383:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  3131              		.loc 1 1383 5 is_stmt 1 view .LVU1142
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 147
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 147
 
 
 1383:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3172 0090 636C     		ldr	r3, [r4, #68]
 1407:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
  3173              		.loc 1 1407 10 view .LVU1157
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 148
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 148
 
 
  3174 0092 012B     		cmp	r3, #1
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3211              		.loc 1 1433 7 is_stmt 1 view .LVU1174
 1433:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
  3212              		.loc 1 1433 10 is_stmt 0 view .LVU1175
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 149
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 149
 
 
  3213 00bc 012E     		cmp	r6, #1
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3251              	.L201:
 1393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->ErrorCode |= HAL_SD_ERROR_DMA;
  3252              		.loc 1 1393 7 is_stmt 1 view .LVU1192
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 150
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 150
 
 
  3253 00e6 2368     		ldr	r3, [r4]
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3293              	.LVL288:
  3294              	.L198:
 1468:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 151
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 151
 
 
  3295              		.loc 1 1468 12 view .LVU1207
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1489:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   uint32_t add = BlockAdd;
  3346              		.loc 1 1489 3 view .LVU1213
 1490:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 152
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 152
 
 
  3347              		.loc 1 1490 3 view .LVU1214
@@ -9118,7 +9118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3384              		.loc 1 1511 8 is_stmt 0 view .LVU1231
  3385 002c 0168     		ldr	r1, [r0]
 1511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 153
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 153
 
 
  3386              		.loc 1 1511 26 view .LVU1232
@@ -9178,7 +9178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1551:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  3423              		.loc 1 1551 7 is_stmt 1 view .LVU1250
 1551:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 154
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 154
 
 
  3424              		.loc 1 1551 20 is_stmt 0 view .LVU1251
@@ -9238,7 +9238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3462 0074 836B     		ldr	r3, [r0, #56]
  3463              	.LVL299:
 1494:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     return HAL_ERROR;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 155
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 155
 
 
  3464              		.loc 1 1494 20 view .LVU1268
@@ -9298,7 +9298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3504              		.loc 1 1577 5 view .LVU1282
 1577:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****                          (uint32_t)(BLOCKSIZE * NumberOfBlocks) / 4U) != HAL_OK)
  3505              		.loc 1 1577 70 is_stmt 0 view .LVU1283
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 156
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 156
 
 
  3506 00a4 2268     		ldr	r2, [r4]
@@ -9358,7 +9358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3545 00d2 16E0     		b	.L206
  3546              	.L212:
 1589:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       config.DataLength    = BLOCKSIZE * NumberOfBlocks;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 157
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 157
 
 
  3547              		.loc 1 1589 7 is_stmt 1 view .LVU1299
@@ -9418,7 +9418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1611:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  3585              		.loc 1 1611 12 view .LVU1316
  3586 00fe 0223     		movs	r3, #2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 158
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 158
 
 
  3587 0100 1D46     		mov	r5, r3
@@ -9478,7 +9478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1630:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  3636              		.loc 1 1630 3 view .LVU1324
 1630:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 159
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 159
 
 
  3637              		.loc 1 1630 10 is_stmt 0 view .LVU1325
@@ -9538,7 +9538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1653:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->State = HAL_SD_STATE_READY;
  3676              		.loc 1 1653 7 is_stmt 1 view .LVU1341
 1653:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->State = HAL_SD_STATE_READY;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 160
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 160
 
 
  3677              		.loc 1 1653 10 is_stmt 0 view .LVU1342
@@ -9598,7 +9598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3714              	.LVL316:
 1658:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  3715              		.loc 1 1658 10 view .LVU1360
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 161
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 161
 
 
  3716 005a 0068     		ldr	r0, [r0]
@@ -9658,7 +9658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3754              		.loc 1 1679 10 is_stmt 0 view .LVU1376
  3755 0080 A0B1     		cbz	r0, .L227
 1682:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         hsd->ErrorCode |= errorstate;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 162
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 162
 
 
  3756              		.loc 1 1682 9 is_stmt 1 view .LVU1377
@@ -9718,7 +9718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3794              		.loc 1 1689 7 is_stmt 1 view .LVU1393
 1689:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       if (errorstate != HAL_SD_ERROR_NONE)
  3795              		.loc 1 1689 20 is_stmt 0 view .LVU1394
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 163
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 163
 
 
  3796 00ac 3146     		mov	r1, r6
@@ -9778,7 +9778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3834              		.loc 1 1693 9 is_stmt 1 view .LVU1410
  3835 00d4 2368     		ldr	r3, [r4]
  3836 00d6 0849     		ldr	r1, .L235
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 164
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 164
 
 
  3837 00d8 9963     		str	r1, [r3, #56]
@@ -9838,7 +9838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3879              		.syntax unified
  3880              		.thumb
  3881              		.thumb_func
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 165
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 165
 
 
  3883              	HAL_SD_GetState:
@@ -9898,7 +9898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3933              	.LFB243:
 2059:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   /* Prevent unused argument(s) compilation warning */
  3934              		.loc 1 2059 1 is_stmt 1 view -0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 166
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 166
 
 
  3935              		.cfi_startproc
@@ -9958,7 +9958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  3985              	.LFE245:
  3987              		.section	.text.SD_DMAReceiveCplt,"ax",%progbits
  3988              		.align	1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 167
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 167
 
 
  3989              		.syntax unified
@@ -10018,7 +10018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3302:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->Context = SD_CONTEXT_NONE;
  4031              		.loc 1 3302 3 view .LVU1454
 3302:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->Context = SD_CONTEXT_NONE;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 168
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 168
 
 
  4032              		.loc 1 3302 14 is_stmt 0 view .LVU1455
@@ -10078,7 +10078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4072              		.cfi_endproc
  4073              	.LFE256:
  4075              		.section	.text.HAL_SD_AbortCallback,"ax",%progbits
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 169
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 169
 
 
  4076              		.align	1
@@ -10138,7 +10138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4122 000c 4B80     		strh	r3, [r1, #2]	@ movhi
 2428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4123              		.loc 1 2428 3 is_stmt 1 view .LVU1481
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 170
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 170
 
 
 2428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -10198,7 +10198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4158              		.loc 1 2436 19 view .LVU1501
  4159 003a 0B74     		strb	r3, [r1, #16]
 2438:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 171
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 171
 
 
  4160              		.loc 1 2438 3 is_stmt 1 view .LVU1502
@@ -10258,7 +10258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4202              		.loc 1 2456 1 is_stmt 0 view .LVU1516
  4203 0000 0346     		mov	r3, r0
 2457:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 172
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 172
 
 
  4204              		.loc 1 2457 3 is_stmt 1 view .LVU1517
@@ -10318,7 +10318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4238              		.loc 1 2467 23 view .LVU1537
  4239 002a 4A71     		strb	r2, [r1, #5]
 2469:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 173
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 173
 
 
  4240              		.loc 1 2469 3 is_stmt 1 view .LVU1538
@@ -10378,7 +10378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4275              		.loc 1 2479 3 is_stmt 1 view .LVU1558
 2479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 174
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 174
 
 
  4276              		.loc 1 2479 38 is_stmt 0 view .LVU1559
@@ -10438,7 +10438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4312              		.loc 1 2489 5 is_stmt 1 view .LVU1577
 2489:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4313              		.loc 1 2489 70 is_stmt 0 view .LVU1578
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 175
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 175
 
 
  4314 0082 93F86F20 		ldrb	r2, [r3, #111]	@ zero_extendqisi2
@@ -10498,7 +10498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4348              		.loc 1 2498 43 is_stmt 0 view .LVU1598
  4349 00aa 087E     		ldrb	r0, [r1, #24]	@ zero_extendqisi2
 2498:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->SdCard.BlockSize = (1UL << (pCSD->RdBlockLen & 0x0FU));
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 176
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 176
 
 
  4350              		.loc 1 2498 59 view .LVU1599
@@ -10558,7 +10558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4386              		.loc 1 2525 3 is_stmt 1 view .LVU1617
 2525:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4387              		.loc 1 2525 41 is_stmt 0 view .LVU1618
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 177
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 177
 
 
  4388 00dc DA6E     		ldr	r2, [r3, #108]
@@ -10618,7 +10618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4422              		.loc 1 2535 44 is_stmt 0 view .LVU1638
  4423 0102 1A6F     		ldr	r2, [r3, #112]
 2535:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 178
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 178
 
 
  4424              		.loc 1 2535 25 view .LVU1639
@@ -10678,7 +10678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4459 0136 81F82420 		strb	r2, [r1, #36]
 2547:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4460              		.loc 1 2547 3 is_stmt 1 view .LVU1659
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 179
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 179
 
 
 2547:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -10738,7 +10738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2557:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4496              		.loc 1 2557 3 is_stmt 1 view .LVU1679
 2557:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 180
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 180
 
 
  4497              		.loc 1 2557 19 is_stmt 0 view .LVU1680
@@ -10798,7 +10798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->SdCard.LogBlockSize = hsd->SdCard.BlockSize;
  4534              		.loc 1 2511 5 is_stmt 1 view .LVU1698
 2511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->SdCard.LogBlockSize = hsd->SdCard.BlockSize;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 181
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 181
 
 
  4535              		.loc 1 2511 27 is_stmt 0 view .LVU1699
@@ -10858,7 +10858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4579              	.LVL358:
  4580              	.LFB260:
 3437:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   HAL_SD_CardCSDTypeDef CSD;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 182
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 182
 
 
  4581              		.loc 1 3437 1 is_stmt 1 view -0
@@ -10918,7 +10918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3467:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  4621              		.loc 1 3467 6 view .LVU1727
  4622 001e 032B     		cmp	r3, #3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 183
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 183
 
 
  4623 0020 4BD1     		bne	.L264
@@ -10978,7 +10978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4661              		.loc 1 3492 20 discriminator 1 view .LVU1743
  4662 004c A066     		str	r0, [r4, #104]
 3493:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       hsd->CSD[3U] = SDMMC_GetResponse(hsd->Instance, SDMMC_RESP4);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 184
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 184
 
 
  4663              		.loc 1 3493 7 is_stmt 1 view .LVU1744
@@ -11038,7 +11038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4702              		.loc 1 3508 16 view .LVU1759
  4703 007a 1204     		lsls	r2, r2, #16
  4704 007c 0346     		mov	r3, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 185
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 185
 
 
  4705 007e 2068     		ldr	r0, [r4]
@@ -11098,7 +11098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4744              		.loc 1 3462 20 discriminator 1 view .LVU1774
  4745 00aa E067     		str	r0, [r4, #124]
 3463:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 186
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 186
 
 
  4746              		.loc 1 3463 7 is_stmt 1 view .LVU1775
@@ -11158,7 +11158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4792              		.global	HAL_SD_InitCard
  4793              		.syntax unified
  4794              		.thumb
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 187
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 187
 
 
  4795              		.thumb_func
@@ -11218,7 +11218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4834              		.loc 1 511 28 is_stmt 0 view .LVU1800
  4835 0010 0893     		str	r3, [sp, #32]
  513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if (sdmmc_clk == 0U)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 188
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 188
 
 
  4836              		.loc 1 513 3 is_stmt 1 view .LVU1801
@@ -11278,7 +11278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  521:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #else
  4877              		.loc 1 521 47 view .LVU1815
  4878 0038 B31E     		subs	r3, r6, #2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 189
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 189
 
 
  521:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #else
@@ -11338,7 +11338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  562:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  4919              		.loc 1 562 31 is_stmt 0 view .LVU1830
  4920 0072 1848     		ldr	r0, .L272+4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 190
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 190
 
 
  4921 0074 B0FBF3F0 		udiv	r0, r0, r3
@@ -11398,7 +11398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  575:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  4959              		.loc 1 575 3 is_stmt 1 view .LVU1847
  575:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 191
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 191
 
 
  4960              		.loc 1 575 6 is_stmt 0 view .LVU1848
@@ -11458,7 +11458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  4998 00c2 A36B     		ldr	r3, [r4, #56]
  588:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     hsd->State = HAL_SD_STATE_READY;
  4999              		.loc 1 588 20 view .LVU1865
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 192
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 192
 
 
  5000 00c4 0343     		orrs	r3, r3, r0
@@ -11518,7 +11518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5047              		.loc 1 2572 3 view .LVU1874
 2573:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  5048              		.loc 1 2573 3 view .LVU1875
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 193
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 193
 
 
  5049              	.LVL405:
@@ -11578,7 +11578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2616:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  5087              		.loc 1 2616 3 is_stmt 1 view .LVU1892
 2616:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 194
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 194
 
 
  5088              		.loc 1 2616 6 is_stmt 0 view .LVU1893
@@ -11638,7 +11638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2588:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  5128              		.loc 1 2588 5 is_stmt 1 view .LVU1908
 2588:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 195
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 195
 
 
  5129              		.loc 1 2588 28 is_stmt 0 view .LVU1909
@@ -11698,7 +11698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2597:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  5166              		.loc 1 2597 5 is_stmt 1 view .LVU1927
 2597:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 196
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 196
 
 
  5167              		.loc 1 2597 32 is_stmt 0 view .LVU1928
@@ -11758,7 +11758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5203              	.L280:
  5204              		.align	2
  5205              	.L279:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 197
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 197
 
 
  5206 00a8 FF054000 		.word	4195839
@@ -11818,7 +11818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5247 0010 436D     		ldr	r3, [r0, #84]
 2641:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   pCardInfo->BlockSize    = (uint32_t)(hsd->SdCard.BlockSize);
  5248              		.loc 1 2641 27 view .LVU1962
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 198
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 198
 
 
  5249 0012 0B61     		str	r3, [r1, #16]
@@ -11878,7 +11878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5291              		.cfi_def_cfa_offset 12
  5292              		.cfi_offset 4, -12
  5293              		.cfi_offset 5, -8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 199
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 199
 
 
  5294              		.cfi_offset 14, -4
@@ -11938,7 +11938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2697:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  5330              		.loc 1 2697 22 view .LVU1995
  5331 0024 43F00063 		orr	r3, r3, #134217728
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 200
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 200
 
 
  5332 0028 8363     		str	r3, [r0, #56]
@@ -11998,7 +11998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5371 004e 836B     		ldr	r3, [r0, #56]
 2703:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   }
  5372              		.loc 1 2703 20 view .LVU2011
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 201
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 201
 
 
  5373 0050 43F08053 		orr	r3, r3, #268435456
@@ -12058,7 +12058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 2818:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     status = HAL_ERROR;
  5412              		.loc 1 2818 20 view .LVU2027
  5413 007c 0343     		orrs	r3, r3, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 202
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 202
 
 
  5414 007e A363     		str	r3, [r4, #56]
@@ -12118,7 +12118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5454 009e 0492     		str	r2, [sp, #16]
 2721:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* !STM32L4P5xx && !STM32L4Q5xx && !STM32L4R5xx && !STM32L4R7xx && !STM32L4R9xx && !STM32L4S
  5455              		.loc 1 2721 7 is_stmt 1 view .LVU2042
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 203
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 203
 
 
 2721:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif /* !STM32L4P5xx && !STM32L4Q5xx && !STM32L4R5xx && !STM32L4R7xx && !STM32L4R9xx && !STM32L4S
@@ -12178,7 +12178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5491              		.loc 1 2795 37 view .LVU2061
  5492 00c2 DB0D     		lsrs	r3, r3, #23
 2795:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 204
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 204
 
 
  5493              		.loc 1 2795 61 view .LVU2062
@@ -12238,7 +12238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5534              		.loc 1 2808 14 view .LVU2075
  5535 00f2 B9E7     		b	.L289
  5536              	.L299:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 205
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 205
 
 
  5537              		.align	2
@@ -12298,7 +12298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5579              		.loc 1 382 6 view .LVU2089
  5580 000a 43B1     		cbz	r3, .L311
  5581              	.LVL443:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 206
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 206
 
 
  5582              	.L302:
@@ -12358,7 +12358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5621              	.L313:
  472:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
  5622              		.loc 1 472 3 is_stmt 1 view .LVU2105
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 207
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 207
 
 
  472:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -12418,7 +12418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5664              	.LFE228:
  5666              		.section	.text.HAL_SD_GetCardState,"ax",%progbits
  5667              		.align	1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 208
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 208
 
 
  5668              		.global	HAL_SD_GetCardState
@@ -12478,7 +12478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5710              	.L315:
 3061:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  5711              		.loc 1 3061 3 is_stmt 1 view .LVU2132
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 209
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 209
 
 
  5712              	.LVL454:
@@ -12538,7 +12538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3323:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   TxErrorCode = hsd->hdmatx->ErrorCode;
  5756              		.loc 1 3323 20 is_stmt 0 view .LVU2145
  5757 0004 236C     		ldr	r3, [r4, #64]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 210
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 210
 
 
 3323:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   TxErrorCode = hsd->hdmatx->ErrorCode;
@@ -12598,7 +12598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3334:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     CardState = HAL_SD_GetCardState(hsd);
  5798              		.loc 1 3334 8 is_stmt 0 view .LVU2160
  5799 002c A36B     		ldr	r3, [r4, #56]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 211
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 211
 
 
 3334:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     CardState = HAL_SD_GetCardState(hsd);
@@ -12658,7 +12658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3338:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
  5839              		.loc 1 3338 22 discriminator 1 view .LVU2176
  5840 0054 0343     		orrs	r3, r3, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 212
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 212
 
 
  5841 0056 A363     		str	r3, [r4, #56]
@@ -12718,7 +12718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5886              		.loc 1 3366 14 is_stmt 0 view .LVU2187
  5887 0012 0123     		movs	r3, #1
  5888 0014 84F83430 		strb	r3, [r4, #52]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 213
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 213
 
 
 3367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if ((CardState == HAL_SD_CARD_RECEIVING) || (CardState == HAL_SD_CARD_SENDING))
@@ -12778,7 +12778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  5928 003a F2E7     		b	.L326
  5929              	.L327:
 3386:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 214
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 214
 
 
  5930              		.loc 1 3386 5 is_stmt 1 view .LVU2203
@@ -12838,7 +12838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3405:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   hsd->Context = SD_CONTEXT_NONE;
  5975              		.loc 1 3405 14 is_stmt 0 view .LVU2215
  5976 0012 0123     		movs	r3, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 215
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 215
 
 
  5977 0014 84F83430 		strb	r3, [r4, #52]
@@ -12898,7 +12898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6016 0038 A363     		str	r3, [r4, #56]
  6017 003a F2E7     		b	.L332
  6018              	.L333:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 216
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 216
 
 
 3425:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif
@@ -12958,7 +12958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6064 0010 15F0080F 		tst	r5, #8
  6065 0014 32D1     		bne	.L358
  6066              	.L338:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 217
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 217
 
 
 1737:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -13018,7 +13018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6105 0050 2068     		ldr	r0, [r4]
  6106              	.LVL497:
 1756:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         if (errorstate != HAL_SD_ERROR_NONE)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 218
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 218
 
 
  6107              		.loc 1 1756 22 view .LVU2258
@@ -13078,7 +13078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6148              	.LVL503:
  6149              	.L359:
 1759:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if defined (USE_HAL_SD_REGISTER_CALLBACKS) && (USE_HAL_SD_REGISTER_CALLBACKS == 1U)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 219
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 219
 
 
  6150              		.loc 1 1759 11 is_stmt 1 view .LVU2272
@@ -13138,7 +13138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6190              		.loc 1 1848 12 is_stmt 0 view .LVU2286
  6191 00b0 2268     		ldr	r2, [r4]
 1848:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 220
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 220
 
 
  6192              		.loc 1 1848 22 view .LVU2287
@@ -13198,7 +13198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6232 00e0 E0E7     		b	.L346
  6233              	.LVL516:
  6234              	.L340:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 221
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 221
 
 
 1866:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   {
@@ -13258,7 +13258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6271              		.loc 1 1882 10 is_stmt 0 view .LVU2319
  6272 0110 A26B     		ldr	r2, [r4, #56]
 1882:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 222
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 222
 
 
  6273              		.loc 1 1882 22 view .LVU2320
@@ -13318,7 +13318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 1905:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  6312              		.loc 1 1905 23 is_stmt 0 view .LVU2336
  6313 0148 2068     		ldr	r0, [r4]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 223
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 223
 
 
  6314              	.LVL517:
@@ -13378,7 +13378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6352 017a 81D0     		beq	.L337
 1948:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         }
  6353              		.loc 1 1948 11 is_stmt 1 view .LVU2353
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 224
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 224
 
 
  6354 017c E06B     		ldr	r0, [r4, #60]
@@ -13438,7 +13438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6395 01ae 9A63     		str	r2, [r3, #56]
 1956:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         {
  6396              		.loc 1 1956 9 is_stmt 1 view .LVU2367
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 225
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 225
 
 
 1956:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****         {
@@ -13498,7 +13498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6440              		.thumb
  6441              		.thumb_func
  6443              	HAL_SD_Abort:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 226
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 226
 
 
  6444              	.LVL528:
@@ -13558,7 +13558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3096:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
  6486              		.loc 1 3096 8 is_stmt 0 view .LVU2392
  6487 0032 0168     		ldr	r1, [r0]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 227
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 227
 
 
 3096:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** 
@@ -13618,7 +13618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6525              		.loc 1 3126 3 is_stmt 1 view .LVU2409
 3126:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****   if ((CardState == HAL_SD_CARD_RECEIVING) || (CardState == HAL_SD_CARD_SENDING))
  6526              		.loc 1 3126 15 is_stmt 0 view .LVU2410
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 228
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 228
 
 
  6527 0062 2046     		mov	r0, r4
@@ -13678,7 +13678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6566              		.loc 1 3109 10 discriminator 1 view .LVU2425
  6567 0088 0028     		cmp	r0, #0
  6568 008a E5D0     		beq	.L366
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 229
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 229
 
 
 3111:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       }
@@ -13738,7 +13738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6615 0002 0446     		mov	r4, r0
 3146:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #if !defined(STM32L4P5xx) && !defined(STM32L4Q5xx) && !defined(STM32L4R5xx) && !defined(STM32L4R7xx
  6616              		.loc 1 3146 3 is_stmt 1 view .LVU2436
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 230
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 230
 
 
 3148:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c **** #endif
@@ -13798,7 +13798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6655 0038 1B4A     		ldr	r2, .L387
  6656              	.LVL543:
 3193:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       if (HAL_DMA_Abort_IT(hsd->hdmatx) != HAL_OK)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 231
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 231
 
 
  6657              		.loc 1 3193 38 view .LVU2453
@@ -13858,7 +13858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6695 005c 206C     		ldr	r0, [r4, #64]
  6696              	.LVL548:
 3203:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****       {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 232
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 232
 
 
  6697              		.loc 1 3203 11 view .LVU2470
@@ -13918,7 +13918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
 3226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
  6737              		.loc 1 3226 5 is_stmt 1 view .LVU2485
 3226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 233
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 233
 
 
  6738              		.loc 1 3226 12 is_stmt 0 view .LVU2486
@@ -13978,7 +13978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6783              		.file 3 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
  6784              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
  6785              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 234
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 234
 
 
  6786              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
@@ -13988,113 +13988,113 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 1
  6790              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h"
  6791              		.file 11 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
  6792              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 235
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 235
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_sd.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:21     .text.SD_DMATransmitCplt:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:26     .text.SD_DMATransmitCplt:00000000 SD_DMATransmitCplt
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:52     .text.SD_PowerON:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:57     .text.SD_PowerON:00000000 SD_PowerON
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:279    .text.SD_PowerON:000000c4 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:284    .text.SD_PowerOFF:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:289    .text.SD_PowerOFF:00000000 SD_PowerOFF
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:315    .text.SD_Read_IT:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:320    .text.SD_Read_IT:00000000 SD_Read_IT
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:423    .text.SD_Write_IT:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:428    .text.SD_Write_IT:00000000 SD_Write_IT
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:545    .text.SD_SendSDStatus:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:550    .text.SD_SendSDStatus:00000000 SD_SendSDStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:817    .text.SD_FindSCR:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:822    .text.SD_FindSCR:00000000 SD_FindSCR
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1086   .text.SD_WideBus_Enable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1091   .text.SD_WideBus_Enable:00000000 SD_WideBus_Enable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1186   .text.SD_WideBus_Disable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1191   .text.SD_WideBus_Disable:00000000 SD_WideBus_Disable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1286   .text.SD_SendStatus:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1291   .text.SD_SendStatus:00000000 SD_SendStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1357   .text.HAL_SD_MspInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1363   .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1378   .text.HAL_SD_MspDeInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1384   .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1399   .text.HAL_SD_DeInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1405   .text.HAL_SD_DeInit:00000000 HAL_SD_DeInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1459   .text.HAL_SD_ReadBlocks:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:1465   .text.HAL_SD_ReadBlocks:00000000 HAL_SD_ReadBlocks
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2039   .text.HAL_SD_ReadBlocks:00000240 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2044   .text.HAL_SD_WriteBlocks:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2050   .text.HAL_SD_WriteBlocks:00000000 HAL_SD_WriteBlocks
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2542   .text.HAL_SD_WriteBlocks:000001f8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2547   .text.HAL_SD_ReadBlocks_IT:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2553   .text.HAL_SD_ReadBlocks_IT:00000000 HAL_SD_ReadBlocks_IT
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2776   .text.HAL_SD_ReadBlocks_IT:000000cc $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2781   .text.HAL_SD_WriteBlocks_IT:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:2787   .text.HAL_SD_WriteBlocks_IT:00000000 HAL_SD_WriteBlocks_IT
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3015   .text.HAL_SD_WriteBlocks_IT:000000c8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3020   .text.HAL_SD_ReadBlocks_DMA:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3026   .text.HAL_SD_ReadBlocks_DMA:00000000 HAL_SD_ReadBlocks_DMA
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3312   .text.HAL_SD_ReadBlocks_DMA:00000124 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3993   .text.SD_DMAReceiveCplt:00000000 SD_DMAReceiveCplt
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5736   .text.SD_DMAError:00000000 SD_DMAError
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3319   .text.HAL_SD_WriteBlocks_DMA:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3325   .text.HAL_SD_WriteBlocks_DMA:00000000 HAL_SD_WriteBlocks_DMA
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3602   .text.HAL_SD_WriteBlocks_DMA:00000108 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3609   .text.HAL_SD_Erase:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3615   .text.HAL_SD_Erase:00000000 HAL_SD_Erase
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3872   .text.HAL_SD_Erase:000000f8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3877   .text.HAL_SD_GetState:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3883   .text.HAL_SD_GetState:00000000 HAL_SD_GetState
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3901   .text.HAL_SD_GetError:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3907   .text.HAL_SD_GetError:00000000 HAL_SD_GetError
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3925   .text.HAL_SD_TxCpltCallback:00000000 $t
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 236
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:21     .text.SD_DMATransmitCplt:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:26     .text.SD_DMATransmitCplt:00000000 SD_DMATransmitCplt
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:52     .text.SD_PowerON:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:57     .text.SD_PowerON:00000000 SD_PowerON
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:279    .text.SD_PowerON:000000c4 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:284    .text.SD_PowerOFF:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:289    .text.SD_PowerOFF:00000000 SD_PowerOFF
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:315    .text.SD_Read_IT:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:320    .text.SD_Read_IT:00000000 SD_Read_IT
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:423    .text.SD_Write_IT:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:428    .text.SD_Write_IT:00000000 SD_Write_IT
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:545    .text.SD_SendSDStatus:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:550    .text.SD_SendSDStatus:00000000 SD_SendSDStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:817    .text.SD_FindSCR:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:822    .text.SD_FindSCR:00000000 SD_FindSCR
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1086   .text.SD_WideBus_Enable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1091   .text.SD_WideBus_Enable:00000000 SD_WideBus_Enable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1186   .text.SD_WideBus_Disable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1191   .text.SD_WideBus_Disable:00000000 SD_WideBus_Disable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1286   .text.SD_SendStatus:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1291   .text.SD_SendStatus:00000000 SD_SendStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1357   .text.HAL_SD_MspInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1363   .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1378   .text.HAL_SD_MspDeInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1384   .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1399   .text.HAL_SD_DeInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1405   .text.HAL_SD_DeInit:00000000 HAL_SD_DeInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1459   .text.HAL_SD_ReadBlocks:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:1465   .text.HAL_SD_ReadBlocks:00000000 HAL_SD_ReadBlocks
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2039   .text.HAL_SD_ReadBlocks:00000240 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2044   .text.HAL_SD_WriteBlocks:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2050   .text.HAL_SD_WriteBlocks:00000000 HAL_SD_WriteBlocks
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2542   .text.HAL_SD_WriteBlocks:000001f8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2547   .text.HAL_SD_ReadBlocks_IT:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2553   .text.HAL_SD_ReadBlocks_IT:00000000 HAL_SD_ReadBlocks_IT
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2776   .text.HAL_SD_ReadBlocks_IT:000000cc $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2781   .text.HAL_SD_WriteBlocks_IT:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:2787   .text.HAL_SD_WriteBlocks_IT:00000000 HAL_SD_WriteBlocks_IT
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3015   .text.HAL_SD_WriteBlocks_IT:000000c8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3020   .text.HAL_SD_ReadBlocks_DMA:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3026   .text.HAL_SD_ReadBlocks_DMA:00000000 HAL_SD_ReadBlocks_DMA
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3312   .text.HAL_SD_ReadBlocks_DMA:00000124 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3993   .text.SD_DMAReceiveCplt:00000000 SD_DMAReceiveCplt
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5736   .text.SD_DMAError:00000000 SD_DMAError
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3319   .text.HAL_SD_WriteBlocks_DMA:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3325   .text.HAL_SD_WriteBlocks_DMA:00000000 HAL_SD_WriteBlocks_DMA
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3602   .text.HAL_SD_WriteBlocks_DMA:00000108 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3609   .text.HAL_SD_Erase:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3615   .text.HAL_SD_Erase:00000000 HAL_SD_Erase
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3872   .text.HAL_SD_Erase:000000f8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3877   .text.HAL_SD_GetState:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3883   .text.HAL_SD_GetState:00000000 HAL_SD_GetState
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3901   .text.HAL_SD_GetError:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3907   .text.HAL_SD_GetError:00000000 HAL_SD_GetError
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3925   .text.HAL_SD_TxCpltCallback:00000000 $t
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 236
 
 
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3931   .text.HAL_SD_TxCpltCallback:00000000 HAL_SD_TxCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3946   .text.HAL_SD_RxCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3952   .text.HAL_SD_RxCpltCallback:00000000 HAL_SD_RxCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3967   .text.HAL_SD_ErrorCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3973   .text.HAL_SD_ErrorCallback:00000000 HAL_SD_ErrorCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:3988   .text.SD_DMAReceiveCplt:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4076   .text.HAL_SD_AbortCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4082   .text.HAL_SD_AbortCallback:00000000 HAL_SD_AbortCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4097   .text.HAL_SD_GetCardCID:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4103   .text.HAL_SD_GetCardCID:00000000 HAL_SD_GetCardCID
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4188   .text.HAL_SD_GetCardCSD:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4194   .text.HAL_SD_GetCardCSD:00000000 HAL_SD_GetCardCSD
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4568   .text.HAL_SD_GetCardCSD:000001b4 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4573   .text.SD_InitCard:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4578   .text.SD_InitCard:00000000 SD_InitCard
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4791   .text.HAL_SD_InitCard:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:4797   .text.HAL_SD_InitCard:00000000 HAL_SD_InitCard
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5014   .text.HAL_SD_InitCard:000000d0 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5021   .text.HAL_SD_GetCardStatus:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5027   .text.HAL_SD_GetCardStatus:00000000 HAL_SD_GetCardStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5206   .text.HAL_SD_GetCardStatus:000000a8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5211   .text.HAL_SD_GetCardInfo:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5217   .text.HAL_SD_GetCardInfo:00000000 HAL_SD_GetCardInfo
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5275   .text.HAL_SD_ConfigWideBusOperation:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5281   .text.HAL_SD_ConfigWideBusOperation:00000000 HAL_SD_ConfigWideBusOperation
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5539   .text.HAL_SD_ConfigWideBusOperation:000000f4 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5546   .text.HAL_SD_Init:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5552   .text.HAL_SD_Init:00000000 HAL_SD_Init
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5667   .text.HAL_SD_GetCardState:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5673   .text.HAL_SD_GetCardState:00000000 HAL_SD_GetCardState
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5731   .text.SD_DMAError:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5846   .text.SD_DMAError:0000005c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5851   .text.SD_DMATxAbort:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5856   .text.SD_DMATxAbort:00000000 SD_DMATxAbort
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5940   .text.SD_DMARxAbort:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:5945   .text.SD_DMARxAbort:00000000 SD_DMARxAbort
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6029   .text.HAL_SD_IRQHandler:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6035   .text.HAL_SD_IRQHandler:00000000 HAL_SD_IRQHandler
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6431   .text.HAL_SD_IRQHandler:000001d8 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6437   .text.HAL_SD_Abort:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6443   .text.HAL_SD_Abort:00000000 HAL_SD_Abort
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6596   .text.HAL_SD_Abort_IT:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6602   .text.HAL_SD_Abort_IT:00000000 HAL_SD_Abort_IT
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s:6775   .text.HAL_SD_Abort_IT:000000a8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3931   .text.HAL_SD_TxCpltCallback:00000000 HAL_SD_TxCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3946   .text.HAL_SD_RxCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3952   .text.HAL_SD_RxCpltCallback:00000000 HAL_SD_RxCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3967   .text.HAL_SD_ErrorCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3973   .text.HAL_SD_ErrorCallback:00000000 HAL_SD_ErrorCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:3988   .text.SD_DMAReceiveCplt:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4076   .text.HAL_SD_AbortCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4082   .text.HAL_SD_AbortCallback:00000000 HAL_SD_AbortCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4097   .text.HAL_SD_GetCardCID:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4103   .text.HAL_SD_GetCardCID:00000000 HAL_SD_GetCardCID
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4188   .text.HAL_SD_GetCardCSD:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4194   .text.HAL_SD_GetCardCSD:00000000 HAL_SD_GetCardCSD
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4568   .text.HAL_SD_GetCardCSD:000001b4 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4573   .text.SD_InitCard:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4578   .text.SD_InitCard:00000000 SD_InitCard
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4791   .text.HAL_SD_InitCard:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:4797   .text.HAL_SD_InitCard:00000000 HAL_SD_InitCard
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5014   .text.HAL_SD_InitCard:000000d0 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5021   .text.HAL_SD_GetCardStatus:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5027   .text.HAL_SD_GetCardStatus:00000000 HAL_SD_GetCardStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5206   .text.HAL_SD_GetCardStatus:000000a8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5211   .text.HAL_SD_GetCardInfo:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5217   .text.HAL_SD_GetCardInfo:00000000 HAL_SD_GetCardInfo
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5275   .text.HAL_SD_ConfigWideBusOperation:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5281   .text.HAL_SD_ConfigWideBusOperation:00000000 HAL_SD_ConfigWideBusOperation
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5539   .text.HAL_SD_ConfigWideBusOperation:000000f4 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5546   .text.HAL_SD_Init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5552   .text.HAL_SD_Init:00000000 HAL_SD_Init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5667   .text.HAL_SD_GetCardState:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5673   .text.HAL_SD_GetCardState:00000000 HAL_SD_GetCardState
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5731   .text.SD_DMAError:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5846   .text.SD_DMAError:0000005c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5851   .text.SD_DMATxAbort:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5856   .text.SD_DMATxAbort:00000000 SD_DMATxAbort
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5940   .text.SD_DMARxAbort:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:5945   .text.SD_DMARxAbort:00000000 SD_DMARxAbort
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6029   .text.HAL_SD_IRQHandler:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6035   .text.HAL_SD_IRQHandler:00000000 HAL_SD_IRQHandler
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6431   .text.HAL_SD_IRQHandler:000001d8 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6437   .text.HAL_SD_Abort:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6443   .text.HAL_SD_Abort:00000000 HAL_SD_Abort
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6596   .text.HAL_SD_Abort_IT:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6602   .text.HAL_SD_Abort_IT:00000000 HAL_SD_Abort_IT
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s:6775   .text.HAL_SD_Abort_IT:000000a8 $d
 
 UNDEFINED SYMBOLS
 SDMMC_CmdGoIdleState
@@ -14108,7 +14108,7 @@ SDMMC_WriteFIFO
 HAL_GetTick
 SDMMC_CmdBlockLength
 SDMMC_ConfigData
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccGO2pcc.s 			page 237
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccpmN5vR.s 			page 237
 
 
 SDMMC_CmdStatusRegister

@@ -17,9 +17,10 @@
             ],
             "swoConfig": {
                 "enabled": true,
-                "cpuFrequency": 4000000,
+                "cpuFrequency": 80000000,
                 "swoFrequency": 1000000,
                 "source": "probe",
+                "showDevDebugOutput": "raw",
                 "decoders": [
                     {
                         "port": 0,

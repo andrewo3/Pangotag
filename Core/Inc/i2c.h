@@ -37,7 +37,11 @@ extern I2C_HandleTypeDef hi2c1;
 extern I2C_HandleTypeDef hi2c2;
 
 /* USER CODE BEGIN Private defines */
+uint8_t Read_I2C_Reg(uint8_t addr, uint8_t reg, uint8_t dev);
 
+uint8_t Read_I2C_Reg_NoStop(uint8_t addr, uint8_t reg, uint8_t dev);
+
+void Write_I2C_Reg(uint8_t addr, uint8_t reg, uint8_t data, uint8_t dev);
 /* USER CODE END Private defines */
 
 void MX_I2C1_Init(void);

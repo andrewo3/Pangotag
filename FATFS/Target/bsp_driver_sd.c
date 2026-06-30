@@ -133,6 +133,80 @@ __weak uint8_t BSP_SD_WriteBlocks(uint32_t *pData, uint32_t WriteAddr, uint32_t 
 
 /* USER CODE BEGIN BeforeReadDMABlocksSection */
 /* can be used to modify previous code / undefine following code / add code */
+extern DMA_HandleTypeDef hdma_sdmmc1;
+
+HAL_StatusTypeDef SD_DMAConfigRx(SD_HandleTypeDef *hsd)
+{
+  HAL_StatusTypeDef status = HAL_ERROR;
+
+  /* Configure DMA Rx parameters */
+  hdma_sdmmc1.Init.Request             = DMA_REQUEST_7;
+  hdma_sdmmc1.Init.Direction           = DMA_PERIPH_TO_MEMORY;
+  hdma_sdmmc1.Init.PeriphInc           = DMA_PINC_DISABLE;
+  hdma_sdmmc1.Init.MemInc              = DMA_MINC_ENABLE;
+  hdma_sdmmc1.Init.PeriphDataAlignment = DMA_PDATAALIGN_WORD;
+  hdma_sdmmc1.Init.MemDataAlignment    = DMA_MDATAALIGN_WORD;
+  hdma_sdmmc1.Init.Priority            = DMA_PRIORITY_VERY_HIGH;
+
+  hdma_sdmmc1.Instance = DMA2_Channel4;
+
+  /* Associate the DMA handle */
+  __HAL_LINKDMA(hsd, hdmarx, hdma_sdmmc1);
+
+  /* Stop any ongoing transfer and reset the state*/
+  HAL_DMA_Abort(&hdma_sdmmc1);
+
+  /* Deinitialize the Channel for new transfer */
+  HAL_DMA_DeInit(&hdma_sdmmc1);
+
+  /* Configure the DMA Channel */
+  status = HAL_DMA_Init(&hdma_sdmmc1);
+
+  /* NVIC configuration for DMA transfer complete interrupt */
+  HAL_NVIC_SetPriority(DMA2_Channel4_IRQn, 6, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Channel4_IRQn);
+
+  return (status);
+}
+
+    /**
+      * @brief Configure the DMA to transmit data to the SD card
+      * @retval
+      *  HAL_ERROR or HAL_OK
+      */
+HAL_StatusTypeDef SD_DMAConfigTx(SD_HandleTypeDef *hsd)
+{
+  HAL_StatusTypeDef status;
+
+  /* Configure DMA Tx parameters */
+  hdma_sdmmc1.Init.Request             = DMA_REQUEST_7;
+  hdma_sdmmc1.Init.Direction           = DMA_MEMORY_TO_PERIPH;
+  hdma_sdmmc1.Init.PeriphInc           = DMA_PINC_DISABLE;
+  hdma_sdmmc1.Init.MemInc              = DMA_MINC_ENABLE;
+  hdma_sdmmc1.Init.PeriphDataAlignment = DMA_PDATAALIGN_WORD;
+  hdma_sdmmc1.Init.MemDataAlignment    = DMA_MDATAALIGN_WORD;
+  hdma_sdmmc1.Init.Priority            = DMA_PRIORITY_VERY_HIGH;
+
+  hdma_sdmmc1.Instance = DMA2_Channel4;
+
+  /* Associate the DMA handle */
+  __HAL_LINKDMA(hsd, hdmatx, hdma_sdmmc1);
+
+  /* Stop any ongoing transfer and reset the state*/
+  HAL_DMA_Abort(&hdma_sdmmc1);
+
+  /* Deinitialize the Channel for new transfer */
+  HAL_DMA_DeInit(&hdma_sdmmc1);
+
+  /* Configure the DMA Channel */
+  status = HAL_DMA_Init(&hdma_sdmmc1);
+
+  /* NVIC configuration for DMA transfer complete interrupt */
+  HAL_NVIC_SetPriority(DMA2_Channel4_IRQn, 6, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Channel4_IRQn);
+
+  return (status);
+}
 /* USER CODE END BeforeReadDMABlocksSection */
 /**
   * @brief  Reads block(s) from a specified address in an SD card, in DMA mode.

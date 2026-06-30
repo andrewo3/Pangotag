@@ -39,7 +39,7 @@ void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.Timing = 0x00100D14;
+  hi2c1.Init.Timing = 0x10D19CE4;
   hi2c1.Init.OwnAddress1 = 0;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -82,7 +82,7 @@ void MX_I2C2_Init(void)
 
   /* USER CODE END I2C2_Init 1 */
   hi2c2.Instance = I2C2;
-  hi2c2.Init.Timing = 0x00100D14;
+  hi2c2.Init.Timing = 0x10D19CE4;
   hi2c2.Init.OwnAddress1 = 0;
   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -233,5 +233,59 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
 }
 
 /* USER CODE BEGIN 1 */
+extern void log_printf(const char* fmt, ...);
 
+uint8_t Read_I2C_Reg(uint8_t addr, uint8_t reg, uint8_t dev) {
+	I2C_HandleTypeDef* i2cdev;
+	if (dev == 1) {
+		i2cdev = &hi2c1;
+	} else if (dev == 2) {
+		i2cdev = &hi2c2;
+	} else {
+		return HAL_ERROR; // wrong device
+	}
+	uint8_t out;
+	uint8_t res = HAL_I2C_Master_Transmit(i2cdev,addr << 1,&reg,1,10000);
+	res = HAL_I2C_Master_Receive(i2cdev,addr << 1,&out,1,10000);
+	if (res != HAL_OK) {
+		log_printf("ERR: Failed to receive data from I2C module at address 0x%02x - err code %i\r\n",addr, (*i2cdev).ErrorCode);
+		Error_Handler();
+	}
+	return out;
+}
+
+uint8_t Read_I2C_Reg_NoStop(uint8_t addr, uint8_t reg, uint8_t dev) {
+	I2C_HandleTypeDef* i2cdev;
+	if (dev == 1) {
+		i2cdev = &hi2c1;
+	} else if (dev == 2) {
+		i2cdev = &hi2c2;
+	} else {
+		return HAL_ERROR; // wrong device
+	}
+	uint8_t out;
+	uint8_t res = HAL_I2C_Mem_Read(i2cdev,addr << 1, reg, 1, &out, 1, 10000);
+	if (res != HAL_OK) {
+		log_printf("ERR: Failed to read memory from I2C module at address 0x%02x - err code %i\r\n",addr, (*i2cdev).ErrorCode);
+		Error_Handler();
+	}
+	return out;
+}
+
+void Write_I2C_Reg(uint8_t addr, uint8_t reg, uint8_t data, uint8_t dev) {
+	I2C_HandleTypeDef* i2cdev;
+	if (dev == 1) {
+		i2cdev = &hi2c1;
+	} else if (dev == 2) {
+		i2cdev = &hi2c2;
+	} else {
+		return; // wrong device
+	}
+	uint8_t wr[2] = {reg,data};
+	uint8_t res = HAL_I2C_Master_Transmit(i2cdev,addr << 1,(uint8_t*)&wr,2,10000);
+	if (res != HAL_OK) {
+		log_printf("ERR: Failed to write data to I2C module at address 0x%02x - err code %i\r\n",addr, (*i2cdev).ErrorCode);
+		Error_Handler();
+	}
+}
 /* USER CODE END 1 */

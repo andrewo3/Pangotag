@@ -68,8 +68,6 @@ void Error_Handler(void);
 #define Error_LED_GPIO_Port GPIOA
 #define SD_Detect_Pin GPIO_PIN_10
 #define SD_Detect_GPIO_Port GPIOA
-#define USART_RX_Pin GPIO_PIN_7
-#define USART_RX_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

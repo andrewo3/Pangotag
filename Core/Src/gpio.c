@@ -92,10 +92,8 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(Battery_LED_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PA0 PA9 SD_Detect_Pin PA11
-                           PA12 */
-  GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_9|SD_Detect_Pin|GPIO_PIN_11
-                          |GPIO_PIN_12;
+  /*Configure GPIO pins : PA0 SD_Detect_Pin PA11 PA12 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0|SD_Detect_Pin|GPIO_PIN_11|GPIO_PIN_12;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -125,8 +123,8 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PB15 USART_RX_Pin */
-  GPIO_InitStruct.Pin = GPIO_PIN_15|USART_RX_Pin;
+  /*Configure GPIO pin : PB15 */
+  GPIO_InitStruct.Pin = GPIO_PIN_15;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);

@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
   28:Core/Src/bmi270/bmi270.c **** * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
   29:Core/Src/bmi270/bmi270.c **** * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
   30:Core/Src/bmi270/bmi270.c **** * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 2
 
 
   31:Core/Src/bmi270/bmi270.c **** * POSSIBILITY OF SUCH DAMAGE.
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
   85:Core/Src/bmi270/bmi270.c ****     0x01, 0xdb, 0x00, 0xb6, 0x01, 0x70, 0x69, 0x26, 0xd3, 0x9c, 0x07, 0x1f, 0x05, 0x9d, 0x00, 0x00,
   86:Core/Src/bmi270/bmi270.c ****     0x37, 0xfa, 0xa2, 0x01, 0xaa, 0x01, 0xa1, 0x01, 0xa8, 0x01, 0xa0, 0x01, 0xa8, 0x05, 0xb4, 0x01,
   87:Core/Src/bmi270/bmi270.c ****     0x00, 0xd0, 0x00, 0xfc, 0x00, 0xc5, 0x01, 0xff, 0xfb, 0xb1, 0x00, 0x00, 0x38, 0x00, 0x30, 0xfd,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 3
 
 
   88:Core/Src/bmi270/bmi270.c ****     0xcd, 0x01, 0xa0, 0x00, 0x5f, 0xff, 0x00, 0x40, 0xff, 0x00, 0x00, 0x80, 0x6d, 0x0f, 0xeb, 0x00,
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  142:Core/Src/bmi270/bmi270.c ****     0x34, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
  143:Core/Src/bmi270/bmi270.c ****     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
  144:Core/Src/bmi270/bmi270.c ****     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 4
 
 
  145:Core/Src/bmi270/bmi270.c ****     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  199:Core/Src/bmi270/bmi270.c ****     0x2f, 0x47, 0xb2, 0x00, 0x30, 0x2d, 0x2f, 0x21, 0x2e, 0x7c, 0x00, 0x2b, 0x2d, 0x03, 0x2e, 0xfd,
  200:Core/Src/bmi270/bmi270.c ****     0x9f, 0xb8, 0x40, 0x90, 0x14, 0x2f, 0x03, 0x2e, 0xfc, 0xf5, 0x99, 0xbc, 0x9f, 0xb8, 0x40, 0x90,
  201:Core/Src/bmi270/bmi270.c ****     0x2e, 0x49, 0xf1, 0x25, 0x54, 0x4a, 0x08, 0x40, 0x90, 0x08, 0x2f, 0x98, 0x2e, 0x35, 0xb7, 0x00,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 5
 
 
  202:Core/Src/bmi270/bmi270.c ****     0x03, 0x2f, 0x50, 0x30, 0x21, 0x2e, 0xd4, 0x00, 0x10, 0x2d, 0x98, 0x2e, 0xaf, 0xb7, 0x00, 0x30,
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  256:Core/Src/bmi270/bmi270.c ****     0x40, 0x30, 0x62, 0x40, 0x41, 0x40, 0x91, 0x0e, 0x01, 0x2f, 0x21, 0x2e, 0x83, 0x01, 0x05, 0x30,
  257:Core/Src/bmi270/bmi270.c ****     0x01, 0x12, 0x30, 0x36, 0x2c, 0x16, 0x30, 0x15, 0x25, 0x81, 0x7f, 0x98, 0x2e, 0xfe, 0xc9, 0x10,
  258:Core/Src/bmi270/bmi270.c ****     0x74, 0xc0, 0x19, 0xa2, 0x16, 0x30, 0x15, 0x2f, 0x05, 0x2e, 0x97, 0x01, 0x80, 0x6f, 0x82, 0x0e,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 6
 
 
  259:Core/Src/bmi270/bmi270.c ****     0x2e, 0x86, 0x01, 0x06, 0x28, 0x21, 0x2e, 0x86, 0x01, 0x0b, 0x2d, 0x03, 0x2e, 0x87, 0x01, 0x5f,
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  313:Core/Src/bmi270/bmi270.c ****     0x58, 0x8c, 0x0e, 0x04, 0x30, 0x1c, 0x2f, 0x85, 0x88, 0x41, 0x6f, 0x04, 0x41, 0x8c, 0x0f, 0x04,
  314:Core/Src/bmi270/bmi270.c ****     0x84, 0x88, 0x00, 0x2e, 0x04, 0x41, 0x04, 0x05, 0x8c, 0x0e, 0x04, 0x30, 0x0f, 0x2f, 0x82, 0x88,
  315:Core/Src/bmi270/bmi270.c ****     0x41, 0x04, 0x05, 0x8c, 0x0e, 0x04, 0x30, 0x08, 0x2f, 0x83, 0x88, 0x00, 0x2e, 0x04, 0x41, 0x8c,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 7
 
 
  316:Core/Src/bmi270/bmi270.c ****     0x02, 0x2f, 0x21, 0x2e, 0xad, 0x01, 0x14, 0x30, 0x00, 0x91, 0x14, 0x2f, 0x03, 0x2e, 0xa1, 0x01,
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  370:Core/Src/bmi270/bmi270.c ****     0x6a, 0xf7, 0x30, 0x25, 0x00, 0x30, 0x21, 0x2e, 0x5a, 0xf5, 0x10, 0x50, 0x21, 0x2e, 0x7b, 0x00,
  371:Core/Src/bmi270/bmi270.c ****     0x00, 0xfb, 0x7f, 0x98, 0x2e, 0xc3, 0xb7, 0x40, 0x30, 0x21, 0x2e, 0xd4, 0x00, 0xfb, 0x6f, 0xf0,
  372:Core/Src/bmi270/bmi270.c ****     0x80, 0x2e, 0xaf, 0xb7, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 8
 
 
  373:Core/Src/bmi270/bmi270.c ****     0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00, 0xc1, 0x80, 0x2e, 0x00,
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  427:Core/Src/bmi270/bmi270.c ****     0x86, 0xfb, 0x7f, 0xe1, 0x32, 0x62, 0x30, 0x98, 0x2e, 0xc2, 0xc4, 0xb5, 0x56, 0xa5, 0x6f, 0xab,
  428:Core/Src/bmi270/bmi270.c ****     0x4b, 0x08, 0xdf, 0x56, 0xc4, 0x6f, 0x23, 0x09, 0x4d, 0xba, 0x93, 0xbc, 0x8c, 0x0b, 0xd1, 0x6f,
  429:Core/Src/bmi270/bmi270.c ****     0x52, 0xe1, 0x5e, 0x56, 0x42, 0xaf, 0x09, 0x4d, 0xba, 0x23, 0xbd, 0x94, 0x0a, 0xe5, 0x6f, 0x68,
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 9
 
 
  430:Core/Src/bmi270/bmi270.c ****     0xbd, 0xb9, 0x63, 0xbe, 0xfb, 0x6f, 0x52, 0x42, 0xe3, 0x0a, 0xc0, 0x2e, 0x43, 0x42, 0x90, 0x5f,
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  484:Core/Src/bmi270/bmi270.c **** };
  485:Core/Src/bmi270/bmi270.c **** 
  486:Core/Src/bmi270/bmi270.c **** /*! @name  Global array that stores the feature input configuration of BMI270 */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 10
 
 
  487:Core/Src/bmi270/bmi270.c **** const struct bmi2_feature_config bmi270_feat_in[BMI270_MAX_FEAT_IN] = {
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  541:Core/Src/bmi270/bmi270.c ****  * @return Result of API execution status
  542:Core/Src/bmi270/bmi270.c ****  * @retval 0 -> Success
  543:Core/Src/bmi270/bmi270.c ****  * @retval < 0 -> Fail
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 11
 
 
  544:Core/Src/bmi270/bmi270.c ****  */
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  598:Core/Src/bmi270/bmi270.c ****  * @retval < 0 -> Fail
  599:Core/Src/bmi270/bmi270.c ****  */
  600:Core/Src/bmi270/bmi270.c **** static int8_t set_any_motion(uint8_t enable, struct bmi2_dev *dev);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 12
 
 
  601:Core/Src/bmi270/bmi270.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  655:Core/Src/bmi270/bmi270.c ****  *
  656:Core/Src/bmi270/bmi270.c ****  * @param[in] dev            : Structure instance of bmi2_dev.
  657:Core/Src/bmi270/bmi270.c ****  * @param[in] enable         : Enables/Disables step counter.
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 13
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 13
 
 
  658:Core/Src/bmi270/bmi270.c ****  *
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  712:Core/Src/bmi270/bmi270.c ****  * Enable       |  Description
  713:Core/Src/bmi270/bmi270.c ****  * -------------|---------------
  714:Core/Src/bmi270/bmi270.c ****  * BMI2_DISABLE | Disables gyroscope user gain
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 14
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 14
 
 
  715:Core/Src/bmi270/bmi270.c ****  * BMI2_ENABLE  | Enables gyroscope user gain
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  769:Core/Src/bmi270/bmi270.c ****  *                          | Defines the number of  consecutive data points for
  770:Core/Src/bmi270/bmi270.c ****  *                          | which the threshold condition must be respected,
  771:Core/Src/bmi270/bmi270.c ****  *                          | for interrupt assertion. It is expressed in  50 Hz
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 15
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 15
 
 
  772:Core/Src/bmi270/bmi270.c ****  *  duration                | samples (20 msec).
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  826:Core/Src/bmi270/bmi270.c ****  *
  827:Core/Src/bmi270/bmi270.c ****  * @param[in]      config        : Structure instance of bmi2_sig_motion_config.
  828:Core/Src/bmi270/bmi270.c ****  * @param[in, out] dev           : Structure instance of bmi2_dev.
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 16
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 16
 
 
  829:Core/Src/bmi270/bmi270.c ****  *
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  883:Core/Src/bmi270/bmi270.c ****  * @brief This internal API sets wrist gesture configurations like wearable-arm,
  884:Core/Src/bmi270/bmi270.c ****  * and output-configuration.
  885:Core/Src/bmi270/bmi270.c ****  *
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 17
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 17
 
 
  886:Core/Src/bmi270/bmi270.c ****  * @param[in]       config    : Structure instance of bmi2_wrist_gest_config.
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  940:Core/Src/bmi270/bmi270.c ****  * @endverbatim
  941:Core/Src/bmi270/bmi270.c ****  *
  942:Core/Src/bmi270/bmi270.c ****  * @return Result of API execution status
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 18
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 18
 
 
  943:Core/Src/bmi270/bmi270.c ****  * @retval 0 -> Success
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  997:Core/Src/bmi270/bmi270.c ****  *  duration                | samples (20 msec).
  998:Core/Src/bmi270/bmi270.c ****  *                          | Range is 0 to 163sec.
  999:Core/Src/bmi270/bmi270.c ****  *                          | Default value is 5 = 100ms.
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 19
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 19
 
 
 1000:Core/Src/bmi270/bmi270.c ****  * -------------------------|---------------------------------------------------
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1054:Core/Src/bmi270/bmi270.c ****  * @param[in]  dev         : Structure instance of bmi2_dev.
 1055:Core/Src/bmi270/bmi270.c ****  *
 1056:Core/Src/bmi270/bmi270.c ****  * @verbatim
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 20
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 20
 
 
 1057:Core/Src/bmi270/bmi270.c ****  *----------------------------------------------------------------------------
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1111:Core/Src/bmi270/bmi270.c ****  * @retval 0 -> Success
 1112:Core/Src/bmi270/bmi270.c ****  * @retval < 0 -> Fail
 1113:Core/Src/bmi270/bmi270.c ****  */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 21
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 21
 
 
 1114:Core/Src/bmi270/bmi270.c **** static int8_t get_wrist_gest_config(struct bmi2_wrist_gest_config *config, struct bmi2_dev *dev);
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1168:Core/Src/bmi270/bmi270.c ****  *
 1169:Core/Src/bmi270/bmi270.c ****  * *step_act  |  Output
 1170:Core/Src/bmi270/bmi270.c ****  * -----------|------------
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 22
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 22
 
 
 1171:Core/Src/bmi270/bmi270.c ****  * 0x00       |  STILL
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1225:Core/Src/bmi270/bmi270.c ****  * @return Result of API execution status
 1226:Core/Src/bmi270/bmi270.c ****  * @retval 0 -> Success
 1227:Core/Src/bmi270/bmi270.c ****  * @retval < 0 -> Fail
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 23
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 23
 
 
 1228:Core/Src/bmi270/bmi270.c ****  */
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1282:Core/Src/bmi270/bmi270.c ****  *
 1283:Core/Src/bmi270/bmi270.c ****  * @param[in]       sens_cfg     : Structure instance of bmi2_sens_config.
 1284:Core/Src/bmi270/bmi270.c ****  * @param[in]       loop         : Variable to loop the sensor feature.
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 24
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 24
 
 
 1285:Core/Src/bmi270/bmi270.c ****  * @param[in, out]  dev          : Structure instance of bmi2_dev.
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1339:Core/Src/bmi270/bmi270.c **** static int8_t disable_sensor_features(uint64_t sensor_sel, struct bmi2_dev *dev);
 1340:Core/Src/bmi270/bmi270.c **** 
 1341:Core/Src/bmi270/bmi270.c **** /***************************************************************************/
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 25
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 25
 
 
 1342:Core/Src/bmi270/bmi270.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1396:Core/Src/bmi270/bmi270.c ****              * configuration to the device structure
 1397:Core/Src/bmi270/bmi270.c ****              */
 1398:Core/Src/bmi270/bmi270.c ****             dev->feat_config = bmi270_feat_in;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 26
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 26
 
 
 1399:Core/Src/bmi270/bmi270.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1453:Core/Src/bmi270/bmi270.c ****         /* Get the selected sensors */
 1454:Core/Src/bmi270/bmi270.c ****         rslt = select_sensor(sens_list, n_sens, &sensor_sel);
 1455:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 27
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 27
 
 
 1456:Core/Src/bmi270/bmi270.c ****         {
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1510:Core/Src/bmi270/bmi270.c **** 
 1511:Core/Src/bmi270/bmi270.c ****     /* Variable to get the status of advance power save */
 1512:Core/Src/bmi270/bmi270.c ****     uint8_t aps_stat = 0;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 28
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 28
 
 
 1513:Core/Src/bmi270/bmi270.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1567:Core/Src/bmi270/bmi270.c **** }
 1568:Core/Src/bmi270/bmi270.c **** 
 1569:Core/Src/bmi270/bmi270.c **** /*!
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 29
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 29
 
 
 1570:Core/Src/bmi270/bmi270.c ****  * @brief This API gets the sensor/feature configuration.
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1624:Core/Src/bmi270/bmi270.c **** 
 1625:Core/Src/bmi270/bmi270.c ****         /* Enable Advance power save if disabled while configuring and
 1626:Core/Src/bmi270/bmi270.c ****          * not when already disabled
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 30
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 30
 
 
 1627:Core/Src/bmi270/bmi270.c ****          */
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1681:Core/Src/bmi270/bmi270.c ****                     }
 1682:Core/Src/bmi270/bmi270.c ****                 }
 1683:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 31
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 31
 
 
 1684:Core/Src/bmi270/bmi270.c ****                 if (rslt == BMI2_OK)
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1738:Core/Src/bmi270/bmi270.c ****     }
 1739:Core/Src/bmi270/bmi270.c **** 
 1740:Core/Src/bmi270/bmi270.c ****     return rslt;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 32
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 32
 
 
 1741:Core/Src/bmi270/bmi270.c **** }
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1795:Core/Src/bmi270/bmi270.c ****         {
 1796:Core/Src/bmi270/bmi270.c ****             rslt = bmi2_set_command_register(BMI2_USR_GAIN_CMD, dev);
 1797:Core/Src/bmi270/bmi270.c ****         }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 33
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 33
 
 
 1798:Core/Src/bmi270/bmi270.c **** 
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1852:Core/Src/bmi270/bmi270.c ****     if ((rslt == BMI2_OK) && (gyr_usr_gain != NULL))
 1853:Core/Src/bmi270/bmi270.c ****     {
 1854:Core/Src/bmi270/bmi270.c ****         /* Get the gyroscope compensated gain values */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 34
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 34
 
 
 1855:Core/Src/bmi270/bmi270.c ****         rslt = bmi2_get_regs(BMI2_GYR_USR_GAIN_0_ADDR, reg_data, 3, dev);
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1909:Core/Src/bmi270/bmi270.c ****             }
 1910:Core/Src/bmi270/bmi270.c **** 
 1911:Core/Src/bmi270/bmi270.c ****             /* Return error if interrupt mapping fails */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 35
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 35
 
 
 1912:Core/Src/bmi270/bmi270.c ****             if (rslt != BMI2_OK)
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1938:Core/Src/bmi270/bmi270.c **** 
   53              		.loc 1 1938 12 view .LVU11
   54 0010 7047     		bx	lr
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 36
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 36
 
 
   55              	.LVL2:
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
   97              		.cfi_startproc
   98              		@ args = 0, pretend = 0, frame = 0
   99              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 37
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 37
 
 
  100              		.loc 1 1954 1 is_stmt 0 view .LVU22
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  138 0024 DBB2     		uxtb	r3, r3
  139              	.LVL16:
  140              	.L8:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 38
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 38
 
 
 1961:Core/Src/bmi270/bmi270.c ****     {
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  174              	.L32:
 1963:Core/Src/bmi270/bmi270.c ****         {
  175              		.loc 1 1963 9 view .LVU44
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 39
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 39
 
 
  176 005c 6FF00700 		mvn	r0, #7
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1996:Core/Src/bmi270/bmi270.c ****                 *sensor_sel |= BMI2_GYRO_GAIN_UPDATE_SEL;
 1997:Core/Src/bmi270/bmi270.c ****                 break;
 1998:Core/Src/bmi270/bmi270.c ****             case BMI2_GYRO_SELF_OFF:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 40
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 40
 
 
 1999:Core/Src/bmi270/bmi270.c ****                 *sensor_sel |= BMI2_GYRO_SELF_OFF_SEL;
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  252 00ce DCF80020 		ldr	r2, [ip]
 1978:Core/Src/bmi270/bmi270.c ****                 break;
  253              		.loc 1 1978 29 is_stmt 0 view .LVU68
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 41
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 41
 
 
  254 00d2 42F00802 		orr	r2, r2, #8
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  293              		.loc 1 2002 29 is_stmt 0 view .LVU83
  294 0118 42F40022 		orr	r2, r2, #524288
  295 011c CCF80020 		str	r2, [ip]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 42
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 42
 
 
 2003:Core/Src/bmi270/bmi270.c ****                 break;
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2033:Core/Src/bmi270/bmi270.c ****         if (aps_stat == BMI2_ENABLE)
 2034:Core/Src/bmi270/bmi270.c ****         {
 2035:Core/Src/bmi270/bmi270.c ****             /* Disable advance power save if enabled */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 43
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 43
 
 
 2036:Core/Src/bmi270/bmi270.c ****             rslt = bmi2_set_adv_power_save(BMI2_DISABLE, dev);
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2090:Core/Src/bmi270/bmi270.c ****         }
 2091:Core/Src/bmi270/bmi270.c ****     }
 2092:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 44
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 44
 
 
 2093:Core/Src/bmi270/bmi270.c ****     return rslt;
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2147:Core/Src/bmi270/bmi270.c **** 
 2148:Core/Src/bmi270/bmi270.c ****     return rslt;
 2149:Core/Src/bmi270/bmi270.c **** }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 45
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 45
 
 
 2150:Core/Src/bmi270/bmi270.c **** 
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2204:Core/Src/bmi270/bmi270.c **** }
 2205:Core/Src/bmi270/bmi270.c **** 
 2206:Core/Src/bmi270/bmi270.c **** /*!
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 46
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 46
 
 
 2207:Core/Src/bmi270/bmi270.c ****  * @brief This internal API is used to enable/disable step detector feature.
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2261:Core/Src/bmi270/bmi270.c **** /*!
 2262:Core/Src/bmi270/bmi270.c ****  * @brief This internal API is used to enable/disable step counter feature.
 2263:Core/Src/bmi270/bmi270.c ****  */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 47
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 47
 
 
 2264:Core/Src/bmi270/bmi270.c **** static int8_t set_step_counter(uint8_t enable, struct bmi2_dev *dev)
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2318:Core/Src/bmi270/bmi270.c ****  */
 2319:Core/Src/bmi270/bmi270.c **** static int8_t set_sig_motion(uint8_t enable, struct bmi2_dev *dev)
 2320:Core/Src/bmi270/bmi270.c **** {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 48
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 48
 
 
 2321:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2375:Core/Src/bmi270/bmi270.c **** {
 2376:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
 2377:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 49
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 49
 
 
 2378:Core/Src/bmi270/bmi270.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2432:Core/Src/bmi270/bmi270.c **** static int8_t set_gyro_self_offset_corr(uint8_t enable, struct bmi2_dev *dev)
 2433:Core/Src/bmi270/bmi270.c **** {
 2434:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 50
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 50
 
 
 2435:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2489:Core/Src/bmi270/bmi270.c **** static int8_t set_wrist_gesture(uint8_t enable, struct bmi2_dev *dev)
 2490:Core/Src/bmi270/bmi270.c **** {
 2491:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 51
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 51
 
 
 2492:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2546:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
 2547:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
 2548:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 52
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 52
 
 
 2549:Core/Src/bmi270/bmi270.c ****     /* Array to define the feature configuration */
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2603:Core/Src/bmi270/bmi270.c **** {
 2604:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
 2605:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 53
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 53
 
 
 2606:Core/Src/bmi270/bmi270.c **** 
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2660:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
 2661:Core/Src/bmi270/bmi270.c ****     int8_t rslt;
 2662:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 54
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 54
 
 
 2663:Core/Src/bmi270/bmi270.c ****     /* Array to define the feature configuration */
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2717:Core/Src/bmi270/bmi270.c ****             idx = (uint8_t)(idx * 2) - any_mot_config.start_addr;
 2718:Core/Src/bmi270/bmi270.c **** 
 2719:Core/Src/bmi270/bmi270.c ****             /* Copy the bytes to be set back to the array */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 55
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 55
 
 
 2720:Core/Src/bmi270/bmi270.c ****             for (index = 0; index < idx; index++)
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2774:Core/Src/bmi270/bmi270.c ****             idx = no_mot_config.start_addr;
 2775:Core/Src/bmi270/bmi270.c **** 
 2776:Core/Src/bmi270/bmi270.c ****             /* Get offset in words since all the features are set in words length */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 56
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 56
 
 
 2777:Core/Src/bmi270/bmi270.c ****             idx = idx / 2;
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2831:Core/Src/bmi270/bmi270.c ****     /* Array to define the feature configuration */
 2832:Core/Src/bmi270/bmi270.c ****     uint8_t feat_config[BMI2_FEAT_SIZE_IN_BYTES] = { 0 };
 2833:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 57
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 57
 
 
 2834:Core/Src/bmi270/bmi270.c ****     /* Variable to define the array offset */
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2888:Core/Src/bmi270/bmi270.c ****     return rslt;
 2889:Core/Src/bmi270/bmi270.c **** }
 2890:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 58
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 58
 
 
 2891:Core/Src/bmi270/bmi270.c **** /*!
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2945:Core/Src/bmi270/bmi270.c ****     feat_found = bmi2_extract_input_feat_config(&step_params_config, BMI2_STEP_COUNTER_PARAMS, dev)
 2946:Core/Src/bmi270/bmi270.c ****     if (feat_found)
 2947:Core/Src/bmi270/bmi270.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 59
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 59
 
 
 2948:Core/Src/bmi270/bmi270.c ****         /* Get the start page for the step counter parameters */
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3002:Core/Src/bmi270/bmi270.c **** 
 3003:Core/Src/bmi270/bmi270.c ****                 /* Set the configuration back to the page */
 3004:Core/Src/bmi270/bmi270.c ****                 rslt = bmi2_set_regs(BMI2_FEATURES_REG_ADDR, feat_config, BMI2_FEAT_SIZE_IN_BYTES, 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 60
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 60
 
 
 3005:Core/Src/bmi270/bmi270.c ****             }
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3059:Core/Src/bmi270/bmi270.c ****             /* Set reset-counter */
 3060:Core/Src/bmi270/bmi270.c ****             *(data_p + idx) = BMI2_SET_BITS(*(data_p + idx), BMI2_STEP_COUNT_RST_CNT, config->reset
 3061:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 61
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 61
 
 
 3062:Core/Src/bmi270/bmi270.c ****             /* Increment offset by 1 word  to set output
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3116:Core/Src/bmi270/bmi270.c ****     /* Search for wrist gesture feature and extract its configuration details */
 3117:Core/Src/bmi270/bmi270.c ****     feat_found = bmi2_extract_input_feat_config(&wrist_gest_config, BMI2_WRIST_GESTURE, dev);
 3118:Core/Src/bmi270/bmi270.c ****     if (feat_found)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 62
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 62
 
 
 3119:Core/Src/bmi270/bmi270.c ****     {
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3173:Core/Src/bmi270/bmi270.c ****  */
 3174:Core/Src/bmi270/bmi270.c **** static int8_t set_wrist_wear_wake_up_config(const struct bmi2_wrist_wear_wake_up_config *config, st
 3175:Core/Src/bmi270/bmi270.c **** {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 63
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 63
 
 
 3176:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3230:Core/Src/bmi270/bmi270.c ****             *(data_p + idx) = config->max_tilt_pd;
 3231:Core/Src/bmi270/bmi270.c **** 
 3232:Core/Src/bmi270/bmi270.c ****             /* Increment offset by 1 more word to set max_tilt_pu */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 64
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 64
 
 
 3233:Core/Src/bmi270/bmi270.c ****             idx++;
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3287:Core/Src/bmi270/bmi270.c **** 
 3288:Core/Src/bmi270/bmi270.c ****     /* Initialize feature configuration for any-motion */
 3289:Core/Src/bmi270/bmi270.c ****     struct bmi2_feature_config any_mot_config = { 0, 0, 0 };
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 65
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 65
 
 
 3290:Core/Src/bmi270/bmi270.c **** 
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3344:Core/Src/bmi270/bmi270.c **** 
 3345:Core/Src/bmi270/bmi270.c ****     /* Array to define the feature configuration */
 3346:Core/Src/bmi270/bmi270.c ****     uint8_t feat_config[BMI2_FEAT_SIZE_IN_BYTES] = { 0 };
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 66
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 66
 
 
 3347:Core/Src/bmi270/bmi270.c **** 
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3401:Core/Src/bmi270/bmi270.c ****         }
 3402:Core/Src/bmi270/bmi270.c ****     }
 3403:Core/Src/bmi270/bmi270.c ****     else
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 67
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 67
 
 
 3404:Core/Src/bmi270/bmi270.c ****     {
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3458:Core/Src/bmi270/bmi270.c ****             config->block_size = lsb_msb & BMI2_SIG_MOT_PARAM_1_MASK;
 3459:Core/Src/bmi270/bmi270.c ****         }
 3460:Core/Src/bmi270/bmi270.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 68
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 68
 
 
 3461:Core/Src/bmi270/bmi270.c ****     else
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3515:Core/Src/bmi270/bmi270.c **** 
 3516:Core/Src/bmi270/bmi270.c ****     /* Variable to define the maximum words to be read in a page */
 3517:Core/Src/bmi270/bmi270.c ****     uint8_t max_len = BMI2_FEAT_SIZE_IN_BYTES;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 69
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 69
 
 
 3518:Core/Src/bmi270/bmi270.c **** 
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3572:Core/Src/bmi270/bmi270.c ****                     step_count_params[param_idx] = lsb_msb & BMI2_STEP_COUNT_PARAMS_MASK;
 3573:Core/Src/bmi270/bmi270.c **** 
 3574:Core/Src/bmi270/bmi270.c ****                     /* Increment to next parameter */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 70
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 70
 
 
 3575:Core/Src/bmi270/bmi270.c ****                     param_idx++;
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3629:Core/Src/bmi270/bmi270.c ****             lsb = (uint16_t) feat_config[idx++];
 3630:Core/Src/bmi270/bmi270.c ****             msb = ((uint16_t) feat_config[idx++] << 8);
 3631:Core/Src/bmi270/bmi270.c ****             lsb_msb = lsb | msb;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 71
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 71
 
 
 3632:Core/Src/bmi270/bmi270.c **** 
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3686:Core/Src/bmi270/bmi270.c ****             /* Get wearable arm */
 3687:Core/Src/bmi270/bmi270.c ****             config->wearable_arm = (*(data_p + idx) & BMI2_WRIST_GEST_WEAR_ARM_MASK) >> BMI2_WRIST_
 3688:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 72
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 72
 
 
 3689:Core/Src/bmi270/bmi270.c ****             /* Increment the offset by 1 word to get min_flick_peak */
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3743:Core/Src/bmi270/bmi270.c ****             idx = wrist_wake_up_config.start_addr;
 3744:Core/Src/bmi270/bmi270.c **** 
 3745:Core/Src/bmi270/bmi270.c ****             /* Get offset in words since all the features are set in words length */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 73
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 73
 
 
 3746:Core/Src/bmi270/bmi270.c ****             idx = idx / 2;
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3800:Core/Src/bmi270/bmi270.c ****     struct bmi2_feature_config wrist_gest_out_config = { 0, 0, 0 };
 3801:Core/Src/bmi270/bmi270.c **** 
 3802:Core/Src/bmi270/bmi270.c ****     /* Search for wrist gesture feature and extract its configuration details */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 74
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 74
 
 
 3803:Core/Src/bmi270/bmi270.c ****     feat_found = extract_output_feat_config(&wrist_gest_out_config, BMI2_WRIST_GESTURE, dev);
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3857:Core/Src/bmi270/bmi270.c ****             *step_count = (uint32_t) feat_config[idx++];
 3858:Core/Src/bmi270/bmi270.c ****             *step_count |= ((uint32_t) feat_config[idx++] << 8);
 3859:Core/Src/bmi270/bmi270.c ****             *step_count |= ((uint32_t) feat_config[idx++] << 16);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 75
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 75
 
 
 3860:Core/Src/bmi270/bmi270.c ****             *step_count |= ((uint32_t) feat_config[idx++] << 24);
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3914:Core/Src/bmi270/bmi270.c ****             /* Error when NVM program limit is exceeded */
 3915:Core/Src/bmi270/bmi270.c ****             nvm_err_stat->exceed_error = BMI2_GET_BITS(feat_config[idx], BMI2_NVM_END_EXCEED_STATUS
 3916:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 76
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 76
 
 
 3917:Core/Src/bmi270/bmi270.c ****             /* Error when NVM privilege mode is not acquired */
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3971:Core/Src/bmi270/bmi270.c ****                 idx = gyr_user_gain_cfg.start_addr + BMI2_GYR_USER_GAIN_FEAT_EN_OFFSET;
 3972:Core/Src/bmi270/bmi270.c **** 
 3973:Core/Src/bmi270/bmi270.c ****                 /* Set the feature enable status */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 77
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 77
 
 
 3974:Core/Src/bmi270/bmi270.c ****                 *status = BMI2_GET_BITS(feat_config[idx], BMI2_GYR_USER_GAIN_FEAT_EN);
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4028:Core/Src/bmi270/bmi270.c ****     {
 4029:Core/Src/bmi270/bmi270.c ****         rslt = BMI2_E_INVALID_SENSOR;
 4030:Core/Src/bmi270/bmi270.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 78
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 78
 
 
 4031:Core/Src/bmi270/bmi270.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4085:Core/Src/bmi270/bmi270.c **** }
 4086:Core/Src/bmi270/bmi270.c **** 
 4087:Core/Src/bmi270/bmi270.c **** /*!
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 79
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 79
 
 
 4088:Core/Src/bmi270/bmi270.c ****  * @brief This internal API enables/disables compensation of the gain defined
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  338              		.loc 1 4118 13 is_stmt 0 view .LVU95
  339 0004 0023     		movs	r3, #0
  340              		.loc 1 4124 11 view .LVU96
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 80
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 80
 
 
  341 0006 01E0     		b	.L36
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  375              	.LVL31:
 4128:Core/Src/bmi270/bmi270.c ****             feat_found = BMI2_TRUE;
  376              		.loc 1 4128 26 view .LVU111
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 81
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 81
 
 
  377 002c 2A80     		strh	r2, [r5]	@ unaligned
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4154:Core/Src/bmi270/bmi270.c **** 
 4155:Core/Src/bmi270/bmi270.c ****         /* Set no motion configuration */
 4156:Core/Src/bmi270/bmi270.c ****         case BMI2_NO_MOTION:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 82
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 82
 
 
 4157:Core/Src/bmi270/bmi270.c ****             rslt = set_no_motion_config(&sens_cfg[loop].cfg.no_motion, dev);
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4211:Core/Src/bmi270/bmi270.c ****         case BMI2_ANY_MOTION:
 4212:Core/Src/bmi270/bmi270.c ****             rslt = get_any_motion_config(&sens_cfg[loop].cfg.any_motion, dev);
 4213:Core/Src/bmi270/bmi270.c ****             break;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 83
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 83
 
 
 4214:Core/Src/bmi270/bmi270.c **** 
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  421              	.LCFI3:
  422              		.cfi_def_cfa_offset 24
  423 0004 0446     		mov	r4, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 84
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 84
 
 
  424 0006 0D46     		mov	r5, r1
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  458              		.loc 1 4274 13 is_stmt 1 view .LVU137
  459              		.loc 1 4274 24 is_stmt 0 view .LVU138
  460 0032 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 85
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 85
 
 
  461 0036 43F00203 		orr	r3, r3, #2
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4294:Core/Src/bmi270/bmi270.c ****     }
 4295:Core/Src/bmi270/bmi270.c **** 
 4296:Core/Src/bmi270/bmi270.c ****     return rslt;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 86
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 86
 
 
  496              		.loc 1 4296 5 is_stmt 1 view .LVU153
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4313:Core/Src/bmi270/bmi270.c ****     /* Enable any motion feature */
 4314:Core/Src/bmi270/bmi270.c ****     if (sensor_sel & BMI2_ANY_MOT_SEL)
 4315:Core/Src/bmi270/bmi270.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 87
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 87
 
 
 4316:Core/Src/bmi270/bmi270.c ****         rslt = set_any_motion(BMI2_ENABLE, dev);
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4370:Core/Src/bmi270/bmi270.c **** /*!
 4371:Core/Src/bmi270/bmi270.c ****  * @brief This internal API is used to disable main sensors like accel, gyro, aux and temperature.
 4372:Core/Src/bmi270/bmi270.c ****  */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 88
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 88
 
 
 4373:Core/Src/bmi270/bmi270.c **** static int8_t disable_main_sensors(uint64_t sensor_sel, struct bmi2_dev *dev)
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4388:Core/Src/bmi270/bmi270.c ****             reg_data = BMI2_SET_BIT_VAL0(reg_data, BMI2_ACC_EN);
  571              		.loc 1 4388 13 is_stmt 1 view .LVU171
  572              		.loc 1 4388 24 is_stmt 0 view .LVU172
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 89
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 89
 
 
  573 0020 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  609 005e 8DF80730 		strb	r3, [sp, #7]
  610              	.L55:
 4407:Core/Src/bmi270/bmi270.c ****         }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 90
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 90
 
 
 4408:Core/Src/bmi270/bmi270.c **** 
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  653              	enable_gyro_gain:
  654              	.LVL51:
  655              	.LFB46:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 91
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 91
 
 
 4092:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  697              	.LCFI12:
  698              		.cfi_remember_state
  699              		.cfi_def_cfa_offset 12
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 92
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 92
 
 
  700              		@ sp needed
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  749 0006 0C46     		mov	r4, r1
 2322:Core/Src/bmi270/bmi270.c **** 
  750              		.loc 1 2322 5 is_stmt 1 view .LVU218
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 93
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 93
 
 
 2325:Core/Src/bmi270/bmi270.c **** 
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  789              		.loc 1 2342 9 is_stmt 1 view .LVU234
 2342:Core/Src/bmi270/bmi270.c ****         {
  790              		.loc 1 2342 12 is_stmt 0 view .LVU235
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 94
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 94
 
 
  791 0036 08B1     		cbz	r0, .L67
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  833              	.LVL70:
 2353:Core/Src/bmi270/bmi270.c ****             {
  834              		.loc 1 2353 13 is_stmt 1 view .LVU248
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 95
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 95
 
 
 2353:Core/Src/bmi270/bmi270.c ****             {
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  879              		.loc 1 2100 1 is_stmt 0 view .LVU260
  880 0000 30B5     		push	{r4, r5, lr}
  881              	.LCFI18:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 96
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 96
 
 
  882              		.cfi_def_cfa_offset 12
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2121:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
  922              		.loc 1 2121 16 is_stmt 0 view .LVU275
  923 002c 2246     		mov	r2, r4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 97
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 97
 
 
  924 002e 02A9     		add	r1, sp, #8
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2131:Core/Src/bmi270/bmi270.c **** 
  965              		.loc 1 2131 20 is_stmt 0 view .LVU289
  966 005a 2346     		mov	r3, r4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 98
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 98
 
 
  967 005c 1022     		movs	r2, #16
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1010              		.thumb_func
  1012              	set_no_motion:
  1013              	.LVL88:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 99
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 99
 
 
  1014              	.LFB17:
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1055              		.loc 1 2172 18 view .LVU314
  1056 0024 FFF7FEFF 		bl	bmi2_extract_input_feat_config
  1057              	.LVL92:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 100
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 100
 
 
 2173:Core/Src/bmi270/bmi270.c ****     {
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2183:Core/Src/bmi270/bmi270.c **** 
  1098              		.loc 1 2183 32 view .LVU329
  1099 0048 13F8102C 		ldrb	r2, [r3, #-16]	@ zero_extendqisi2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 101
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 101
 
 
  1100 004c 02F07F02 		and	r2, r2, #127
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1140              	.LVL102:
 2200:Core/Src/bmi270/bmi270.c ****     }
  1141              		.loc 1 2200 14 view .LVU344
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 102
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 102
 
 
  1142 0082 D9E7     		b	.L77
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2227:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  1188              		.loc 1 2227 18 is_stmt 0 view .LVU355
  1189 001e 0A46     		mov	r2, r1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 103
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 103
 
 
  1190 0020 0621     		movs	r1, #6
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1230              		.loc 1 2235 17 view .LVU369
  1231 0040 0133     		adds	r3, r3, #1
  1232              	.LVL112:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 104
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 104
 
 
 2238:Core/Src/bmi270/bmi270.c **** 
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1272              		.loc 1 2245 20 is_stmt 0 view .LVU384
  1273 0078 236B     		ldr	r3, [r4, #48]
 2245:Core/Src/bmi270/bmi270.c ****             }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 105
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 105
 
 
  1274              		.loc 1 2245 35 view .LVU385
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1322              	.LVL119:
 2276:Core/Src/bmi270/bmi270.c **** 
  1323              		.loc 1 2276 5 view .LVU394
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 106
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 106
 
 
 2279:Core/Src/bmi270/bmi270.c **** 
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1363              		@ sp needed
  1364 003a 30BD     		pop	{r4, r5, pc}
  1365              	.LVL126:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 107
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 107
 
 
  1366              	.L95:
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2304:Core/Src/bmi270/bmi270.c ****             }
  1406              		.loc 1 2304 20 is_stmt 0 view .LVU424
  1407 006e 236B     		ldr	r3, [r4, #48]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 108
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 108
 
 
 2304:Core/Src/bmi270/bmi270.c ****             }
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1455              		.loc 1 2377 5 is_stmt 1 view .LVU433
 2380:Core/Src/bmi270/bmi270.c **** 
  1456              		.loc 1 2380 5 view .LVU434
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 109
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 109
 
 
 2380:Core/Src/bmi270/bmi270.c **** 
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1495              		.loc 1 2399 12 is_stmt 0 view .LVU450
  1496 0036 08B1     		cbz	r0, .L102
  1497              	.LVL140:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 110
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 110
 
 
  1498              	.L98:
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2410:Core/Src/bmi270/bmi270.c ****             {
  1540              		.loc 1 2410 13 is_stmt 1 view .LVU463
 2410:Core/Src/bmi270/bmi270.c ****             {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 111
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 111
 
 
  1541              		.loc 1 2410 16 is_stmt 0 view .LVU464
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1586 0000 30B5     		push	{r4, r5, lr}
  1587              	.LCFI38:
  1588              		.cfi_def_cfa_offset 12
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 112
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 112
 
 
  1589              		.cfi_offset 4, -12
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1628              		.loc 1 2624 16 is_stmt 0 view .LVU490
  1629 002a 2246     		mov	r2, r4
  1630 002c 02A9     		add	r1, sp, #8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 113
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 113
 
 
  1631 002e 9DF80500 		ldrb	r0, [sp, #5]	@ zero_extendqisi2
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1672              		.loc 1 2634 13 is_stmt 1 view .LVU503
 2634:Core/Src/bmi270/bmi270.c **** 
  1673              		.loc 1 2634 20 is_stmt 0 view .LVU504
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 114
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 114
 
 
  1674 005c 2346     		mov	r3, r4
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1717              		.thumb
  1718              		.thumb_func
  1720              	set_gyro_self_offset_corr:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 115
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 115
 
 
  1721              	.LVL163:
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2450:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  1763              		.loc 1 2450 18 view .LVU529
  1764 0024 FFF7FEFF 		bl	bmi2_extract_input_feat_config
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 116
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 116
 
 
  1765              	.LVL167:
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1805 0048 12F8103C 		ldrb	r3, [r2, #-16]	@ zero_extendqisi2
  1806              	.LVL174:
 2463:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 117
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 117
 
 
  1807              		.loc 1 2463 32 view .LVU544
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2480:Core/Src/bmi270/bmi270.c ****     }
  1848              		.loc 1 2480 14 view .LVU558
  1849 0082 6FF00700 		mvn	r0, #7
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 118
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 118
 
 
  1850              	.LVL178:
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1896 001a 8DF80630 		strb	r3, [sp, #6]
 2507:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  1897              		.loc 1 2507 5 is_stmt 1 view .LVU569
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 119
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 119
 
 
 2507:Core/Src/bmi270/bmi270.c ****     if (feat_found)
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  1938              		.loc 1 2515 17 is_stmt 0 view .LVU583
  1939 003c 9DF80620 		ldrb	r2, [sp, #6]	@ zero_extendqisi2
  1940              	.LVL188:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 120
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 120
 
 
 2518:Core/Src/bmi270/bmi270.c **** 
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2525:Core/Src/bmi270/bmi270.c ****             }
  1981              		.loc 1 2525 17 is_stmt 1 view .LVU598
 2525:Core/Src/bmi270/bmi270.c ****             }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 121
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 121
 
 
  1982              		.loc 1 2525 20 is_stmt 0 view .LVU599
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2030 0010 0593     		str	r3, [sp, #20]
 2553:Core/Src/bmi270/bmi270.c **** 
  2031              		.loc 1 2553 5 is_stmt 1 view .LVU608
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 122
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 122
 
 
  2032              	.LVL196:
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2070              	.LCFI52:
  2071              		.cfi_remember_state
  2072              		.cfi_def_cfa_offset 12
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 123
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 123
 
 
  2073              		@ sp needed
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2114              	.L127:
 2586:Core/Src/bmi270/bmi270.c ****             }
  2115              		.loc 1 2586 17 is_stmt 1 view .LVU638
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 124
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 124
 
 
 2586:Core/Src/bmi270/bmi270.c ****             }
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2163 0006 1546     		mov	r5, r2
 4305:Core/Src/bmi270/bmi270.c **** 
  2164              		.loc 1 4305 5 is_stmt 1 view .LVU648
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 125
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 125
 
 
  2165              	.LVL212:
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4344:Core/Src/bmi270/bmi270.c ****     {
  2205              		.loc 1 4344 8 is_stmt 0 view .LVU663
  2206 002e 14F4007F 		tst	r4, #512
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 126
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 126
 
 
  2207 0032 27D1     		bne	.L151
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2247 0054 0120     		movs	r0, #1
  2248              	.LVL226:
 4316:Core/Src/bmi270/bmi270.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 127
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 127
 
 
  2249              		.loc 1 4316 16 view .LVU678
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2292              	.LVL238:
 4340:Core/Src/bmi270/bmi270.c ****     }
  2293              		.loc 1 4340 16 view .LVU690
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 128
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 128
 
 
  2294 007e FFF7FEFF 		bl	set_step_activity
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4364:Core/Src/bmi270/bmi270.c ****     }
  2337              		.loc 1 4364 16 view .LVU702
  2338 00a6 FFF7FEFF 		bl	set_wrist_wear_wake_up
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 129
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 129
 
 
  2339              	.LVL251:
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2385 0018 05D0     		beq	.L156
 2032:Core/Src/bmi270/bmi270.c ****         if (aps_stat == BMI2_ENABLE)
  2386              		.loc 1 2032 9 is_stmt 1 view .LVU713
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 130
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 130
 
 
 2032:Core/Src/bmi270/bmi270.c ****         if (aps_stat == BMI2_ENABLE)
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2046:Core/Src/bmi270/bmi270.c ****             {
  2427              		.loc 1 2046 16 is_stmt 0 view .LVU728
  2428 003c 012F     		cmp	r7, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 131
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 131
 
 
  2429 003e F2D1     		bne	.L156
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4428:Core/Src/bmi270/bmi270.c ****     if (sensor_sel & BMI2_SIG_MOTION_SEL)
  2471              		.loc 1 4428 5 view .LVU736
  2472              		.loc 1 4428 8 is_stmt 0 view .LVU737
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 132
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 132
 
 
  2473 0008 10F0080F 		tst	r0, #8
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2502              	.L166:
 4453:Core/Src/bmi270/bmi270.c ****     {
 4454:Core/Src/bmi270/bmi270.c ****         rslt = set_step_counter(BMI2_DISABLE, dev);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 133
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 133
 
 
 4455:Core/Src/bmi270/bmi270.c ****     }
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2529 0040 14F4801F 		tst	r4, #1048576
  2530 0044 2DD1     		bne	.L183
  2531              	.LVL276:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 134
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 134
 
 
  2532              	.L171:
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2570              	.L177:
 4448:Core/Src/bmi270/bmi270.c ****     }
  2571              		.loc 1 4448 9 is_stmt 1 view .LVU769
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 135
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 135
 
 
 4448:Core/Src/bmi270/bmi270.c ****     }
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4472:Core/Src/bmi270/bmi270.c ****     }
  2615              		.loc 1 4472 9 is_stmt 1 view .LVU781
 4472:Core/Src/bmi270/bmi270.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 136
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 136
 
 
  2616              		.loc 1 4472 16 is_stmt 0 view .LVU782
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2663 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
  2664              	.LCFI57:
  2665              		.cfi_def_cfa_offset 24
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 137
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 137
 
 
  2666              		.cfi_offset 3, -24
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2706              	.L185:
 2093:Core/Src/bmi270/bmi270.c **** }
  2707              		.loc 1 2093 5 is_stmt 1 view .LVU806
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 138
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 138
 
 
 2094:Core/Src/bmi270/bmi270.c **** 
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2750              		.section	.text.set_any_motion_config,"ax",%progbits
  2751              		.align	1
  2752              		.syntax unified
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 139
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 139
 
 
  2753              		.thumb
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2795              		.loc 1 2682 18 is_stmt 0 view .LVU832
  2796 001e 0A46     		mov	r2, r1
  2797 0020 0421     		movs	r1, #4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 140
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 140
 
 
  2798              	.LVL322:
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2696:Core/Src/bmi270/bmi270.c **** 
  2836              		.loc 1 2696 31 view .LVU849
  2837 0048 32F81C10 		ldrh	r1, [r2, ip, lsl #1]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 141
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 141
 
 
  2838 004c 2B88     		ldrh	r3, [r5]
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2877              		.loc 1 2711 29 view .LVU864
  2878 0098 03F47843 		and	r3, r3, #63488
  2879 009c C1F30A01 		ubfx	r1, r1, #0, #11
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 142
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 142
 
 
  2880 00a0 0B43     		orrs	r3, r3, r1
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2720:Core/Src/bmi270/bmi270.c ****             {
  2919              		.loc 1 2720 47 is_stmt 1 discriminator 3 view .LVU880
  2920 00d8 0130     		adds	r0, r0, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 143
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 143
 
 
  2921              	.LVL339:
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  2966              		.thumb_func
  2968              	set_no_motion_config:
  2969              	.LVL346:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 144
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 144
 
 
  2970              	.LFB27:
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2766:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  3011              		.loc 1 2766 18 view .LVU904
  3012 0022 01A8     		add	r0, sp, #4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 145
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 145
 
 
  3013              	.LVL350:
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3051 004c C3F30C03 		ubfx	r3, r3, #0, #13
  3052 0050 01F46041 		and	r1, r1, #57344
  3053 0054 0B43     		orrs	r3, r3, r1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 146
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 146
 
 
 2780:Core/Src/bmi270/bmi270.c **** 
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3093 00a0 22F81030 		strh	r3, [r2, r0, lsl #1]	@ movhi
 2798:Core/Src/bmi270/bmi270.c **** 
  3094              		.loc 1 2798 13 is_stmt 1 view .LVU936
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 147
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 147
 
 
 2798:Core/Src/bmi270/bmi270.c **** 
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2804:Core/Src/bmi270/bmi270.c ****             {
  3134              		.loc 1 2804 47 is_stmt 0 discriminator 3 view .LVU952
  3135 00d8 C0B2     		uxtb	r0, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 148
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 148
 
 
  3136              	.LVL367:
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2827:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
  3183              		.loc 1 2827 1 is_stmt 1 view -0
  3184              		.cfi_startproc
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 149
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 149
 
 
  3185              		@ args = 0, pretend = 0, frame = 24
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2850:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  3226              		.loc 1 2850 18 view .LVU976
  3227 0024 FFF7FEFF 		bl	bmi2_extract_input_feat_config
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 150
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 150
 
 
  3228              	.LVL378:
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3264 0048 0CF1010E 		add	lr, ip, #1
  3265              	.LVL385:
 2870:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 151
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 151
 
 
  3266              		.loc 1 2870 13 is_stmt 1 view .LVU995
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2873:Core/Src/bmi270/bmi270.c ****             {
  3306              		.loc 1 2873 35 is_stmt 1 discriminator 1 view .LVU1010
  3307 007e 7045     		cmp	r0, lr
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 152
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 152
 
 
  3308 0080 F0D3     		bcc	.L205
@@ -9118,7 +9118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2895:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
  3355              		.loc 1 2895 1 is_stmt 0 view .LVU1020
  3356 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 153
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 153
 
 
  3357              	.LCFI70:
@@ -9178,7 +9178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3397              		.loc 1 2930 5 view .LVU1034
 2933:Core/Src/bmi270/bmi270.c **** 
  3398              		.loc 1 2933 5 view .LVU1035
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 154
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 154
 
 
 2936:Core/Src/bmi270/bmi270.c **** 
@@ -9238,7 +9238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 2959:Core/Src/bmi270/bmi270.c ****         {
  3436              		.loc 1 2959 9 is_stmt 1 view .LVU1053
 2959:Core/Src/bmi270/bmi270.c ****         {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 155
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 155
 
 
  3437              		.loc 1 2959 23 is_stmt 0 view .LVU1054
@@ -9298,7 +9298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3476              	.LVL416:
 2987:Core/Src/bmi270/bmi270.c **** 
  3477              		.loc 1 2987 34 view .LVU1070
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 156
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 156
 
 
  3478 0066 DBB2     		uxtb	r3, r3
@@ -9358,7 +9358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3000:Core/Src/bmi270/bmi270.c ****                 }
  3517              		.loc 1 3000 42 view .LVU1086
  3518 0086 1CF801C0 		ldrb	ip, [ip, r1]	@ zero_extendqisi2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 157
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 157
 
 
  3519              	.LVL425:
@@ -9418,7 +9418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3560              		.loc 1 2962 20 is_stmt 0 view .LVU1099
  3561 00b2 4246     		mov	r2, r8
  3562 00b4 04A9     		add	r1, sp, #16
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 158
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 158
 
 
  3563              	.LVL434:
@@ -9478,7 +9478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3604 00d8 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
 3014:Core/Src/bmi270/bmi270.c **** 
  3605              		.loc 1 3014 1 view .LVU1113
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 159
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 159
 
 
  3606              		.cfi_endproc
@@ -9538,7 +9538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3651              		.loc 1 3040 5 is_stmt 1 view .LVU1124
  3652              	.LVL443:
 3043:Core/Src/bmi270/bmi270.c ****     if (feat_found)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 160
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 160
 
 
  3653              		.loc 1 3043 5 view .LVU1125
@@ -9598,7 +9598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3691              		.loc 1 3057 13 is_stmt 1 view .LVU1141
 3057:Core/Src/bmi270/bmi270.c **** 
  3692              		.loc 1 3057 31 is_stmt 0 view .LVU1142
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 161
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 161
 
 
  3693 0044 02A9     		add	r1, sp, #8
@@ -9658,7 +9658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3732              		.loc 1 3071 13 view .LVU1157
  3733 0086 0CE0     		b	.L226
  3734              	.LVL457:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 162
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 162
 
 
  3735              	.L227:
@@ -9718,7 +9718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3775              	.LCFI75:
  3776              		.cfi_remember_state
  3777              		.cfi_def_cfa_offset 12
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 163
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 163
 
 
  3778              		@ sp needed
@@ -9778,7 +9778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  3826              	.LVL468:
 3105:Core/Src/bmi270/bmi270.c **** 
  3827              		.loc 1 3105 5 view .LVU1180
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 164
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 164
 
 
 3108:Core/Src/bmi270/bmi270.c **** 
@@ -9838,7 +9838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3125:Core/Src/bmi270/bmi270.c **** 
  3866              		.loc 1 3125 13 is_stmt 1 view .LVU1197
 3125:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 165
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 165
 
 
  3867              		.loc 1 3125 17 is_stmt 0 view .LVU1198
@@ -9898,7 +9898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3142:Core/Src/bmi270/bmi270.c ****             *(data_p + idx) = config->max_duration;
  3905              		.loc 1 3142 13 is_stmt 1 view .LVU1215
 3142:Core/Src/bmi270/bmi270.c ****             *(data_p + idx) = config->max_duration;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 166
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 166
 
 
  3906              		.loc 1 3142 16 is_stmt 0 view .LVU1216
@@ -9958,7 +9958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3155:Core/Src/bmi270/bmi270.c ****             }
  3944              		.loc 1 3155 38 view .LVU1233
  3945 009c 13F80C30 		ldrb	r3, [r3, ip]	@ zero_extendqisi2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 167
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 167
 
 
  3946              	.LVL488:
@@ -10018,7 +10018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3164:Core/Src/bmi270/bmi270.c ****     }
  3989              		.loc 1 3164 14 view .LVU1245
  3990 00c8 FAE7     		b	.L231
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 168
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 168
 
 
  3991              		.cfi_endproc
@@ -10078,7 +10078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4036              		.loc 1 3195 5 is_stmt 1 view .LVU1256
  4037              	.LVL498:
 3198:Core/Src/bmi270/bmi270.c ****     if (feat_found)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 169
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 169
 
 
  4038              		.loc 1 3198 5 view .LVU1257
@@ -10138,7 +10138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4076              		.loc 1 3212 13 is_stmt 1 view .LVU1273
 3212:Core/Src/bmi270/bmi270.c **** 
  4077              		.loc 1 3212 16 is_stmt 0 view .LVU1274
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 170
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 170
 
 
  4078 0044 0CF10102 		add	r2, ip, #1
@@ -10198,7 +10198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4113              		.loc 1 3226 29 view .LVU1293
  4114 006a 23F81210 		strh	r1, [r3, r2, lsl #1]	@ movhi
 3229:Core/Src/bmi270/bmi270.c ****             *(data_p + idx) = config->max_tilt_pd;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 171
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 171
 
 
  4115              		.loc 1 3229 13 is_stmt 1 view .LVU1294
@@ -10258,7 +10258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4151 009a 0020     		movs	r0, #0
  4152              	.LVL517:
 3243:Core/Src/bmi270/bmi270.c ****             {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 172
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 172
 
 
  4153              		.loc 1 3243 13 view .LVU1313
@@ -10318,7 +10318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3259:Core/Src/bmi270/bmi270.c **** 
  4194              		.loc 1 3259 1 is_stmt 0 view .LVU1327
  4195 00c8 07B0     		add	sp, sp, #28
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 173
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 173
 
 
  4196              	.LCFI83:
@@ -10378,7 +10378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4243              		.loc 1 4148 21 view .LVU1336
  4244 000c C218     		adds	r2, r0, r3
 4148:Core/Src/bmi270/bmi270.c ****     {
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 174
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 174
 
 
  4245              		.loc 1 4148 27 view .LVU1337
@@ -10438,7 +10438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4288 0040 FFF7FEFF 		bl	set_wrist_gest_config
  4289              	.LVL538:
 4180:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 175
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 175
 
 
  4290              		.loc 1 4180 13 is_stmt 1 view .LVU1349
@@ -10498,7 +10498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4167:Core/Src/bmi270/bmi270.c ****             break;
  4330              		.loc 1 4167 20 view .LVU1364
  4331 005e FFF7FEFF 		bl	set_step_count_params_config
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 176
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 176
 
 
  4332              	.LVL549:
@@ -10558,7 +10558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4377              		.cfi_offset 4, -12
  4378              		.cfi_offset 5, -8
  4379              		.cfi_offset 14, -4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 177
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 177
 
 
  4380 0002 87B0     		sub	sp, sp, #28
@@ -10618,7 +10618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3446:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
  4418              		.loc 1 3446 9 is_stmt 1 view .LVU1392
 3446:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 178
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 178
 
 
  4419              		.loc 1 3446 16 is_stmt 0 view .LVU1393
@@ -10678,7 +10678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4458              	.LVL569:
  4459              	.L256:
 3466:Core/Src/bmi270/bmi270.c **** }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 179
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 179
 
 
  4460              		.loc 1 3466 5 is_stmt 1 view .LVU1409
@@ -10738,7 +10738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4508 0008 0023     		movs	r3, #0
  4509 000a 0293     		str	r3, [sp, #8]
  4510 000c 0393     		str	r3, [sp, #12]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 180
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 180
 
 
  4511 000e 0493     		str	r3, [sp, #16]
@@ -10798,7 +10798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3297:Core/Src/bmi270/bmi270.c ****         {
  4548              		.loc 1 3297 12 is_stmt 0 view .LVU1435
  4549 0038 60BB     		cbnz	r0, .L260
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 181
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 181
 
 
 3300:Core/Src/bmi270/bmi270.c **** 
@@ -10858,7 +10858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3311:Core/Src/bmi270/bmi270.c **** 
  4588              		.loc 1 3311 30 view .LVU1452
  4589 0068 A4F804C0 		strh	ip, [r4, #4]	@ movhi
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 182
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 182
 
 
 3314:Core/Src/bmi270/bmi270.c **** 
@@ -10918,7 +10918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4627              	.L260:
 3333:Core/Src/bmi270/bmi270.c **** }
  4628              		.loc 1 3333 5 is_stmt 1 view .LVU1470
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 183
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 183
 
 
 3334:Core/Src/bmi270/bmi270.c **** 
@@ -10978,7 +10978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4677 000a 0293     		str	r3, [sp, #8]
  4678 000c 0393     		str	r3, [sp, #12]
  4679 000e 0493     		str	r3, [sp, #16]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 184
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 184
 
 
  4680 0010 0593     		str	r3, [sp, #20]
@@ -11038,7 +11038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4716              		.loc 1 3372 12 is_stmt 0 view .LVU1496
  4717 0036 60BB     		cbnz	r0, .L264
 3375:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 185
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 185
 
 
  4718              		.loc 1 3375 13 is_stmt 1 view .LVU1497
@@ -11098,7 +11098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4756              		.loc 1 3386 30 view .LVU1513
  4757 0066 A4F804C0 		strh	ip, [r4, #4]	@ movhi
 3389:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 186
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 186
 
 
  4758              		.loc 1 3389 13 is_stmt 1 view .LVU1514
@@ -11158,7 +11158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3408:Core/Src/bmi270/bmi270.c **** }
  4796              		.loc 1 3408 5 is_stmt 1 view .LVU1531
 3409:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 187
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 187
 
 
  4797              		.loc 1 3409 1 is_stmt 0 view .LVU1532
@@ -11218,7 +11218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4848              	.LVL625:
 3478:Core/Src/bmi270/bmi270.c **** 
  4849              		.loc 1 3478 5 view .LVU1538
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 188
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 188
 
 
 3478:Core/Src/bmi270/bmi270.c **** 
@@ -11278,7 +11278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4884              	.LVL629:
 3526:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  4885              		.loc 1 3526 18 view .LVU1559
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 189
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 189
 
 
  4886 0026 FFF7FEFF 		bl	bmi2_extract_input_feat_config
@@ -11338,7 +11338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4923              		.loc 1 3540 9 view .LVU1576
  4924 0054 1FE0     		b	.L269
  4925              	.LVL635:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 190
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 190
 
 
  4926              	.L281:
@@ -11398,7 +11398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  4965 0072 DBB2     		uxtb	r3, r3
  4966              	.LVL644:
 3563:Core/Src/bmi270/bmi270.c ****                     if (page_byte_idx < max_len)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 191
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 191
 
 
  4967              		.loc 1 3563 49 view .LVU1592
@@ -11458,7 +11458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5008              		.loc 1 3543 20 view .LVU1605
  5009 009e 2846     		mov	r0, r5
  5010 00a0 FFF7FEFF 		bl	bmi2_get_feat_config
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 192
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 192
 
 
  5011              	.LVL653:
@@ -11518,7 +11518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5051              	.LFE36:
  5053              		.section	.text.get_step_config,"ax",%progbits
  5054              		.align	1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 193
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 193
 
 
  5055              		.syntax unified
@@ -11578,7 +11578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5097              		.loc 1 3618 5 is_stmt 1 view .LVU1632
 3618:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  5098              		.loc 1 3618 18 is_stmt 0 view .LVU1633
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 194
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 194
 
 
  5099 001e 0A46     		mov	r2, r1
@@ -11638,7 +11638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5137              		.loc 1 3630 42 is_stmt 0 view .LVU1649
  5138 0046 06A9     		add	r1, sp, #24
  5139 0048 51FA82F2 		uxtab	r2, r1, r2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 195
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 195
 
 
  5140              	.LVL668:
@@ -11698,7 +11698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5181              	.LFE37:
  5183              		.section	.text.get_wrist_gest_config,"ax",%progbits
  5184              		.align	1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 196
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 196
 
 
  5185              		.syntax unified
@@ -11758,7 +11758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5228 001e 0A46     		mov	r2, r1
  5229 0020 1321     		movs	r1, #19
  5230              	.LVL680:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 197
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 197
 
 
 3673:Core/Src/bmi270/bmi270.c ****     if (feat_found)
@@ -11818,7 +11818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 3687:Core/Src/bmi270/bmi270.c **** 
  5268              		.loc 1 3687 86 view .LVU1692
  5269 0044 C1F30011 		ubfx	r1, r1, #4, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 198
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 198
 
 
 3687:Core/Src/bmi270/bmi270.c **** 
@@ -11878,7 +11878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5306 0062 07B0     		add	sp, sp, #28
  5307              	.LCFI107:
  5308              		.cfi_remember_state
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 199
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 199
 
 
  5309              		.cfi_def_cfa_offset 12
@@ -11938,7 +11938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5357              		.loc 1 3723 5 is_stmt 1 view .LVU1718
  5358              	.LVL699:
 3726:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 200
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 200
 
 
  5359              		.loc 1 3726 5 view .LVU1719
@@ -11998,7 +11998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5396              		.loc 1 3743 17 is_stmt 0 view .LVU1736
  5397 0038 9DF80630 		ldrb	r3, [sp, #6]	@ zero_extendqisi2
  5398              	.LVL707:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 201
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 201
 
 
 3746:Core/Src/bmi270/bmi270.c **** 
@@ -12058,7 +12058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5435 0056 A180     		strh	r1, [r4, #4]	@ movhi
 3762:Core/Src/bmi270/bmi270.c ****             config->max_tilt_ll = *(data_p + idx);
  5436              		.loc 1 3762 13 is_stmt 1 view .LVU1755
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 202
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 202
 
 
 3762:Core/Src/bmi270/bmi270.c ****             config->max_tilt_ll = *(data_p + idx);
@@ -12118,7 +12118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5475 0072 30BD     		pop	{r4, r5, pc}
  5476              	.LVL723:
  5477              	.L293:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 203
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 203
 
 
  5478              	.LCFI112:
@@ -12178,7 +12178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5523 0010 082B     		cmp	r3, #8
  5524 0012 0ED8     		bhi	.L296
  5525 0014 062B     		cmp	r3, #6
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 204
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 204
 
 
  5526 0016 25D2     		bcs	.L297
@@ -12238,7 +12238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4235:Core/Src/bmi270/bmi270.c **** 
  5568              		.loc 1 4235 13 is_stmt 1 view .LVU1795
  5569 0044 F1E7     		b	.L301
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 205
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 205
 
 
  5570              	.LVL736:
@@ -12298,7 +12298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5610              	.LVL747:
  5611              	.L297:
 4229:Core/Src/bmi270/bmi270.c ****             break;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 206
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 206
 
 
  5612              		.loc 1 4229 13 view .LVU1810
@@ -12358,7 +12358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5659 0006 0D46     		mov	r5, r1
 3831:Core/Src/bmi270/bmi270.c **** 
  5660              		.loc 1 3831 5 is_stmt 1 view .LVU1820
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 207
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 207
 
 
 3834:Core/Src/bmi270/bmi270.c **** 
@@ -12418,7 +12418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5699              		.loc 1 3851 9 is_stmt 1 view .LVU1836
 3851:Core/Src/bmi270/bmi270.c ****         {
  5700              		.loc 1 3851 12 is_stmt 0 view .LVU1837
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 208
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 208
 
 
  5701 0036 08BB     		cbnz	r0, .L309
@@ -12478,7 +12478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5739              		.loc 1 3860 13 is_stmt 1 view .LVU1853
  5740              	.LVL765:
 3860:Core/Src/bmi270/bmi270.c ****         }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 209
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 209
 
 
  5741              		.loc 1 3860 51 is_stmt 0 view .LVU1854
@@ -12538,7 +12538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5789              		.cfi_offset 5, -8
  5790              		.cfi_offset 14, -4
  5791 0002 87B0     		sub	sp, sp, #28
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 210
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 210
 
 
  5792              	.LCFI119:
@@ -12598,7 +12598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5831              	.LVL775:
 4017:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
  5832              		.loc 1 4017 16 view .LVU1878
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 211
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 211
 
 
  5833 0032 FFF7FEFF 		bl	bmi2_get_feat_config
@@ -12658,7 +12658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5878              	.LVL781:
  5879              	.LFB42:
 3875:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 212
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 212
 
 
  5880              		.loc 1 3875 1 is_stmt 1 view -0
@@ -12718,7 +12718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5922              	.LVL785:
 3893:Core/Src/bmi270/bmi270.c ****     {
  5923              		.loc 1 3893 5 is_stmt 1 view .LVU1903
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 213
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 213
 
 
 3893:Core/Src/bmi270/bmi270.c ****     {
@@ -12778,7 +12778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  5961              		.loc 1 3909 38 view .LVU1920
  5962 0056 6270     		strb	r2, [r4, #1]
 3912:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 214
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 214
 
 
  5963              		.loc 1 3912 13 is_stmt 1 view .LVU1921
@@ -12838,7 +12838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6006              		.thumb
  6007              		.thumb_func
  6009              	get_vfrm_error_status:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 215
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 215
 
 
  6010              	.LVL795:
@@ -12898,7 +12898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 4056:Core/Src/bmi270/bmi270.c ****     if (feat_found)
  6052              		.loc 1 4056 18 view .LVU1946
  6053 0024 FFF7FEFF 		bl	extract_output_feat_config
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 216
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 216
 
 
  6054              	.LVL799:
@@ -12958,7 +12958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6091 004e 13F8102C 		ldrb	r2, [r3, #-16]	@ zero_extendqisi2
  6092 0052 C2F38012 		ubfx	r2, r2, #6, #1
 4073:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 217
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 217
 
 
  6093              		.loc 1 4073 40 view .LVU1964
@@ -13018,7 +13018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6140              		.cfi_offset 4, -12
  6141              		.cfi_offset 5, -8
  6142              		.cfi_offset 14, -4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 218
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 218
 
 
  6143 0002 87B0     		sub	sp, sp, #28
@@ -13078,7 +13078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6182 002e 9DF80500 		ldrb	r0, [sp, #5]	@ zero_extendqisi2
  6183              	.LVL814:
 3807:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 219
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 219
 
 
  6184              		.loc 1 3807 16 view .LVU1989
@@ -13138,7 +13138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6229              	get_user_gain_upd_status:
  6230              	.LVL820:
  6231              	.LFB43:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 220
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 220
 
 
 3934:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
@@ -13198,7 +13198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6273 0022 01A8     		add	r0, sp, #4
  6274              	.LVL824:
 3954:Core/Src/bmi270/bmi270.c ****     if (feat_found)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 221
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 221
 
 
  6275              		.loc 1 3954 18 view .LVU2014
@@ -13258,7 +13258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6313 004c 13F8103C 		ldrb	r3, [r3, #-16]	@ zero_extendqisi2
  6314 0050 C3F3C003 		ubfx	r3, r3, #3, #1
 3974:Core/Src/bmi270/bmi270.c ****             }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 222
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 222
 
 
  6315              		.loc 1 3974 25 view .LVU2031
@@ -13318,7 +13318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6357 0070 FFF7FEFF 		bl	bmi2_set_adv_power_save
  6358              	.LVL838:
 3986:Core/Src/bmi270/bmi270.c ****     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 223
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 223
 
 
  6359              		.loc 1 3986 16 view .LVU2044
@@ -13378,7 +13378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1367:Core/Src/bmi270/bmi270.c **** 
  6404              		.loc 1 1367 9 is_stmt 1 view .LVU2056
 1367:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 224
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 224
 
 
  6405              		.loc 1 1367 26 is_stmt 0 view .LVU2057
@@ -13438,7 +13438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1379:Core/Src/bmi270/bmi270.c ****         }
  6443              		.loc 1 1379 13 is_stmt 1 view .LVU2074
 1379:Core/Src/bmi270/bmi270.c ****         }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 225
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 225
 
 
  6444              		.loc 1 1379 29 is_stmt 0 view .LVU2075
@@ -13498,7 +13498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6482 0056 84F86030 		strb	r3, [r4, #96]
 1431:Core/Src/bmi270/bmi270.c ****         }
  6483              		.loc 1 1431 13 is_stmt 1 view .LVU2092
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 226
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 226
 
 
 1431:Core/Src/bmi270/bmi270.c ****         }
@@ -13558,7 +13558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6533              		.loc 1 1447 5 view .LVU2099
 1447:Core/Src/bmi270/bmi270.c **** 
  6534              		.loc 1 1447 14 is_stmt 0 view .LVU2100
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 227
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 227
 
 
  6535 000c 0022     		movs	r2, #0
@@ -13618,7 +13618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6575              		.loc 1 1458 13 is_stmt 1 view .LVU2114
 1458:Core/Src/bmi270/bmi270.c ****         }
  6576              		.loc 1 1458 20 is_stmt 0 view .LVU2115
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 228
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 228
 
 
  6577 002c 3246     		mov	r2, r6
@@ -13678,7 +13678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6625              		.cfi_def_cfa_offset 24
  6626 0004 0446     		mov	r4, r0
  6627 0006 0D46     		mov	r5, r1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 229
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 229
 
 
  6628 0008 1046     		mov	r0, r2
@@ -13738,7 +13738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6665 0028 02B0     		add	sp, sp, #8
  6666              	.LCFI145:
  6667              		.cfi_remember_state
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 230
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 230
 
 
  6668              		.cfi_def_cfa_offset 16
@@ -13798,7 +13798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1504:Core/Src/bmi270/bmi270.c ****     /* Variable to define error */
  6715              		.loc 1 1504 1 is_stmt 0 view .LVU2150
  6716 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 231
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 231
 
 
  6717              	.LCFI147:
@@ -13858,7 +13858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6756              		.loc 1 1526 17 is_stmt 1 view .LVU2165
 1526:Core/Src/bmi270/bmi270.c ****             }
  6757              		.loc 1 1526 24 is_stmt 0 view .LVU2166
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 232
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 232
 
 
  6758 001e 3246     		mov	r2, r6
@@ -13918,7 +13918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1543:Core/Src/bmi270/bmi270.c ****                 }
  6799              		.loc 1 1543 21 is_stmt 1 view .LVU2180
 1543:Core/Src/bmi270/bmi270.c ****                 }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 233
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 233
 
 
  6800              		.loc 1 1543 28 is_stmt 0 view .LVU2181
@@ -13978,7 +13978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1558:Core/Src/bmi270/bmi270.c ****         }
  6843              		.loc 1 1558 20 view .LVU2193
  6844 0076 0120     		movs	r0, #1
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 234
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 234
 
 
  6845 0078 FFF7FEFF 		bl	bmi2_set_adv_power_save
@@ -14038,7 +14038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  6893              		.loc 1 1584 5 view .LVU2201
 1584:Core/Src/bmi270/bmi270.c ****     if ((rslt == BMI2_OK) && (sens_cfg != NULL))
  6894              		.loc 1 1584 12 is_stmt 0 view .LVU2202
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 235
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 235
 
 
  6895 000a 1046     		mov	r0, r2
@@ -14098,7 +14098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1589:Core/Src/bmi270/bmi270.c ****         {
  6935              		.loc 1 1589 29 is_stmt 1 discriminator 1 view .LVU2217
  6936 002c BC42     		cmp	r4, r7
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 236
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 236
 
 
  6937 002e 1BD2     		bcs	.L378
@@ -14158,7 +14158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1609:Core/Src/bmi270/bmi270.c ****                     }
  6977              		.loc 1 1609 25 is_stmt 1 view .LVU2232
 1609:Core/Src/bmi270/bmi270.c ****                     }
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 237
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 237
 
 
  6978              		.loc 1 1609 32 is_stmt 0 view .LVU2233
@@ -14218,7 +14218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7021              	.L381:
  7022 008a 4FF0FF31 		mov	r1, #-1
  7023 008e EEE7     		b	.L372
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 238
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 238
 
 
  7024              		.cfi_endproc
@@ -14278,7 +14278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7070 0012 5FD1     		bne	.L401
 1657:Core/Src/bmi270/bmi270.c ****     {
  7071              		.loc 1 1657 27 discriminator 1 view .LVU2255
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 239
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 239
 
 
  7072 0014 002D     		cmp	r5, #0
@@ -14338,7 +14338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1663:Core/Src/bmi270/bmi270.c ****                 (feature_data[loop].type == BMI2_GYRO_CROSS_SENSE))
  7112              		.loc 1 1663 30 is_stmt 0 view .LVU2270
  7113 0038 04EB8403 		add	r3, r4, r4, lsl #2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 240
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 240
 
 
  7114 003c 4FEA830A 		lsl	r10, r3, #2
@@ -14398,7 +14398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1706:Core/Src/bmi270/bmi270.c ****                             break;
  7154              		.loc 1 1706 36 view .LVU2285
  7155 0074 FFF7FEFF 		bl	get_vfrm_error_status
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 241
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 241
 
 
  7156              	.LVL936:
@@ -14458,7 +14458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1740:Core/Src/bmi270/bmi270.c **** }
  7198              		.loc 1 1740 5 is_stmt 1 view .LVU2298
 1741:Core/Src/bmi270/bmi270.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 242
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 242
 
 
  7199              		.loc 1 1741 1 is_stmt 0 view .LVU2299
@@ -14518,7 +14518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1712:Core/Src/bmi270/bmi270.c ****                         default:
  7239              		.loc 1 1712 29 is_stmt 1 view .LVU2314
  7240 00c4 F2E7     		b	.L398
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 243
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 243
 
 
  7241              	.L404:
@@ -14578,7 +14578,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7287              	.LCFI150:
  7288              		.cfi_def_cfa_offset 16
  7289              		.cfi_offset 4, -16
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 244
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 244
 
 
  7290              		.cfi_offset 5, -12
@@ -14638,7 +14638,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1771:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
  7329              		.loc 1 1771 9 is_stmt 1 view .LVU2340
 1771:Core/Src/bmi270/bmi270.c ****         if (rslt == BMI2_OK)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 245
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 245
 
 
  7330              		.loc 1 1771 16 is_stmt 0 view .LVU2341
@@ -14698,7 +14698,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7372 004e 2246     		mov	r2, r4
  7373 0050 0121     		movs	r1, #1
  7374 0052 02A8     		add	r0, sp, #8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 246
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 246
 
 
  7375              	.LVL968:
@@ -14758,7 +14758,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1796:Core/Src/bmi270/bmi270.c ****         }
  7416              		.loc 1 1796 20 view .LVU2367
  7417 0082 FFF7FEFF 		bl	bmi2_set_command_register
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 247
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 247
 
 
  7418              	.LVL976:
@@ -14818,7 +14818,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
 1805:Core/Src/bmi270/bmi270.c ****                 {
  7458              		.loc 1 1805 20 is_stmt 0 view .LVU2382
  7459 00ae 0546     		mov	r5, r0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 248
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 248
 
 
  7460 00b0 0028     		cmp	r0, #0
@@ -14878,7 +14878,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7500 00e0 ACD0     		beq	.L410
 1827:Core/Src/bmi270/bmi270.c ****             }
  7501              		.loc 1 1827 22 view .LVU2397
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 249
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 249
 
 
  7502 00e2 6FF01103 		mvn	r3, #17
@@ -14938,7 +14938,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7551 0006 0D46     		mov	r5, r1
 1845:Core/Src/bmi270/bmi270.c **** 
  7552              		.loc 1 1845 5 is_stmt 1 view .LVU2405
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 250
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 250
 
 
 1848:Core/Src/bmi270/bmi270.c **** 
@@ -14998,7 +14998,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7590 0036 2370     		strb	r3, [r4]
 1862:Core/Src/bmi270/bmi270.c **** 
  7591              		.loc 1 1862 13 is_stmt 1 view .LVU2423
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 251
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 251
 
 
 1862:Core/Src/bmi270/bmi270.c **** 
@@ -15058,7 +15058,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7634              		.section	.text.bmi270_map_feat_int,"ax",%progbits
  7635              		.align	1
  7636              		.global	bmi270_map_feat_int
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 252
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 252
 
 
  7637              		.syntax unified
@@ -15118,7 +15118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7680              		.loc 1 1920 14 view .LVU2448
  7681 0018 4FF0FF33 		mov	r3, #-1
  7682 001c 1BE0     		b	.L429
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 253
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 253
 
 
  7683              	.LVL1006:
@@ -15178,7 +15178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7723 0048 012B     		cmp	r3, #1
  7724 004a EAD9     		bls	.L432
  7725 004c 6FF00703 		mvn	r3, #7
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 254
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 254
 
 
  7726 0050 01E0     		b	.L429
@@ -15238,7 +15238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7781 0008 06       		.byte	6
  7782 0009 09       		.byte	9
  7783 000a 00       		.byte	0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 255
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 255
 
 
  7784 000b 08       		.byte	8
@@ -15298,7 +15298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7840 0028 06       		.byte	6
  7841 0029 02       		.byte	2
  7842 002a 08       		.byte	8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 256
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 256
 
 
  7843 002b 06       		.byte	6
@@ -15358,7 +15358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7866      802E00C1 
  7867 00a8 802E00C1 		.ascii	"\200.\000\301\200.\000\301\200.\000\301\200.\000\301"
  7867      802E00C1 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 257
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 257
 
 
  7867      802E00C1 
@@ -15418,7 +15418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7880      00
  7881 0177 04BC02B3 		.ascii	"\004\274\002\263\000\205\007\000\000\000\000\000\000"
  7881      00850700 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 258
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 258
 
 
  7881      00000000 
@@ -15478,7 +15478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7895 0234 F300FA00 		.ascii	"\363\000\372\000\377?\312\003l8V\376D\375\274\002\371"
  7895      FF3FCA03 
  7895      6C3856FE 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 259
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 259
 
 
  7895      44FDBC02 
@@ -15538,7 +15538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7908      000000
  7909 0301 00000000 		.ascii	"\000\000\000\000\000\000\000\000\000\000\000\000\000"
  7909      00000000 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 260
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 260
 
 
  7909      00000000 
@@ -15598,7 +15598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7923 03b7 00000000 		.ascii	"\000\000\000\000\000\000\000\000\000\000\000\000\000"
  7923      00000000 
  7923      00000000 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 261
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 261
 
 
  7923      00
@@ -15658,7 +15658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7935 0485 AE0B2F01 		.ascii	"\256\013/\001.\335\000\000\262\007/\005R\230.\216\016"
  7935      2EDD0000 
  7935      B2072F05 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 262
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 262
 
 
  7935      52982E8E 
@@ -15718,7 +15718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7946      232ED400 
  7947 0564 982EC3B7 		.ascii	"\230.\303\267\0000!.Z\365\030-\341\177P0\230.\372\003"
  7947      0030212E 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 263
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 263
 
 
  7947      5AF5182D 
@@ -15778,7 +15778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7958      40F26F25 
  7958      BD080802 
  7958      0AD0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 264
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 264
 
 
  7959 0651 7F982EA8 		.ascii	"\177\230.\250\317\006\274\321o\342o\010\012\200B\230"
@@ -15838,7 +15838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7971      00
  7972 0714 00000000 		.ascii	"\000\000\000\000\000\000\000\000\000\000\000\000\000"
  7972      00000000 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 265
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 265
 
 
  7972      00000000 
@@ -15898,7 +15898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7983      42420EFC 
  7983      2FB82E21 
  7984 07f9 30C02E21 		.ascii	"0\300.!.J\361\220P\367\177\346\177\325\177\304\177\263"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 266
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 266
 
 
  7984      2E4AF190 
@@ -15958,7 +15958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  7996      2F232EEA 
  7996      0033301B 
  7996      500B0901 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 267
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 267
 
 
  7996      4017
@@ -16018,7 +16018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8007      627F5A2C 
  8008 09a7 0900B314 		.ascii	"\011\000\263\024/\000\262\003/\011.\030\000\000\221"
  8008      2F00B203 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 268
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 268
 
 
  8008      2F092E18 
@@ -16078,7 +16078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8019      09A27F80 
  8019      7F80
  8020 0a95 B3D57FC4 		.ascii	"\263\325\177\304\177\263\177\221\177{\177\013/#P\032"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 269
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 269
 
 
  8020      7FB37F91 
@@ -16138,7 +16138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8031      30133098 
  8031      2E15CB0A 
  8031      253384D2 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 270
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 270
 
 
  8032 0b83 7F433005 		.ascii	"\177C0\005P-R\230.\225\301\322o'R\230.\327\307*%\260"
@@ -16198,7 +16198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8043 0c54 C8001041 		.ascii	"\310\000\020A\240\1778\201\001A\320\177\261\177\230"
  8043      A07F3881 
  8043      0141D07F 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 271
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 271
 
 
  8043      B17F98
@@ -16258,7 +16258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8054      7FE27F
  8055 0d30 038CC07F 		.ascii	"\003\214\300\177\273\177\0000\005Z9TQA\245\177\226\177"
  8055      BB7F0030 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 272
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 272
 
 
  8055      055A3954 
@@ -16318,7 +16318,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8066      2F012E7F 
  8066      01019001 
  8066      2F982EF3 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 273
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 273
 
 
  8067 0e21 03002EA0 		.ascii	"\003\000.\240A\001\220\246\177\220.\343\264\001.\225"
@@ -16378,7 +16378,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8078      30174217 
  8078      2C024298 
  8078      2EFEC910 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 274
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 274
 
 
  8078      25982E74 
@@ -16438,7 +16438,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8089      28904285 
  8089      42092C02 
  8090 0fed 305B5003 		.ascii	"0[P\003\200).~\001+.\202\001\005B\0220+.\203\001E\202"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 275
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 275
 
 
  8090      80292E7E 
@@ -16498,7 +16498,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8101 10d9 2C45428E 		.ascii	",EB\216\017 /\015.\216\001\261\016\034/#.\216\001\032"
  8101      0F202F0D 
  8101      2E8E01B1 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 276
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 276
 
 
  8101      0E1C2F23 
@@ -16558,7 +16558,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8112      80002E05 
  8112      42022C00 
  8113 11c6 0030A26F 		.ascii	"\0000\242o\230\212\206@\200\247\005/\230.\363\003\300"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 277
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 277
 
 
  8113      988A8640 
@@ -16618,7 +16618,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8124      982ED9C0 
  8124      A36F7B54 
  8124      D042A3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 278
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 278
 
 
  8125 12a5 7FF27F60 		.ascii	"\177\362\177`\177 %qouZwXy\\uV\230.g\314\261oboPB\261"
@@ -16678,7 +16678,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8136      6F044104 
  8136      058C0E04 
  8136      30082F83 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 279
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 279
 
 
  8136      8800
@@ -16738,7 +16738,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8147      01910F02 
  8147      300C
  8148 1469 2F212EAA 		.ascii	"/!.\252\001\012,\0220\003.\313\000\215X\010\211A@\021"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 280
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 280
 
 
  8148      010A2C12 
@@ -16798,7 +16798,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8159      0C2F99
  8160 1543 549B560B 		.ascii	"T\233V\0130\013.\261\000\241X\233B\333Bl\011+.\261\000"
  8160      300B2EB1 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 281
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 281
 
 
  8160      00A1589B 
@@ -16858,7 +16858,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8171      6FA06F98 
  8171      2E95CF
  8172 1628 E26F9F52 		.ascii	"\342o\237R\001.\316\000\202@PB\014,BB\0210#.\322\000"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 282
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 282
 
 
  8172      012ECE00 
@@ -16918,7 +16918,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8183      82080B2E 
  8183      69F7CB0A 
  8183      B1588090 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 283
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 283
 
 
  8183      DD
@@ -16978,7 +16978,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8195 17e1 2E00C180 		.ascii	".\000\301\200.\000\301\200.\000\301\200.\000\301\200"
  8195      2E00C180 
  8195      2E00C180 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 284
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 284
 
 
  8195      2E00C180 
@@ -17038,7 +17038,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8207      500F8806 
  8207      40044196 
  8207      42C54248 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 285
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 285
 
 
  8207      BE73300D 
@@ -17098,7 +17098,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8218      41458142 
  8219 19a5 8A00404B 		.ascii	"\212\000@K\004\320\006\300\254\205\177\002/\0020Q\004"
  8219      04D006C0 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 286
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 286
 
 
  8219      AC857F02 
@@ -17158,7 +17158,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8230      40924115 
  8230      40172E6F 
  8230      F5B67F
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 287
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 287
 
 
  8231 1aa2 D07FCB7F 		.ascii	"\320\177\313\177\230.\000\014\007\025\302o\024\013)"
@@ -17218,7 +17218,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8242 1b7e 7330DB52 		.ascii	"s0\333R\203B\0330kB#0'.\327\0007.\324\000!.\326\000"
  8242      83421B30 
  8242      6B422330 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 288
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 288
 
 
  8242      272ED700 
@@ -17278,7 +17278,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8253      2E1F
  8254 1c6d 0EB82EE3 		.ascii	"\016\270.\343P!4\001B\2020\3012%.b\365\001\000\"0\001"
  8254      50213401 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 289
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 289
 
 
  8254      428230C1 
@@ -17338,7 +17338,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8265      860F4090 
  8265      1130032F 
  8265      232E860F 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 290
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 290
 
 
  8265      022C00
@@ -17398,7 +17398,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8277 1e36 44CBEF50 		.ascii	"D\313\357P\230.F\303\361P\230.S\3075P\230.d\317\020"
  8277      982E46C3 
  8277      F150982E 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 291
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 291
 
 
  8277      53C73550 
@@ -17458,7 +17458,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8289      00000000 
  8289      00
  8290 1f14 802E00C1 		.ascii	"\200.\000\301\200.\000\301\200.\000\301\200.\000\301"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 292
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 292
 
 
  8290      802E00C1 
@@ -17518,7 +17518,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8303      802E00C1 
  8304 1ff4 802E00C1 		.ascii	"\200.\000\301\200.\000\301\200.\000\301"
  8304      802E00C1 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 293
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 293
 
 
  8304      802E00C1 
@@ -17528,127 +17528,127 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 1
  8308              		.file 3 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
  8309              		.file 4 "Core/Src/bmi270/bmi2_defs.h"
  8310              		.file 5 "Core/Src/bmi270/bmi2.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 294
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 294
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 bmi270.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:21     .text.null_ptr_check:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:26     .text.null_ptr_check:00000000 null_ptr_check
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:88     .text.select_sensor:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:93     .text.select_sensor:00000000 select_sensor
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:314    .text.extract_output_feat_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:319    .text.extract_output_feat_config:00000000 extract_output_feat_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:400    .text.enable_main_sensors:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:405    .text.enable_main_sensors:00000000 enable_main_sensors
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:524    .text.disable_main_sensors:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:529    .text.disable_main_sensors:00000000 disable_main_sensors
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:648    .text.enable_gyro_gain:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:653    .text.enable_gyro_gain:00000000 enable_gyro_gain
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:726    .text.set_sig_motion:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:731    .text.set_sig_motion:00000000 set_sig_motion
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:867    .text.set_any_motion:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:872    .text.set_any_motion:00000000 set_any_motion
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1007   .text.set_no_motion:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1012   .text.set_no_motion:00000000 set_no_motion
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1147   .text.set_step_detector:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1152   .text.set_step_detector:00000000 set_step_detector
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1289   .text.set_step_counter:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1294   .text.set_step_counter:00000000 set_step_counter
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1431   .text.set_step_activity:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1436   .text.set_step_activity:00000000 set_step_activity
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1573   .text.set_gyro_user_gain:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1578   .text.set_gyro_user_gain:00000000 set_gyro_user_gain
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1715   .text.set_gyro_self_offset_corr:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1720   .text.set_gyro_self_offset_corr:00000000 set_gyro_self_offset_corr
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1857   .text.set_wrist_gesture:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1862   .text.set_wrist_gesture:00000000 set_wrist_gesture
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:1999   .text.set_wrist_wear_wake_up:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2004   .text.set_wrist_wear_wake_up:00000000 set_wrist_wear_wake_up
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2141   .text.enable_sensor_features:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2146   .text.enable_sensor_features:00000000 enable_sensor_features
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2345   .text.sensor_enable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2350   .text.sensor_enable:00000000 sensor_enable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2446   .text.disable_sensor_features:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2451   .text.disable_sensor_features:00000000 disable_sensor_features
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2650   .text.sensor_disable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2655   .text.sensor_disable:00000000 sensor_disable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2751   .text.set_any_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2756   .text.set_any_motion_config:00000000 set_any_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2963   .text.set_no_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:2968   .text.set_no_motion_config:00000000 set_no_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3175   .text.set_sig_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3180   .text.set_sig_motion_config:00000000 set_sig_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3343   .text.set_step_count_params_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3348   .text.set_step_count_params_config:00000000 set_step_count_params_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3610   .text.set_step_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3615   .text.set_step_config:00000000 set_step_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3793   .text.set_wrist_gest_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3798   .text.set_wrist_gest_config:00000000 set_wrist_gest_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:3995   .text.set_wrist_wear_wake_up_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4000   .text.set_wrist_wear_wake_up_config:00000000 set_wrist_wear_wake_up_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4214   .text.set_feat_config:00000000 $t
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 295
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:21     .text.null_ptr_check:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:26     .text.null_ptr_check:00000000 null_ptr_check
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:88     .text.select_sensor:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:93     .text.select_sensor:00000000 select_sensor
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:314    .text.extract_output_feat_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:319    .text.extract_output_feat_config:00000000 extract_output_feat_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:400    .text.enable_main_sensors:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:405    .text.enable_main_sensors:00000000 enable_main_sensors
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:524    .text.disable_main_sensors:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:529    .text.disable_main_sensors:00000000 disable_main_sensors
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:648    .text.enable_gyro_gain:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:653    .text.enable_gyro_gain:00000000 enable_gyro_gain
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:726    .text.set_sig_motion:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:731    .text.set_sig_motion:00000000 set_sig_motion
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:867    .text.set_any_motion:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:872    .text.set_any_motion:00000000 set_any_motion
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1007   .text.set_no_motion:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1012   .text.set_no_motion:00000000 set_no_motion
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1147   .text.set_step_detector:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1152   .text.set_step_detector:00000000 set_step_detector
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1289   .text.set_step_counter:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1294   .text.set_step_counter:00000000 set_step_counter
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1431   .text.set_step_activity:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1436   .text.set_step_activity:00000000 set_step_activity
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1573   .text.set_gyro_user_gain:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1578   .text.set_gyro_user_gain:00000000 set_gyro_user_gain
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1715   .text.set_gyro_self_offset_corr:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1720   .text.set_gyro_self_offset_corr:00000000 set_gyro_self_offset_corr
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1857   .text.set_wrist_gesture:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1862   .text.set_wrist_gesture:00000000 set_wrist_gesture
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:1999   .text.set_wrist_wear_wake_up:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2004   .text.set_wrist_wear_wake_up:00000000 set_wrist_wear_wake_up
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2141   .text.enable_sensor_features:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2146   .text.enable_sensor_features:00000000 enable_sensor_features
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2345   .text.sensor_enable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2350   .text.sensor_enable:00000000 sensor_enable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2446   .text.disable_sensor_features:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2451   .text.disable_sensor_features:00000000 disable_sensor_features
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2650   .text.sensor_disable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2655   .text.sensor_disable:00000000 sensor_disable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2751   .text.set_any_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2756   .text.set_any_motion_config:00000000 set_any_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2963   .text.set_no_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:2968   .text.set_no_motion_config:00000000 set_no_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3175   .text.set_sig_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3180   .text.set_sig_motion_config:00000000 set_sig_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3343   .text.set_step_count_params_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3348   .text.set_step_count_params_config:00000000 set_step_count_params_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3610   .text.set_step_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3615   .text.set_step_config:00000000 set_step_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3793   .text.set_wrist_gest_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3798   .text.set_wrist_gest_config:00000000 set_wrist_gest_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:3995   .text.set_wrist_wear_wake_up_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4000   .text.set_wrist_wear_wake_up_config:00000000 set_wrist_wear_wake_up_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4214   .text.set_feat_config:00000000 $t
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 295
 
 
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4219   .text.set_feat_config:00000000 set_feat_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4361   .text.get_sig_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4366   .text.get_sig_motion_config:00000000 get_sig_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4481   .text.get_any_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4486   .text.get_any_motion_config:00000000 get_any_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4649   .text.get_no_motion_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4654   .text.get_no_motion_config:00000000 get_no_motion_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4817   .text.get_step_count_params_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:4822   .text.get_step_count_params_config:00000000 get_step_count_params_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5054   .text.get_step_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5059   .text.get_step_config:00000000 get_step_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5184   .text.get_wrist_gest_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5189   .text.get_wrist_gest_config:00000000 get_wrist_gest_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5325   .text.get_wrist_wear_wake_up_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5330   .text.get_wrist_wear_wake_up_config:00000000 get_wrist_wear_wake_up_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5489   .text.get_feat_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5494   .text.get_feat_config:00000000 get_feat_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5636   .text.get_step_counter_output:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5641   .text.get_step_counter_output:00000000 get_step_counter_output
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5772   .text.get_step_activity_output:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5777   .text.get_step_activity_output:00000000 get_step_activity_output
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5872   .text.get_nvm_error_status:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:5877   .text.get_nvm_error_status:00000000 get_nvm_error_status
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6004   .text.get_vfrm_error_status:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6009   .text.get_vfrm_error_status:00000000 get_vfrm_error_status
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6124   .text.get_wrist_gest_status:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6129   .text.get_wrist_gest_status:00000000 get_wrist_gest_status
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6224   .text.get_user_gain_upd_status:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6229   .text.get_user_gain_upd_status:00000000 get_user_gain_upd_status
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6372   .text.bmi270_init:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6378   .text.bmi270_init:00000000 bmi270_init
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6494   .text.bmi270_init:00000064 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7856   .rodata.bmi270_config_file:00000000 bmi270_config_file
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7799   .rodata.bmi270_feat_in:00000000 bmi270_feat_in
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7772   .rodata.bmi270_feat_out:00000000 bmi270_feat_out
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7750   .data.bmi270_map_int:00000000 bmi270_map_int
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6502   .text.bmi270_sensor_enable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6508   .text.bmi270_sensor_enable:00000000 bmi270_sensor_enable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6602   .text.bmi270_sensor_disable:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6608   .text.bmi270_sensor_disable:00000000 bmi270_sensor_disable
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6702   .text.bmi270_set_sensor_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6708   .text.bmi270_set_sensor_config:00000000 bmi270_set_sensor_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6863   .text.bmi270_get_sensor_config:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:6869   .text.bmi270_get_sensor_config:00000000 bmi270_get_sensor_config
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7028   .text.bmi270_get_feature_data:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7034   .text.bmi270_get_feature_data:00000000 bmi270_get_feature_data
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7272   .text.bmi270_update_gyro_user_gain:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7278   .text.bmi270_update_gyro_user_gain:00000000 bmi270_update_gyro_user_gain
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7527   .text.bmi270_read_gyro_user_gain:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7533   .text.bmi270_read_gyro_user_gain:00000000 bmi270_read_gyro_user_gain
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7635   .text.bmi270_map_feat_int:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7641   .text.bmi270_map_feat_int:00000000 bmi270_map_feat_int
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7747   .data.bmi270_map_int:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7769   .rodata.bmi270_feat_out:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7796   .rodata.bmi270_feat_in:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s:7853   .rodata.bmi270_config_file:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4219   .text.set_feat_config:00000000 set_feat_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4361   .text.get_sig_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4366   .text.get_sig_motion_config:00000000 get_sig_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4481   .text.get_any_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4486   .text.get_any_motion_config:00000000 get_any_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4649   .text.get_no_motion_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4654   .text.get_no_motion_config:00000000 get_no_motion_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4817   .text.get_step_count_params_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:4822   .text.get_step_count_params_config:00000000 get_step_count_params_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5054   .text.get_step_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5059   .text.get_step_config:00000000 get_step_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5184   .text.get_wrist_gest_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5189   .text.get_wrist_gest_config:00000000 get_wrist_gest_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5325   .text.get_wrist_wear_wake_up_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5330   .text.get_wrist_wear_wake_up_config:00000000 get_wrist_wear_wake_up_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5489   .text.get_feat_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5494   .text.get_feat_config:00000000 get_feat_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5636   .text.get_step_counter_output:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5641   .text.get_step_counter_output:00000000 get_step_counter_output
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5772   .text.get_step_activity_output:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5777   .text.get_step_activity_output:00000000 get_step_activity_output
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5872   .text.get_nvm_error_status:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:5877   .text.get_nvm_error_status:00000000 get_nvm_error_status
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6004   .text.get_vfrm_error_status:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6009   .text.get_vfrm_error_status:00000000 get_vfrm_error_status
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6124   .text.get_wrist_gest_status:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6129   .text.get_wrist_gest_status:00000000 get_wrist_gest_status
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6224   .text.get_user_gain_upd_status:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6229   .text.get_user_gain_upd_status:00000000 get_user_gain_upd_status
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6372   .text.bmi270_init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6378   .text.bmi270_init:00000000 bmi270_init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6494   .text.bmi270_init:00000064 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7856   .rodata.bmi270_config_file:00000000 bmi270_config_file
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7799   .rodata.bmi270_feat_in:00000000 bmi270_feat_in
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7772   .rodata.bmi270_feat_out:00000000 bmi270_feat_out
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7750   .data.bmi270_map_int:00000000 bmi270_map_int
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6502   .text.bmi270_sensor_enable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6508   .text.bmi270_sensor_enable:00000000 bmi270_sensor_enable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6602   .text.bmi270_sensor_disable:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6608   .text.bmi270_sensor_disable:00000000 bmi270_sensor_disable
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6702   .text.bmi270_set_sensor_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6708   .text.bmi270_set_sensor_config:00000000 bmi270_set_sensor_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6863   .text.bmi270_get_sensor_config:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:6869   .text.bmi270_get_sensor_config:00000000 bmi270_get_sensor_config
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7028   .text.bmi270_get_feature_data:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7034   .text.bmi270_get_feature_data:00000000 bmi270_get_feature_data
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7272   .text.bmi270_update_gyro_user_gain:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7278   .text.bmi270_update_gyro_user_gain:00000000 bmi270_update_gyro_user_gain
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7527   .text.bmi270_read_gyro_user_gain:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7533   .text.bmi270_read_gyro_user_gain:00000000 bmi270_read_gyro_user_gain
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7635   .text.bmi270_map_feat_int:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7641   .text.bmi270_map_feat_int:00000000 bmi270_map_feat_int
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7747   .data.bmi270_map_int:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7769   .rodata.bmi270_feat_out:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7796   .rodata.bmi270_feat_in:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s:7853   .rodata.bmi270_config_file:00000000 $d
 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccFoQXaH.s 			page 296
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cczvhFfc.s 			page 296
 
 
 UNDEFINED SYMBOLS
