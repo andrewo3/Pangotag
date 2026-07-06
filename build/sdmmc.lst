@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
   28:Core/Src/sdmmc.c **** DMA_HandleTypeDef hdma_sdmmc1_rx;
   29:Core/Src/sdmmc.c **** DMA_HandleTypeDef hdma_sdmmc1_tx;
   30:Core/Src/sdmmc.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 2
 
 
   31:Core/Src/sdmmc.c **** /* SDMMC1 init function */
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
   59              		.loc 1 54 1 view .LVU15
   60 0018 7047     		bx	lr
   61              	.L3:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 3
 
 
   62 001a 00BF     		.align	2
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
   61:Core/Src/sdmmc.c ****   if(sdHandle->Instance==SDMMC1)
  112              		.loc 1 61 3 is_stmt 1 view .LVU23
  113              		.loc 1 61 14 is_stmt 0 view .LVU24
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 4
 
 
  114 001a 2268     		ldr	r2, [r4]
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  110:Core/Src/sdmmc.c **** 
  111:Core/Src/sdmmc.c **** 	__HAL_LINKDMA(sdHandle,hdmarx,hdma_sdmmc1);
  112:Core/Src/sdmmc.c **** 	__HAL_LINKDMA(sdHandle,hdmatx,hdma_sdmmc1);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 5
 
 
  113:Core/Src/sdmmc.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  167:Core/Src/sdmmc.c ****     hdma_sdmmc1_rx.Init.Request = DMA_REQUEST_7;
  168:Core/Src/sdmmc.c ****     hdma_sdmmc1_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
  169:Core/Src/sdmmc.c ****     hdma_sdmmc1_rx.Init.PeriphInc = DMA_PINC_DISABLE;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 6
 
 
  170:Core/Src/sdmmc.c ****     hdma_sdmmc1_rx.Init.MemInc = DMA_MINC_ENABLE;
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
   65:Core/Src/sdmmc.c ****   PeriphClkInit.PLLSAI1.PLLSAI1Source = RCC_PLLSOURCE_HSI;
  135              		.loc 1 65 3 is_stmt 1 view .LVU29
   65:Core/Src/sdmmc.c ****   PeriphClkInit.PLLSAI1.PLLSAI1Source = RCC_PLLSOURCE_HSI;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 7
 
 
  136              		.loc 1 65 38 is_stmt 0 view .LVU30
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  173 0056 57D1     		bne	.L11
  174              	.L6:
   78:Core/Src/sdmmc.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 8
 
 
  175              		.loc 1 78 3 is_stmt 1 view .LVU48
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  214 0086 DB6C     		ldr	r3, [r3, #76]
  215 0088 03F00803 		and	r3, r3, #8
  216 008c 0293     		str	r3, [sp, #8]
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 9
 
 
   81:Core/Src/sdmmc.c **** 	GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  253              		.loc 1 92 2 is_stmt 1 view .LVU81
   92:Core/Src/sdmmc.c **** 	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
  254              		.loc 1 92 23 is_stmt 0 view .LVU82
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 10
 
 
  255 00b4 2795     		str	r5, [sp, #156]
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  103:Core/Src/sdmmc.c **** 	hdma_sdmmc1.Init.Mode = DMA_NORMAL;
  292              		.loc 1 103 2 is_stmt 1 view .LVU100
  103:Core/Src/sdmmc.c **** 	hdma_sdmmc1.Init.Mode = DMA_NORMAL;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 11
 
 
  293              		.loc 1 103 36 is_stmt 0 view .LVU101
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  330              	.LVL9:
  117:Core/Src/sdmmc.c ****   /* USER CODE END SDMMC1_MspInit 0 */
  331              		.loc 1 117 2 view .LVU119
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 12
 
 
  332 0106 8CE7     		b	.L4
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  380              	.LCFI4:
  381              		.cfi_def_cfa_offset 8
  382              		.cfi_offset 4, -8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 13
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 13
 
 
  383              		.cfi_offset 14, -4
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  411 0036 3120     		movs	r0, #49
  412 0038 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
  413              	.LVL18:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 14
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 14
 
 
  238:Core/Src/sdmmc.c ****   /* USER CODE BEGIN SDMMC1_MspDeInit 1 */
@@ -838,33 +838,33 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 1
  458              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h"
  459              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h"
  460              		.file 11 "Core/Inc/sdmmc.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 15
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 15
 
 
  461              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
  462              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
  463              		.file 14 "Core/Inc/main.h"
  464              		.file 15 "<built-in>"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s 			page 16
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 sdmmc.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:21     .text.MX_SDMMC1_SD_Init:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:27     .text.MX_SDMMC1_SD_Init:00000000 MX_SDMMC1_SD_Init
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:64     .text.MX_SDMMC1_SD_Init:0000001c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:447    .bss.hsd1:00000000 hsd1
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:70     .text.HAL_SD_MspInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:76     .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:346    .text.HAL_SD_MspInit:00000114 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:356    .text.HAL_SD_MspDeInit:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:362    .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:421    .text.HAL_SD_MspDeInit:00000040 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:433    .bss.hdma_sdmmc1_tx:00000000 hdma_sdmmc1_tx
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:430    .bss.hdma_sdmmc1_tx:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:440    .bss.hdma_sdmmc1_rx:00000000 hdma_sdmmc1_rx
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:437    .bss.hdma_sdmmc1_rx:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccIRA26x.s:444    .bss.hsd1:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:21     .text.MX_SDMMC1_SD_Init:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:27     .text.MX_SDMMC1_SD_Init:00000000 MX_SDMMC1_SD_Init
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:64     .text.MX_SDMMC1_SD_Init:0000001c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:447    .bss.hsd1:00000000 hsd1
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:70     .text.HAL_SD_MspInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:76     .text.HAL_SD_MspInit:00000000 HAL_SD_MspInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:346    .text.HAL_SD_MspInit:00000114 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:356    .text.HAL_SD_MspDeInit:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:362    .text.HAL_SD_MspDeInit:00000000 HAL_SD_MspDeInit
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:421    .text.HAL_SD_MspDeInit:00000040 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:433    .bss.hdma_sdmmc1_tx:00000000 hdma_sdmmc1_tx
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:430    .bss.hdma_sdmmc1_tx:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:440    .bss.hdma_sdmmc1_rx:00000000 hdma_sdmmc1_rx
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:437    .bss.hdma_sdmmc1_rx:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccx2gKq6.s:444    .bss.hsd1:00000000 $d
 
 UNDEFINED SYMBOLS
 memset

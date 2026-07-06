@@ -39,4 +39,13 @@ void readBMI270();
 void setupAccSleep();
 void setupAccWake();
 
+void tag_sleep();
+void tag_wakeup();
+
+void sensors_off();
+
+void sensors_on();
+
+
+HAL_StatusTypeDef lock_huart();
 #endif

@@ -53,7 +53,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void SystemClock_Config(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -62,6 +62,9 @@ void Error_Handler(void);
 #define ACC2_INT_EXTI_IRQn EXTI1_IRQn
 #define Battery_LED_Pin GPIO_PIN_3
 #define Battery_LED_GPIO_Port GPIOC
+#define Acc_Int_Pin GPIO_PIN_0
+#define Acc_Int_GPIO_Port GPIOA
+#define Acc_Int_EXTI_IRQn EXTI0_IRQn
 #define Power_Disable_Pin GPIO_PIN_1
 #define Power_Disable_GPIO_Port GPIOA
 #define Error_LED_Pin GPIO_PIN_6

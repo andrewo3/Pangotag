@@ -4,6 +4,8 @@
 #include <stdint.h>
 #include "fatfs.h"
 
+#define f_unmount(path) f_mount(0, path, 0)
+
 
 extern FIL sdData;
 extern FIL sdLog;
@@ -20,6 +22,7 @@ typedef enum {
 typedef struct {
     packet_type type;
     uint32_t timestamp;
+    uint32_t rtcTimestamp;
     uint32_t len;
     uint8_t* payload;
 } packet;

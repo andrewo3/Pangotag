@@ -10,6 +10,8 @@
 #include "i2c.h"
 #include "usart.h"
 #include "stm32l4xx_hal_uart.h"
+#include "datetime.h"
+#include "rtc.h"
 
 #define FIFO_WM_THRESH 256
 

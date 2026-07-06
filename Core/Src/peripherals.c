@@ -1,4 +1,8 @@
 #include "libs.h"
+#include "main.h"
+#include "sdmmc.h"
+#include "dma.h"
+#include "gpio.h"
 
 extern const uint8_t bmi270_config_file[];
 
@@ -21,6 +25,10 @@ volatile uint16_t gps_idx = 0;
 volatile uint8_t rmc_ready = 0;
 uint32_t totalEnergyUsed = 0;
 uint16_t lastAcc = 0;
+
+HAL_StatusTypeDef lock_huart() {
+    __HAL_LOCK(&huart1);
+}
 
 int8_t bmi270_write(uint8_t reg, const uint8_t *data, uint32_t len, void *intf_ptr)
 {
@@ -193,6 +201,7 @@ void readTMP() {
 
     tmp_data.type = PACKET_TMP;
     tmp_data.timestamp = HAL_GetTick() - startTime;
+    tmp_data.rtcTimestamp = rtcElapsed();
     tmp_data.len = 5;
     tmp_data.payload = out_bytes;
     int res = writePacket(tmp_data);
@@ -249,6 +258,7 @@ void readBMI270() {
         packet imu_data = {0};
         imu_data.type = PACKET_IMU;
         imu_data.timestamp = HAL_GetTick() - startTime; // overflow after ~49 days
+        imu_data.rtcTimestamp = rtcElapsed();
         imu_data.len = payload_size;
         imu_data.payload = (uint8_t*)bmi2_data;
         writePacket(imu_data);
@@ -261,14 +271,14 @@ void GPS_Start()
 {
     __HAL_UART_CLEAR_IT(&huart1, UART_CLEAR_NEF|UART_CLEAR_OREF);
     int status = HAL_UART_Receive_IT(&huart1, &gps_char, 1);
-    printf("start success: %i\n",status);
+    printf("GPS start success: %i\n",status);
 }
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart == &huart1)
     {
-        printf("%c",gps_char);
+        //printf("%c",gps_char);
         if (gps_idx < sizeof(nmea_recv)-1)
         {
             nmea_recv[gps_idx++] = gps_char;
@@ -299,12 +309,13 @@ void readGPS() {
     if (rmc_ready) {
         uint8_t rmc[128];
         memcpy(rmc, saved_rmc, 128);
-        //printf("received message: %s", rmc);
+        printf("received message: %s", rmc);
         rmc_ready = 0;
         uint32_t len = strlen(rmc);
         packet gpsPacket = {0};
         gpsPacket.type = PACKET_GPS;
         gpsPacket.timestamp = HAL_GetTick() - startTime;
+        gpsPacket.rtcTimestamp = rtcElapsed();
         gpsPacket.len = len;
         gpsPacket.payload = (uint8_t*)rmc;
         writePacket(gpsPacket);
@@ -374,13 +385,15 @@ void readBMIC() {
     if (status == HAL_OK) {
         acc = (acr_buf[0] << 8) | acr_buf[1];
         if (acc > lastAcc) { // misread (sensor was likely updating mid read)
+            printf("misread high\n");
             return;
         }
         uint16_t diff = lastAcc - acc;
         if (diff > 0x100) { // unrealistically large jump (also likely a misread)
+            printf("misread low\n");
             return;
         }
-        //printf("read: 0x%04x\n",acc);
+        printf("read: 0x%04x\n",acc);
         if (acc < 0x300) {
             acc += 0x7fff;
             Write_I2C_Reg(bmicAddr, 2, (uint8_t)(acc >> 8), 1);
@@ -392,6 +405,7 @@ void readBMIC() {
         packet bmicPacket = {0};
         bmicPacket.type = PACKET_BMIC;
         bmicPacket.timestamp = HAL_GetTick() - startTime;
+        bmicPacket.rtcTimestamp = rtcElapsed();
         bmicPacket.len = sizeof(uint32_t);
         bmicPacket.payload = (uint8_t*)&totalEnergyUsed;
         writePacket(bmicPacket);
@@ -425,6 +439,8 @@ void setupAccSleep() {
 	uint8_t INT1_CFG = 0x30;
 	uint8_t REFERENCE = 0x26;
 
+    uint8_t INT1_SRC = 0x31;
+
 	//set 100 Hz low-power mode
 	Write_I2C_Reg(ACC_ADDR, CTRL_REG1, 0b01011111,1);
 	// use high pass filter
@@ -444,6 +460,8 @@ void setupAccSleep() {
 
 	//generate interrupt on high events of x, y, or z
 	Write_I2C_Reg(ACC_ADDR, INT1_CFG, 0b00101010,1);
+
+    uint8_t clear_latch = Read_I2C_Reg(ACC_ADDR, INT1_SRC, 1);
 	log_printf("LOG: successfully configured accelerometer.\r\n");
 }
 
@@ -480,4 +498,111 @@ void setupAccWake() {
 	//disable interrupts on high events of x, y, or z
 	Write_I2C_Reg(ACC_ADDR, INT1_CFG, 0b00000000,1);
 
+}
+
+void tag_sleep() {
+    printf("starting sleep process...\n");
+    setupAccSleep();
+
+    uint8_t sleep = 0;
+
+    // Put PA9 (USART1_TX) into high-Z so it doesn't source/sink current
+    // or float into the UART peripheral while we're powered down.
+
+    packet sleepPack = {0};
+    sleepPack.type = PACKET_WAKE;
+    sleepPack.timestamp = HAL_GetTick() - startTime;
+    sleepPack.rtcTimestamp = rtcElapsed();
+    sleepPack.len = 1;
+    sleepPack.payload = &sleep;
+    writePacket(sleepPack);
+
+    // Don't disarm the FIFO accel's wake-capable EXTI while it's unpowered
+    HAL_NVIC_DisableIRQ(EXTI1_IRQn);
+    printf("sleeping...\n");
+    sensors_off();
+
+    // Arm the wake source and enter STOP2 atomically, right next to each other
+    __disable_irq();
+    __HAL_GPIO_EXTI_CLEAR_IT(Acc_Int_Pin);
+    HAL_SuspendTick();
+    __enable_irq();                 // pending-IRQ check at WFI still wakes correctly
+    HAL_PWREx_EnterSTOP2Mode(PWR_STOPENTRY_WFI);
+    // resumes here on wake
+    HAL_ResumeTick();
+    sensors_on();
+
+    SystemClock_Config();
+    HAL_I2C_MspInit(&hi2c1);
+    HAL_I2C_MspInit(&hi2c2);
+    HAL_SD_MspInit(&hsd1);
+    HAL_UART_MspInit(&huart1);
+    HAL_NVIC_EnableIRQ(EXTI1_IRQn);
+
+    // Restore PA9 to USART1_RX alternate-function mode before re-enabling
+    // the USART1 IRQ. HAL_UART_MspInit() above should already do this if
+    // it's the CubeMX-generated version — but set it explicitly so we're
+    // not relying on that assumption.
+    /*GPIO_InitStruct.Pin       = GPIO_PIN_9;
+    GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull      = GPIO_NOPULL;
+    GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);*/
+
+    // reenable interrupts from BMI270 IMU
+
+    uint32_t start = HAL_GetTick();
+    printf("SD mount: %p\r\n",&SDFatFS);
+    
+    printf("wakeup!\n");
+
+
+    setupAccWake();
+    int res = initBMI270();
+    while (res == -2) { 
+        HAL_Delay(2000); 
+        HAL_I2C_DeInit(&hi2c2);
+        HAL_Delay(5);
+        HAL_I2C_Init(&hi2c2);
+        res = initBMI270();
+    }
+
+    if (res != 0) Error_Handler();
+    initTMP();
+    printf("TMP/PRS initialization successful!\n");
+    initBMIC();
+    GPS_Start();
+    
+    startTime = HAL_GetTick();
+    sleep = 1;
+    packet wakePack = {0};
+    wakePack.type = PACKET_WAKE;
+    wakePack.timestamp = HAL_GetTick() - startTime;
+    wakePack.rtcTimestamp = rtcElapsed();
+    wakePack.len = 1;
+    wakePack.payload = &sleep;
+    writePacket(wakePack);
+}
+
+void sensors_off() {
+    HAL_GPIO_WritePin(Power_Disable_GPIO_Port, Power_Disable_Pin, GPIO_PIN_SET);
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    GPIO_InitStruct.Pin = GPIO_PIN_9;
+    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+}
+
+void sensors_on() {
+    GPIO_InitTypeDef GPIO_InitStruct2 = {0};
+    GPIO_InitStruct2.Pin = GPIO_PIN_9;
+    GPIO_InitStruct2.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct2.Pull = GPIO_NOPULL;
+    GPIO_InitStruct2.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct2.Alternate = GPIO_AF7_USART1;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct2); // pin must be reconfigured BEFORE power disable pin is reset again, otherwise we will encounter hard faults
+    HAL_Delay(50);   // power rail settle time
+    HAL_GPIO_WritePin(Power_Disable_GPIO_Port, Power_Disable_Pin, GPIO_PIN_RESET);
 }

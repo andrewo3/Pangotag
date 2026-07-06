@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -32,7 +32,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
   29              		.thumb_func
   31              	log_printf:
   32              	.LVL0:
-  33              	.LFB231:
+  33              	.LFB236:
    1:Core/Src/sd_intf.c **** #include "libs.h"
    2:Core/Src/sd_intf.c **** 
    3:Core/Src/sd_intf.c **** 
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
   46 0002 30B5     		push	{r4, r5, lr}
   47              	.LCFI1:
   48              		.cfi_def_cfa_offset 28
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 2
 
 
   49              		.cfi_offset 4, -28
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
   23:Core/Src/sd_intf.c **** 	printf("%s",buf);
   91              		.loc 1 23 2 view .LVU13
   92 003e 2146     		mov	r1, r4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 3
 
 
   93 0040 0648     		ldr	r0, .L3+8
@@ -151,7 +151,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  119 0058 00000000 		.word	log_path
  120 005c 00000000 		.word	.LC0
  121              		.cfi_endproc
- 122              	.LFE231:
+ 122              	.LFE236:
  124              		.section	.rodata.initSD.str1.4,"aMS",%progbits,1
  125              		.align	2
  126              	.LC1:
@@ -167,7 +167,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  132              		.thumb
  133              		.thumb_func
  135              	initSD:
- 136              	.LFB232:
+ 136              	.LFB237:
   25:Core/Src/sd_intf.c **** 
   26:Core/Src/sd_intf.c **** void initSD() {
  137              		.loc 1 26 15 is_stmt 1 view -0
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  142              	.LCFI6:
  143              		.cfi_def_cfa_offset 8
  144              		.cfi_offset 3, -8
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 4
 
 
  145              		.cfi_offset 14, -4
@@ -227,7 +227,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  179 0024 00000000 		.word	SDFatFS
  180 0028 00000000 		.word	.LC1
  181              		.cfi_endproc
- 182              	.LFE232:
+ 182              	.LFE237:
  184              		.section	.rodata.initSDFiles.str1.4,"aMS",%progbits,1
  185              		.align	2
  186              	.LC3:
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  187      72656174 
  188 0031 0A00     		.ascii	"\012\000"
  189 0033 00       		.align	2
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 5
 
 
  190              	.LC5:
@@ -261,7 +261,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  199              		.thumb
  200              		.thumb_func
  202              	initSDFiles:
- 203              	.LFB233:
+ 203              	.LFB238:
   33:Core/Src/sd_intf.c **** 
   34:Core/Src/sd_intf.c **** void initSDFiles() {
  204              		.loc 1 34 20 is_stmt 1 view -0
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
   40:Core/Src/sd_intf.c **** 		data_res = f_open(&sdData, data_path, FA_CREATE_NEW | FA_WRITE);
  230              		.loc 1 40 3 view .LVU32
  231              		.loc 1 40 14 is_stmt 0 view .LVU33
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 6
 
 
  232 0010 0622     		movs	r2, #6
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  271 003a 1448     		ldr	r0, .L19+20
  272 003c FFF7FEFF 		bl	f_open
  273              	.LVL22:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 7
 
 
   56:Core/Src/sd_intf.c **** 		log_num++;
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  314 0068 0146     		mov	r1, r0
  315 006a 0B48     		ldr	r0, .L19+32
  316              	.LVL32:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 8
 
 
   60:Core/Src/sd_intf.c **** 		Error_Handler();
@@ -443,7 +443,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  334 0094 00000000 		.word	.LC3
  335 0098 34000000 		.word	.LC5
  336              		.cfi_endproc
- 337              	.LFE233:
+ 337              	.LFE238:
  339              		.section	.text.writePacket,"ax",%progbits
  340              		.align	1
  341              		.global	writePacket
@@ -451,42 +451,43 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
  343              		.thumb
  344              		.thumb_func
  346              	writePacket:
- 347              	.LFB234:
+ 347              	.LFB239:
   66:Core/Src/sd_intf.c **** 
   67:Core/Src/sd_intf.c **** int writePacket(packet p) {
  348              		.loc 1 67 27 view -0
  349              		.cfi_startproc
- 350              		@ args = 0, pretend = 0, frame = 16
+ 350              		@ args = 20, pretend = 16, frame = 0
  351              		@ frame_needed = 0, uses_anonymous_args = 0
- 352 0000 00B5     		push	{lr}
+ 352 0000 84B0     		sub	sp, sp, #16
  353              	.LCFI8:
- 354              		.cfi_def_cfa_offset 4
- 355              		.cfi_offset 14, -4
- 356 0002 85B0     		sub	sp, sp, #20
- 357              	.LCFI9:
- 358              		.cfi_def_cfa_offset 24
- 359 0004 0DF1100C 		add	ip, sp, #16
- 360 0008 0CE90F00 		stmdb	ip, {r0, r1, r2, r3}
+ 354              		.cfi_def_cfa_offset 16
+ 355 0002 08B5     		push	{r3, lr}
+ 356              	.LCFI9:
+ 357              		.cfi_def_cfa_offset 24
+ 358              		.cfi_offset 3, -24
+ 359              		.cfi_offset 14, -20
+ 360 0004 0DF1080C 		add	ip, sp, #8
+ 361 0008 8CE80F00 		stm	ip, {r0, r1, r2, r3}
   68:Core/Src/sd_intf.c ****   int res = FR_OK;
- 361              		.loc 1 68 3 view .LVU62
- 362              	.LVL35:
+ 362              		.loc 1 68 3 view .LVU62
+ 363              	.LVL35:
   69:Core/Src/sd_intf.c ****   res = f_open(&sdData, data_path, FA_WRITE | FA_OPEN_APPEND);
- 363              		.loc 1 69 3 view .LVU63
- 364              		.loc 1 69 9 is_stmt 0 view .LVU64
- 365 000c 3222     		movs	r2, #50
- 366 000e 1649     		ldr	r1, .L25
- 367 0010 1648     		ldr	r0, .L25+4
- 368 0012 FFF7FEFF 		bl	f_open
- 369              	.LVL36:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 9
+ 364              		.loc 1 69 3 view .LVU63
+ 365              		.loc 1 69 9 is_stmt 0 view .LVU64
+ 366 000c 3222     		movs	r2, #50
+ 367 000e 1B49     		ldr	r1, .L26
+ 368 0010 1B48     		ldr	r0, .L26+4
+ 369 0012 FFF7FEFF 		bl	f_open
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 9
 
 
+ 370              	.LVL36:
   70:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 370              		.loc 1 70 3 is_stmt 1 view .LVU65
- 371              		.loc 1 70 6 is_stmt 0 view .LVU66
- 372 0016 08B1     		cbz	r0, .L24
- 373              	.LVL37:
- 374              	.L21:
+ 371              		.loc 1 70 3 is_stmt 1 view .LVU65
+ 372              		.loc 1 70 6 is_stmt 0 view .LVU66
+ 373 0016 18B1     		cbz	r0, .L25
+ 374              	.LVL37:
+ 375              	.L21:
   71:Core/Src/sd_intf.c ****     return res;
   72:Core/Src/sd_intf.c ****   }
   73:Core/Src/sd_intf.c ****   res = f_write(&sdData, &p.type, sizeof(packet_type), nullptr);
@@ -497,314 +498,358 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 1
   78:Core/Src/sd_intf.c ****   if (res != FR_OK) {
   79:Core/Src/sd_intf.c ****     return res;
   80:Core/Src/sd_intf.c ****   }
-  81:Core/Src/sd_intf.c ****   res = f_write(&sdData, &p.len, sizeof(uint32_t), nullptr);
+  81:Core/Src/sd_intf.c ****   res = f_write(&sdData, &p.rtcTimestamp, sizeof(uint32_t), nullptr);
   82:Core/Src/sd_intf.c ****   if (res != FR_OK) {
   83:Core/Src/sd_intf.c ****     return res;
   84:Core/Src/sd_intf.c ****   }
-  85:Core/Src/sd_intf.c ****   res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+  85:Core/Src/sd_intf.c ****   res = f_write(&sdData, &p.len, sizeof(uint32_t), nullptr);
   86:Core/Src/sd_intf.c ****   if (res != FR_OK) {
   87:Core/Src/sd_intf.c ****     return res;
   88:Core/Src/sd_intf.c ****   }
-  89:Core/Src/sd_intf.c ****   res = f_close(&sdData);
-  90:Core/Src/sd_intf.c ****   return res;
-  91:Core/Src/sd_intf.c **** }
- 375              		.loc 1 91 1 view .LVU67
- 376 0018 05B0     		add	sp, sp, #20
- 377              	.LCFI10:
- 378              		.cfi_remember_state
- 379              		.cfi_def_cfa_offset 4
- 380              		@ sp needed
- 381 001a 00BD     		pop	{pc}
- 382              	.LVL38:
- 383              	.L24:
+  89:Core/Src/sd_intf.c ****   if (p.len > 0) {
+  90:Core/Src/sd_intf.c ****     res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+  91:Core/Src/sd_intf.c ****     if (res != FR_OK) {
+  92:Core/Src/sd_intf.c ****       return res;
+  93:Core/Src/sd_intf.c ****     }
+  94:Core/Src/sd_intf.c ****   }
+  95:Core/Src/sd_intf.c ****   res = f_close(&sdData);
+  96:Core/Src/sd_intf.c ****   return res;
+  97:Core/Src/sd_intf.c **** }
+ 376              		.loc 1 97 1 view .LVU67
+ 377 0018 BDE80840 		pop	{r3, lr}
+ 378              	.LCFI10:
+ 379              		.cfi_remember_state
+ 380              		.cfi_restore 14
+ 381              		.cfi_restore 3
+ 382              		.cfi_def_cfa_offset 16
+ 383 001c 04B0     		add	sp, sp, #16
  384              	.LCFI11:
- 385              		.cfi_restore_state
- 386              		.loc 1 91 1 view .LVU68
- 387 001c 0346     		mov	r3, r0
+ 385              		.cfi_def_cfa_offset 0
+ 386 001e 7047     		bx	lr
+ 387              	.LVL38:
+ 388              	.L25:
+ 389              	.LCFI12:
+ 390              		.cfi_restore_state
+ 391              		.loc 1 97 1 view .LVU68
+ 392 0020 0346     		mov	r3, r0
   73:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 388              		.loc 1 73 3 is_stmt 1 view .LVU69
+ 393              		.loc 1 73 3 is_stmt 1 view .LVU69
   73:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 389              		.loc 1 73 9 is_stmt 0 view .LVU70
- 390 001e 0122     		movs	r2, #1
- 391 0020 6946     		mov	r1, sp
- 392 0022 1248     		ldr	r0, .L25+4
- 393              	.LVL39:
+ 394              		.loc 1 73 9 is_stmt 0 view .LVU70
+ 395 0022 0122     		movs	r2, #1
+ 396 0024 02A9     		add	r1, sp, #8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 10
+
+
+ 397 0026 1648     		ldr	r0, .L26+4
+ 398              	.LVL39:
   73:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 394              		.loc 1 73 9 view .LVU71
- 395 0024 FFF7FEFF 		bl	f_write
- 396              	.LVL40:
+ 399              		.loc 1 73 9 view .LVU71
+ 400 0028 FFF7FEFF 		bl	f_write
+ 401              	.LVL40:
   73:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 397              		.loc 1 73 9 view .LVU72
- 398 0028 0346     		mov	r3, r0
- 399              	.LVL41:
+ 402              		.loc 1 73 9 view .LVU72
+ 403 002c 0346     		mov	r3, r0
+ 404              	.LVL41:
   74:Core/Src/sd_intf.c ****     return res;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 10
-
-
- 400              		.loc 1 74 3 is_stmt 1 view .LVU73
+ 405              		.loc 1 74 3 is_stmt 1 view .LVU73
   74:Core/Src/sd_intf.c ****     return res;
- 401              		.loc 1 74 6 is_stmt 0 view .LVU74
- 402 002a 0028     		cmp	r0, #0
- 403 002c F4D1     		bne	.L21
+ 406              		.loc 1 74 6 is_stmt 0 view .LVU74
+ 407 002e 0028     		cmp	r0, #0
+ 408 0030 F2D1     		bne	.L21
   77:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 404              		.loc 1 77 3 is_stmt 1 view .LVU75
+ 409              		.loc 1 77 3 is_stmt 1 view .LVU75
   77:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 405              		.loc 1 77 9 is_stmt 0 view .LVU76
- 406 002e 0422     		movs	r2, #4
- 407 0030 0DEB0201 		add	r1, sp, r2
- 408 0034 0D48     		ldr	r0, .L25+4
- 409              	.LVL42:
+ 410              		.loc 1 77 9 is_stmt 0 view .LVU76
+ 411 0032 0422     		movs	r2, #4
+ 412 0034 03A9     		add	r1, sp, #12
+ 413 0036 1248     		ldr	r0, .L26+4
+ 414              	.LVL42:
   77:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 410              		.loc 1 77 9 view .LVU77
- 411 0036 FFF7FEFF 		bl	f_write
- 412              	.LVL43:
+ 415              		.loc 1 77 9 view .LVU77
+ 416 0038 FFF7FEFF 		bl	f_write
+ 417              	.LVL43:
   77:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 413              		.loc 1 77 9 view .LVU78
- 414 003a 0346     		mov	r3, r0
- 415              	.LVL44:
+ 418              		.loc 1 77 9 view .LVU78
+ 419 003c 0346     		mov	r3, r0
+ 420              	.LVL44:
   78:Core/Src/sd_intf.c ****     return res;
- 416              		.loc 1 78 3 is_stmt 1 view .LVU79
+ 421              		.loc 1 78 3 is_stmt 1 view .LVU79
   78:Core/Src/sd_intf.c ****     return res;
- 417              		.loc 1 78 6 is_stmt 0 view .LVU80
- 418 003c 0028     		cmp	r0, #0
- 419 003e EBD1     		bne	.L21
+ 422              		.loc 1 78 6 is_stmt 0 view .LVU80
+ 423 003e 0028     		cmp	r0, #0
+ 424 0040 EAD1     		bne	.L21
   81:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 420              		.loc 1 81 3 is_stmt 1 view .LVU81
+ 425              		.loc 1 81 3 is_stmt 1 view .LVU81
   81:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 421              		.loc 1 81 9 is_stmt 0 view .LVU82
- 422 0040 0422     		movs	r2, #4
- 423 0042 02A9     		add	r1, sp, #8
- 424 0044 0948     		ldr	r0, .L25+4
- 425              	.LVL45:
+ 426              		.loc 1 81 9 is_stmt 0 view .LVU82
+ 427 0042 0422     		movs	r2, #4
+ 428 0044 04A9     		add	r1, sp, #16
+ 429 0046 0E48     		ldr	r0, .L26+4
+ 430              	.LVL45:
   81:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 426              		.loc 1 81 9 view .LVU83
- 427 0046 FFF7FEFF 		bl	f_write
- 428              	.LVL46:
+ 431              		.loc 1 81 9 view .LVU83
+ 432 0048 FFF7FEFF 		bl	f_write
+ 433              	.LVL46:
   81:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 429              		.loc 1 81 9 view .LVU84
- 430 004a 0346     		mov	r3, r0
- 431              	.LVL47:
+ 434              		.loc 1 81 9 view .LVU84
+ 435 004c 0346     		mov	r3, r0
+ 436              	.LVL47:
   82:Core/Src/sd_intf.c ****     return res;
- 432              		.loc 1 82 3 is_stmt 1 view .LVU85
+ 437              		.loc 1 82 3 is_stmt 1 view .LVU85
   82:Core/Src/sd_intf.c ****     return res;
- 433              		.loc 1 82 6 is_stmt 0 view .LVU86
- 434 004c 0028     		cmp	r0, #0
- 435 004e E3D1     		bne	.L21
-  85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 436              		.loc 1 85 3 is_stmt 1 view .LVU87
-  85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 437              		.loc 1 85 9 is_stmt 0 view .LVU88
- 438 0050 029A     		ldr	r2, [sp, #8]
- 439 0052 0399     		ldr	r1, [sp, #12]
- 440 0054 0548     		ldr	r0, .L25+4
- 441              	.LVL48:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 11
 
 
+ 438              		.loc 1 82 6 is_stmt 0 view .LVU86
+ 439 004e 0028     		cmp	r0, #0
+ 440 0050 E2D1     		bne	.L21
   85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
- 442              		.loc 1 85 9 view .LVU89
- 443 0056 FFF7FEFF 		bl	f_write
- 444              	.LVL49:
-  86:Core/Src/sd_intf.c ****     return res;
- 445              		.loc 1 86 3 is_stmt 1 view .LVU90
-  86:Core/Src/sd_intf.c ****     return res;
- 446              		.loc 1 86 6 is_stmt 0 view .LVU91
- 447 005a 0028     		cmp	r0, #0
- 448 005c DCD1     		bne	.L21
-  89:Core/Src/sd_intf.c ****   return res;
- 449              		.loc 1 89 3 is_stmt 1 view .LVU92
-  89:Core/Src/sd_intf.c ****   return res;
- 450              		.loc 1 89 9 is_stmt 0 view .LVU93
- 451 005e 0348     		ldr	r0, .L25+4
+ 441              		.loc 1 85 3 is_stmt 1 view .LVU87
+  85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
+ 442              		.loc 1 85 9 is_stmt 0 view .LVU88
+ 443 0052 0422     		movs	r2, #4
+ 444 0054 05A9     		add	r1, sp, #20
+ 445 0056 0A48     		ldr	r0, .L26+4
+ 446              	.LVL48:
+  85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
+ 447              		.loc 1 85 9 view .LVU89
+ 448 0058 FFF7FEFF 		bl	f_write
+ 449              	.LVL49:
+  85:Core/Src/sd_intf.c ****   if (res != FR_OK) {
+ 450              		.loc 1 85 9 view .LVU90
+ 451 005c 0346     		mov	r3, r0
  452              	.LVL50:
-  89:Core/Src/sd_intf.c ****   return res;
- 453              		.loc 1 89 9 view .LVU94
- 454 0060 FFF7FEFF 		bl	f_close
- 455              	.LVL51:
-  90:Core/Src/sd_intf.c **** }
- 456              		.loc 1 90 3 is_stmt 1 view .LVU95
-  90:Core/Src/sd_intf.c **** }
- 457              		.loc 1 90 10 is_stmt 0 view .LVU96
- 458 0064 D8E7     		b	.L21
- 459              	.L26:
- 460 0066 00BF     		.align	2
- 461              	.L25:
- 462 0068 00000000 		.word	data_path
- 463 006c 00000000 		.word	sdData
- 464              		.cfi_endproc
- 465              	.LFE234:
- 467              		.section	.text.BSP_SD_IsDetected,"ax",%progbits
- 468              		.align	1
- 469              		.global	BSP_SD_IsDetected
- 470              		.syntax unified
- 471              		.thumb
- 472              		.thumb_func
- 474              	BSP_SD_IsDetected:
- 475              	.LFB235:
-  92:Core/Src/sd_intf.c **** 
-  93:Core/Src/sd_intf.c **** uint8_t BSP_SD_IsDetected(void)
-  94:Core/Src/sd_intf.c **** {
- 476              		.loc 1 94 1 is_stmt 1 view -0
- 477              		.cfi_startproc
- 478              		@ args = 0, pretend = 0, frame = 8
- 479              		@ frame_needed = 0, uses_anonymous_args = 0
- 480 0000 00B5     		push	{lr}
- 481              	.LCFI12:
- 482              		.cfi_def_cfa_offset 4
- 483              		.cfi_offset 14, -4
- 484 0002 83B0     		sub	sp, sp, #12
- 485              	.LCFI13:
- 486              		.cfi_def_cfa_offset 16
-  95:Core/Src/sd_intf.c ****   __IO uint8_t status = SD_PRESENT;
- 487              		.loc 1 95 3 view .LVU98
- 488              		.loc 1 95 16 is_stmt 0 view .LVU99
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 12
+  86:Core/Src/sd_intf.c ****     return res;
+ 453              		.loc 1 86 3 is_stmt 1 view .LVU91
+  86:Core/Src/sd_intf.c ****     return res;
+ 454              		.loc 1 86 6 is_stmt 0 view .LVU92
+ 455 005e 0028     		cmp	r0, #0
+ 456 0060 DAD1     		bne	.L21
+  89:Core/Src/sd_intf.c ****     res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+ 457              		.loc 1 89 3 is_stmt 1 view .LVU93
+  89:Core/Src/sd_intf.c ****     res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+ 458              		.loc 1 89 8 is_stmt 0 view .LVU94
+ 459 0062 059A     		ldr	r2, [sp, #20]
+  89:Core/Src/sd_intf.c ****     res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+ 460              		.loc 1 89 6 view .LVU95
+ 461 0064 2AB1     		cbz	r2, .L23
+  90:Core/Src/sd_intf.c ****     if (res != FR_OK) {
+ 462              		.loc 1 90 5 is_stmt 1 view .LVU96
+  90:Core/Src/sd_intf.c ****     if (res != FR_OK) {
+ 463              		.loc 1 90 11 is_stmt 0 view .LVU97
+ 464 0066 0699     		ldr	r1, [sp, #24]
+ 465 0068 0548     		ldr	r0, .L26+4
+ 466              	.LVL51:
+  90:Core/Src/sd_intf.c ****     if (res != FR_OK) {
+ 467              		.loc 1 90 11 view .LVU98
+ 468 006a FFF7FEFF 		bl	f_write
+ 469              	.LVL52:
+  91:Core/Src/sd_intf.c ****       return res;
+ 470              		.loc 1 91 5 is_stmt 1 view .LVU99
+  91:Core/Src/sd_intf.c ****       return res;
+ 471              		.loc 1 91 8 is_stmt 0 view .LVU100
+ 472 006e 0028     		cmp	r0, #0
+ 473 0070 D2D1     		bne	.L21
+ 474              	.L23:
+  95:Core/Src/sd_intf.c ****   return res;
+ 475              		.loc 1 95 3 is_stmt 1 view .LVU101
+  95:Core/Src/sd_intf.c ****   return res;
+ 476              		.loc 1 95 9 is_stmt 0 view .LVU102
+ 477 0072 0348     		ldr	r0, .L26+4
+ 478              	.LVL53:
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 12
 
 
- 489 0004 0123     		movs	r3, #1
- 490 0006 8DF80730 		strb	r3, [sp, #7]
-  96:Core/Src/sd_intf.c **** 
-  97:Core/Src/sd_intf.c ****   if (HAL_GPIO_ReadPin(SD_DETECT_GPIO_PORT, SD_DETECT_PIN)== 0x1) //SD switch is inverted
- 491              		.loc 1 97 3 is_stmt 1 view .LVU100
- 492              		.loc 1 97 7 is_stmt 0 view .LVU101
- 493 000a 4FF48061 		mov	r1, #1024
- 494 000e 4FF09040 		mov	r0, #1207959552
- 495 0012 FFF7FEFF 		bl	HAL_GPIO_ReadPin
- 496              	.LVL52:
- 497              		.loc 1 97 6 discriminator 1 view .LVU102
- 498 0016 0128     		cmp	r0, #1
- 499 0018 03D0     		beq	.L30
- 500              	.L28:
-  98:Core/Src/sd_intf.c ****   {
-  99:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
- 100:Core/Src/sd_intf.c ****   }
- 101:Core/Src/sd_intf.c **** 
- 102:Core/Src/sd_intf.c ****   return status;
- 501              		.loc 1 102 3 is_stmt 1 view .LVU103
- 502              		.loc 1 102 10 is_stmt 0 view .LVU104
- 503 001a 9DF80700 		ldrb	r0, [sp, #7]	@ zero_extendqisi2
- 103:Core/Src/sd_intf.c **** }...
- 504              		.loc 1 103 1 view .LVU105
- 505 001e 03B0     		add	sp, sp, #12
- 506              	.LCFI14:
- 507              		.cfi_remember_state
+  95:Core/Src/sd_intf.c ****   return res;
+ 479              		.loc 1 95 9 view .LVU103
+ 480 0074 FFF7FEFF 		bl	f_close
+ 481              	.LVL54:
+  96:Core/Src/sd_intf.c **** }
+ 482              		.loc 1 96 3 is_stmt 1 view .LVU104
+  96:Core/Src/sd_intf.c **** }
+ 483              		.loc 1 96 10 is_stmt 0 view .LVU105
+ 484 0078 CEE7     		b	.L21
+ 485              	.L27:
+ 486 007a 00BF     		.align	2
+ 487              	.L26:
+ 488 007c 00000000 		.word	data_path
+ 489 0080 00000000 		.word	sdData
+ 490              		.cfi_endproc
+ 491              	.LFE239:
+ 493              		.section	.text.BSP_SD_IsDetected,"ax",%progbits
+ 494              		.align	1
+ 495              		.global	BSP_SD_IsDetected
+ 496              		.syntax unified
+ 497              		.thumb
+ 498              		.thumb_func
+ 500              	BSP_SD_IsDetected:
+ 501              	.LFB240:
+  98:Core/Src/sd_intf.c **** 
+  99:Core/Src/sd_intf.c **** uint8_t BSP_SD_IsDetected(void)
+ 100:Core/Src/sd_intf.c **** {
+ 502              		.loc 1 100 1 is_stmt 1 view -0
+ 503              		.cfi_startproc
+ 504              		@ args = 0, pretend = 0, frame = 8
+ 505              		@ frame_needed = 0, uses_anonymous_args = 0
+ 506 0000 00B5     		push	{lr}
+ 507              	.LCFI13:
  508              		.cfi_def_cfa_offset 4
- 509              		@ sp needed
- 510 0020 00BD     		pop	{pc}
- 511              	.L30:
- 512              	.LCFI15:
- 513              		.cfi_restore_state
-  99:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
- 514              		.loc 1 99 5 is_stmt 1 view .LVU106
-  99:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
- 515              		.loc 1 99 12 is_stmt 0 view .LVU107
- 516 0022 0023     		movs	r3, #0
- 517 0024 8DF80730 		strb	r3, [sp, #7]
- 518 0028 F7E7     		b	.L28
- 519              		.cfi_endproc
- 520              	.LFE235:
- 522              		.global	log_path
- 523              		.section	.bss.log_path,"aw",%nobits
- 524              		.align	2
- 527              	log_path:
- 528 0000 00000000 		.space	256
- 528      00000000 
- 528      00000000 
- 528      00000000 
- 528      00000000 
- 529              		.global	data_path
- 530              		.section	.bss.data_path,"aw",%nobits
- 531              		.align	2
- 534              	data_path:
- 535 0000 00000000 		.space	256
- 535      00000000 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 13
+ 509              		.cfi_offset 14, -4
+ 510 0002 83B0     		sub	sp, sp, #12
+ 511              	.LCFI14:
+ 512              		.cfi_def_cfa_offset 16
+ 101:Core/Src/sd_intf.c ****   __IO uint8_t status = SD_PRESENT;
+ 513              		.loc 1 101 3 view .LVU107
+ 514              		.loc 1 101 16 is_stmt 0 view .LVU108
+ 515 0004 0123     		movs	r3, #1
+ 516 0006 8DF80730 		strb	r3, [sp, #7]
+ 102:Core/Src/sd_intf.c **** 
+ 103:Core/Src/sd_intf.c ****   if (HAL_GPIO_ReadPin(SD_DETECT_GPIO_PORT, SD_DETECT_PIN)== 0x1) //SD switch is inverted
+ 517              		.loc 1 103 3 is_stmt 1 view .LVU109
+ 518              		.loc 1 103 7 is_stmt 0 view .LVU110
+ 519 000a 4FF48061 		mov	r1, #1024
+ 520 000e 4FF09040 		mov	r0, #1207959552
+ 521 0012 FFF7FEFF 		bl	HAL_GPIO_ReadPin
+ 522              	.LVL55:
+ 523              		.loc 1 103 6 discriminator 1 view .LVU111
+ 524 0016 0128     		cmp	r0, #1
+ 525 0018 03D0     		beq	.L31
+ 526              	.L29:
+ 104:Core/Src/sd_intf.c ****   {
+ 105:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 13
 
 
- 535      00000000 
- 535      00000000 
- 535      00000000 
- 536              		.global	sdLog
- 537              		.section	.bss.sdLog,"aw",%nobits
- 538              		.align	3
- 541              	sdLog:
- 542 0000 00000000 		.space	600
- 542      00000000 
- 542      00000000 
- 542      00000000 
- 542      00000000 
- 543              		.global	sdData
- 544              		.section	.bss.sdData,"aw",%nobits
- 545              		.align	3
- 548              	sdData:
- 549 0000 00000000 		.space	600
- 549      00000000 
- 549      00000000 
- 549      00000000 
- 549      00000000 
- 550              		.section	.rodata
- 551              		.align	2
- 552              		.set	.LANCHOR0,. + 0
- 553              	.LC2:
- 554 0000 74657374 		.ascii	"test_data%i.bin\000\000"
- 554      5F646174 
- 554      6125692E 
- 554      62696E00 
- 554      00
- 555 0011 000000   		.space	3
- 556              	.LC4:
- 557 0014 74657374 		.ascii	"test_log%i.txt\000\000"
- 557      5F6C6F67 
- 557      25692E74 
- 557      78740000 
- 558              		.text
- 559              	.Letext0:
- 560              		.file 2 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_defa
- 561              		.file 3 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/includ
- 562              		.file 4 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/includ
- 563              		.file 5 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h"
- 564              		.file 6 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
- 565              		.file 7 "Middlewares/Third_Party/FatFs/src/integer.h"
- 566              		.file 8 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
- 567              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
- 568              		.file 10 "Middlewares/Third_Party/FatFs/src/ff.h"
- 569              		.file 11 "FATFS/App/fatfs.h"
- 570              		.file 12 "Core/Inc/sd_intf.h"
- 571              		.file 13 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h"
- 572              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
- 573              		.file 15 "<built-in>"
- 574              		.file 16 "Core/Inc/main.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s 			page 14
+ 106:Core/Src/sd_intf.c ****   }
+ 107:Core/Src/sd_intf.c **** 
+ 108:Core/Src/sd_intf.c ****   return status;
+ 527              		.loc 1 108 3 is_stmt 1 view .LVU112
+ 528              		.loc 1 108 10 is_stmt 0 view .LVU113
+ 529 001a 9DF80700 		ldrb	r0, [sp, #7]	@ zero_extendqisi2
+ 109:Core/Src/sd_intf.c **** }...
+ 530              		.loc 1 109 1 view .LVU114
+ 531 001e 03B0     		add	sp, sp, #12
+ 532              	.LCFI15:
+ 533              		.cfi_remember_state
+ 534              		.cfi_def_cfa_offset 4
+ 535              		@ sp needed
+ 536 0020 00BD     		pop	{pc}
+ 537              	.L31:
+ 538              	.LCFI16:
+ 539              		.cfi_restore_state
+ 105:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
+ 540              		.loc 1 105 5 is_stmt 1 view .LVU115
+ 105:Core/Src/sd_intf.c ****     status = SD_NOT_PRESENT;
+ 541              		.loc 1 105 12 is_stmt 0 view .LVU116
+ 542 0022 0023     		movs	r3, #0
+ 543 0024 8DF80730 		strb	r3, [sp, #7]
+ 544 0028 F7E7     		b	.L29
+ 545              		.cfi_endproc
+ 546              	.LFE240:
+ 548              		.global	log_path
+ 549              		.section	.bss.log_path,"aw",%nobits
+ 550              		.align	2
+ 553              	log_path:
+ 554 0000 00000000 		.space	256
+ 554      00000000 
+ 554      00000000 
+ 554      00000000 
+ 554      00000000 
+ 555              		.global	data_path
+ 556              		.section	.bss.data_path,"aw",%nobits
+ 557              		.align	2
+ 560              	data_path:
+ 561 0000 00000000 		.space	256
+ 561      00000000 
+ 561      00000000 
+ 561      00000000 
+ 561      00000000 
+ 562              		.global	sdLog
+ 563              		.section	.bss.sdLog,"aw",%nobits
+ 564              		.align	3
+ 567              	sdLog:
+ 568 0000 00000000 		.space	600
+ 568      00000000 
+ 568      00000000 
+ 568      00000000 
+ 568      00000000 
+ 569              		.global	sdData
+ 570              		.section	.bss.sdData,"aw",%nobits
+ 571              		.align	3
+ 574              	sdData:
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 14
+
+
+ 575 0000 00000000 		.space	600
+ 575      00000000 
+ 575      00000000 
+ 575      00000000 
+ 575      00000000 
+ 576              		.section	.rodata
+ 577              		.align	2
+ 578              		.set	.LANCHOR0,. + 0
+ 579              	.LC2:
+ 580 0000 74657374 		.ascii	"test_data%i.bin\000\000"
+ 580      5F646174 
+ 580      6125692E 
+ 580      62696E00 
+ 580      00
+ 581 0011 000000   		.space	3
+ 582              	.LC4:
+ 583 0014 74657374 		.ascii	"test_log%i.txt\000\000"
+ 583      5F6C6F67 
+ 583      25692E74 
+ 583      78740000 
+ 584              		.text
+ 585              	.Letext0:
+ 586              		.file 2 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_defa
+ 587              		.file 3 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/includ
+ 588              		.file 4 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/includ
+ 589              		.file 5 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h"
+ 590              		.file 6 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h
+ 591              		.file 7 "Middlewares/Third_Party/FatFs/src/integer.h"
+ 592              		.file 8 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
+ 593              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
+ 594              		.file 10 "Middlewares/Third_Party/FatFs/src/ff.h"
+ 595              		.file 11 "FATFS/App/fatfs.h"
+ 596              		.file 12 "Core/Inc/sd_intf.h"
+ 597              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
+ 598              		.file 14 "Core/Inc/datetime.h"
+ 599              		.file 15 "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h"
+ 600              		.file 16 "<built-in>"
+ 601              		.file 17 "Core/Inc/main.h"
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 sd_intf.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:21     .rodata.log_printf.str1.4:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:25     .text.log_printf:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:31     .text.log_printf:00000000 log_printf
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:118    .text.log_printf:00000054 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:541    .bss.sdLog:00000000 sdLog
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:527    .bss.log_path:00000000 log_path
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:125    .rodata.initSD.str1.4:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:129    .text.initSD:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:135    .text.initSD:00000000 initSD
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:178    .text.initSD:00000020 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:185    .rodata.initSDFiles.str1.4:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:196    .text.initSDFiles:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:202    .text.initSDFiles:00000000 initSDFiles
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:327    .text.initSDFiles:00000078 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:534    .bss.data_path:00000000 data_path
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:548    .bss.sdData:00000000 sdData
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:340    .text.writePacket:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:346    .text.writePacket:00000000 writePacket
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:462    .text.writePacket:00000068 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:468    .text.BSP_SD_IsDetected:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:474    .text.BSP_SD_IsDetected:00000000 BSP_SD_IsDetected
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:524    .bss.log_path:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:531    .bss.data_path:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:538    .bss.sdLog:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:545    .bss.sdData:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccjzQccM.s:551    .rodata:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:21     .rodata.log_printf.str1.4:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:25     .text.log_printf:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:31     .text.log_printf:00000000 log_printf
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:118    .text.log_printf:00000054 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:567    .bss.sdLog:00000000 sdLog
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:553    .bss.log_path:00000000 log_path
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:125    .rodata.initSD.str1.4:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:129    .text.initSD:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:135    .text.initSD:00000000 initSD
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:178    .text.initSD:00000020 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:185    .rodata.initSDFiles.str1.4:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:196    .text.initSDFiles:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:202    .text.initSDFiles:00000000 initSDFiles
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:327    .text.initSDFiles:00000078 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:560    .bss.data_path:00000000 data_path
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:574    .bss.sdData:00000000 sdData
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:340    .text.writePacket:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:346    .text.writePacket:00000000 writePacket
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:488    .text.writePacket:0000007c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:494    .text.BSP_SD_IsDetected:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:500    .text.BSP_SD_IsDetected:00000000 BSP_SD_IsDetected
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:550    .bss.log_path:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:557    .bss.data_path:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:564    .bss.sdLog:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:571    .bss.sdData:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccqMz1D7.s:577    .rodata:00000000 $d
 
 UNDEFINED SYMBOLS
 vsprintf

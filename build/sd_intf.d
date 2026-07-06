@@ -28,6 +28,8 @@ build/sd_intf.o: Core/Src/sd_intf.c Core/Inc/libs.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rtc.h \
+ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h \
  Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
@@ -36,7 +38,8 @@ build/sd_intf.o: Core/Src/sd_intf.c Core/Inc/libs.h \
  Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
  Middlewares/Third_Party/FatFs/src/diskio.h \
  Middlewares/Third_Party/FatFs/src/ff.h FATFS/Target/sd_diskio.h \
- Core/Inc/peripherals.h Core/Inc/i2c.h Core/Inc/main.h Core/Inc/usart.h
+ Core/Inc/peripherals.h Core/Inc/i2c.h Core/Inc/main.h Core/Inc/usart.h \
+ Core/Inc/datetime.h Core/Inc/libs.h Core/Inc/rtc.h
 Core/Inc/libs.h:
 Core/Src/bmi270/bmi270.h:
 Core/Src/bmi270/bmi2.h:
@@ -74,6 +77,8 @@ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
+Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rtc.h:
+Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rtc_ex.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_sd.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_sdmmc.h:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
@@ -88,3 +93,6 @@ Core/Inc/peripherals.h:
 Core/Inc/i2c.h:
 Core/Inc/main.h:
 Core/Inc/usart.h:
+Core/Inc/datetime.h:
+Core/Inc/libs.h:
+Core/Inc/rtc.h:

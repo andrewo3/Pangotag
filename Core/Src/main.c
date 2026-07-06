@@ -21,6 +21,7 @@
 #include "dma.h"
 #include "fatfs.h"
 #include "i2c.h"
+#include "rtc.h"
 #include "sdmmc.h"
 #include "usart.h"
 #include "gpio.h"
@@ -74,6 +75,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     {
         //printf("Interrupt!\n");
         fifo_wm_flag = true;
+    }
+    if (GPIO_Pin == Acc_Int_Pin) {
+      printf("accelerometer interrupt received.\n");
     }
 }
 
@@ -155,6 +159,29 @@ uint8_t BSP_SD_WriteBlocks_DMA(uint32_t *pData, uint32_t WriteAddr, uint32_t Num
 	  return sd_state;
 }
 
+void hard_fault_handler_c(unsigned int *hardfault_args)
+{
+    volatile uint32_t stacked_r0  = hardfault_args[0];
+    volatile uint32_t stacked_r1  = hardfault_args[1];
+    volatile uint32_t stacked_r2  = hardfault_args[2];
+    volatile uint32_t stacked_r3  = hardfault_args[3];
+    volatile uint32_t stacked_r12 = hardfault_args[4];
+    volatile uint32_t stacked_lr  = hardfault_args[5];
+    volatile uint32_t stacked_pc  = hardfault_args[6];
+    volatile uint32_t stacked_psr = hardfault_args[7];
+
+    volatile uint32_t cfsr = SCB->CFSR;
+    volatile uint32_t hfsr = SCB->HFSR;
+    volatile uint32_t mmfar = SCB->MMFAR;
+    volatile uint32_t bfar = SCB->BFAR;
+
+    printf("HardFault! PC=0x%08lX LR=0x%08lX CFSR=0x%08lX HFSR=0x%08lX MMFAR=0x%08lX BFAR=0x%08lX\n",
+           stacked_pc, stacked_lr, cfsr, hfsr, mmfar, bfar);
+
+    (void)stacked_r0; (void)stacked_r1; (void)stacked_r2; (void)stacked_r3; (void)stacked_r12; (void)stacked_psr;
+
+    while (1) { __NOP(); }  // put a breakpoint here
+}
 /* USER CODE END 0 */
 
 /**
@@ -180,6 +207,8 @@ int main(void)
   /* USER CODE BEGIN Init */
   fifo.data = fifo_buffer;
   fifo.length = sizeof(fifo_buffer);
+  RTC_TimeTypeDef ti = {0};
+  RTC_DateTypeDef da = {0};
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -196,30 +225,16 @@ int main(void)
   MX_FATFS_Init();
   MX_I2C2_Init();
   MX_USART1_UART_Init();
+  MX_RTC_Init();
   /* USER CODE BEGIN 2 */
-  printf("test\n");
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
-
-  // Deinitialize USART1
-  HAL_UART_DeInit(&huart1);
-
-  // Optional: Disable USART1 peripheral clock if no longer needed
-  __HAL_RCC_USART1_CLK_DISABLE();
-
-  // Make sure GPIOA clock is enabled
-  __HAL_RCC_GPIOA_CLK_ENABLE();
-
-  // Configure PA9 as GPIO input
-  GPIO_InitStruct.Pin = GPIO_PIN_9;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;    // Or GPIO_PULLUP / GPIO_PULLDOWN as needed
-
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-  HAL_GPIO_WritePin(Power_Disable_GPIO_Port,Power_Disable_Pin,GPIO_PIN_SET);
-  
   int res = initBMI270();
 
-  while (res == -2) { // comm error, likely due to resetting
+  while (res == -2 || res == -3) { // comm error, likely due to resetting
+    if (res == -3) {
+      sensors_off();
+      HAL_Delay(1000);
+      sensors_on();
+    }
     HAL_Delay(2000);
     res = initBMI270();
   }
@@ -227,7 +242,7 @@ int main(void)
   if (res != 0) {
     Error_Handler();
   }
-
+  
   initSD();
   initSDFiles();
   printf("SD Initialization successful!\n");
@@ -238,10 +253,16 @@ int main(void)
   initBMIC();
 
   GPS_Start();
-  setupAccSleep();
   //set start time to post-initialization start
   startTime = HAL_GetTick();
-  //HAL_GPIO_WritePin(Power_Disable_GPIO_Port,Power_Disable_Pin,GPIO_PIN_SET);
+  printf("Starting main loop...\n");
+  for (int i = 0; i < 4; i++) {
+    HAL_GPIO_WritePin(Battery_LED_GPIO_Port, Battery_LED_Pin, GPIO_PIN_SET);
+    HAL_Delay(50);
+    HAL_GPIO_WritePin(Battery_LED_GPIO_Port, Battery_LED_Pin, GPIO_PIN_RESET);
+    HAL_Delay(50);
+  }
+  tag_sleep();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -268,6 +289,10 @@ int main(void)
     }
     //printf("successful tmp sensor read!\n");
     update_LED(HAL_GetTick() - startTime, 1000);
+    if ((HAL_GetTick() - startTime)/1000 > 300) {
+      tag_sleep(); //sleep after 5 minutes. If still moving, tag will immediately wake up again.
+      last_sec = (HAL_GetTick() - startTime)/1000;
+    }
     //HAL_Delay(1000);
   }
   /* USER CODE END 3 */
@@ -292,9 +317,10 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_LSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
   RCC_OscInitStruct.PLL.PLLM = 1;

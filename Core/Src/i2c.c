@@ -285,7 +285,12 @@ void Write_I2C_Reg(uint8_t addr, uint8_t reg, uint8_t data, uint8_t dev) {
 	uint8_t res = HAL_I2C_Master_Transmit(i2cdev,addr << 1,(uint8_t*)&wr,2,10000);
 	if (res != HAL_OK) {
 		log_printf("ERR: Failed to write data to I2C module at address 0x%02x - err code %i\r\n",addr, (*i2cdev).ErrorCode);
-		Error_Handler();
+		HAL_I2C_DeInit(i2cdev);
+    HAL_Delay(5);
+    HAL_I2C_Init(i2cdev);
+    HAL_Delay(100);
+    Write_I2C_Reg(addr,reg,data,dev); //try again
+    return;
 	}
 }
 /* USER CODE END 1 */

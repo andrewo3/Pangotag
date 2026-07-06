@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
   28:FATFS/Target/sd_diskio.c **** #include "ff_gen_drv.h"
   29:FATFS/Target/sd_diskio.c **** #include "sd_diskio.h"
   30:FATFS/Target/sd_diskio.c **** 
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 2
 
 
   31:FATFS/Target/sd_diskio.c **** #include <string.h>
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
   85:FATFS/Target/sd_diskio.c **** static volatile  UINT  WriteStatus = 0, ReadStatus = 0;
   86:FATFS/Target/sd_diskio.c **** /* Private function prototypes -----------------------------------------------*/
   87:FATFS/Target/sd_diskio.c **** static DSTATUS SD_CheckStatus(BYTE lun);
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 3
 
 
   88:FATFS/Target/sd_diskio.c **** DSTATUS SD_initialize (BYTE);
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
   36              		.cfi_def_cfa_offset 8
   37              		.cfi_offset 3, -8
   38              		.cfi_offset 14, -4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 4
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 4
 
 
  135:FATFS/Target/sd_diskio.c ****   Stat = STA_NOINIT;
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  150:FATFS/Target/sd_diskio.c **** DSTATUS SD_initialize(BYTE lun)
  151:FATFS/Target/sd_diskio.c **** {
   80              		.loc 1 151 1 is_stmt 1 view -0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 5
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 5
 
 
   81              		.cfi_startproc
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  118 001c 00000000 		.word	Stat
  119              		.cfi_endproc
  120              	.LFE230:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 6
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 6
 
 
  122              		.section	.text.SD_status,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  167              		.cfi_def_cfa_offset 16
  168              		.cfi_offset 3, -16
  169              		.cfi_offset 4, -12
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 7
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 7
 
 
  170              		.cfi_offset 5, -8
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  211              		.global	SD_read
  212              		.syntax unified
  213              		.thumb
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 8
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 8
 
 
  214              		.thumb_func
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  240              	.LVL15:
  241              		.loc 1 204 7 view .LVU50
  242 000c FFF7FEFF 		bl	SD_CheckStatusWithTimeout
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 9
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 9
 
 
  243              	.LVL16:
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  276 0030 1B68     		ldr	r3, [r3]
  220:FATFS/Target/sd_diskio.c ****       while((ReadStatus == 0) && ((HAL_GetTick() - timeout) < SD_TIMEOUT))
  277              		.loc 1 220 31 discriminator 3 view .LVU64
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 10
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 10
 
 
  278 0032 33B9     		cbnz	r3, .L23
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  318              		.loc 1 233 41 discriminator 1 view .LVU80
  319 005e 47F22F53 		movw	r3, #29999
  320 0062 9842     		cmp	r0, r3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 11
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 11
 
 
  321 0064 04D8     		bhi	.L33
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  267:FATFS/Target/sd_diskio.c ****           if (ReadStatus == 0)
  268:FATFS/Target/sd_diskio.c ****           {
  269:FATFS/Target/sd_diskio.c ****             res = RES_ERROR;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 12
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 12
 
 
  270:FATFS/Target/sd_diskio.c ****             break;
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  305:FATFS/Target/sd_diskio.c ****   * @param  sector: Sector address (LBA)
  306:FATFS/Target/sd_diskio.c ****   * @param  count: Number of sectors to write (1..128)
  307:FATFS/Target/sd_diskio.c ****   * @retval DRESULT: Operation result
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 13
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 13
 
 
  308:FATFS/Target/sd_diskio.c ****   */
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  397 0018 2DDB     		blt	.L42
  326:FATFS/Target/sd_diskio.c ****   {
  327:FATFS/Target/sd_diskio.c ****     return res;
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 14
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 14
 
 
  328:FATFS/Target/sd_diskio.c ****   }
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  423 0032 1B68     		ldr	r3, [r3]
  351:FATFS/Target/sd_diskio.c ****       while((WriteStatus == 0) && ((HAL_GetTick() - timeout) < SD_TIMEOUT))
  424              		.loc 1 351 32 discriminator 3 view .LVU110
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 15
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 15
 
 
  425 0034 33B9     		cbnz	r3, .L38
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  465              		.loc 1 364 41 discriminator 1 view .LVU126
  466 0060 47F22F53 		movw	r3, #29999
  467 0064 9842     		cmp	r0, r3
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 16
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 16
 
 
  468 0066 04D8     		bhi	.L48
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  398:FATFS/Target/sd_diskio.c ****           {
  399:FATFS/Target/sd_diskio.c ****           }
  400:FATFS/Target/sd_diskio.c ****           if (WriteStatus == 0)
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 17
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 17
 
 
  401:FATFS/Target/sd_diskio.c ****           {
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  512              		.loc 1 431 1 is_stmt 0 view .LVU135
  513 0000 30B5     		push	{r4, r5, lr}
  514              	.LCFI6:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 18
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 18
 
 
  515              		.cfi_def_cfa_offset 12
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  449:FATFS/Target/sd_diskio.c ****     break;
  552              		.loc 1 449 5 view .LVU147
  553 0026 13E0     		b	.L52
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 19
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 19
 
 
  554              	.LVL50:
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  583              	.L53:
  453:FATFS/Target/sd_diskio.c ****     *(WORD*)buff = CardInfo.LogBlockSize;
  584              		.loc 1 453 5 is_stmt 1 view .LVU158
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 20
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 20
 
 
  585 0042 6846     		mov	r0, sp
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  629              		.thumb
  630              		.thumb_func
  632              	BSP_SD_WriteCpltCallback:
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 21
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 21
 
 
  633              	.LFB235:
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  662              		.loc 1 497 1 is_stmt 1 view -0
  663              		.cfi_startproc
  664              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 22
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 22
 
 
  665              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1310,43 +1310,43 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 1
  718              		.file 9 "FATFS/Target/bsp_driver_sd.h"
  719              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  720              		.file 11 "FATFS/Target/sd_diskio.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s 			page 23
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 sd_diskio.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:21     .text.SD_CheckStatus:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:26     .text.SD_CheckStatus:00000000 SD_CheckStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:66     .text.SD_CheckStatus:00000020 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:707    .data.Stat:00000000 Stat
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:71     .text.SD_initialize:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:77     .text.SD_initialize:00000000 SD_initialize
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:118    .text.SD_initialize:0000001c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:123    .text.SD_status:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:129    .text.SD_status:00000000 SD_status
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:152    .text.SD_CheckStatusWithTimeout:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:157    .text.SD_CheckStatusWithTimeout:00000000 SD_CheckStatusWithTimeout
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:210    .text.SD_read:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:216    .text.SD_read:00000000 SD_read
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:347    .text.SD_read:00000078 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:696    .bss.ReadStatus:00000000 ReadStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:352    .text.SD_write:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:358    .text.SD_write:00000000 SD_write
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:494    .text.SD_write:0000007c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:702    .bss.WriteStatus:00000000 WriteStatus
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:499    .text.SD_ioctl:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:505    .text.SD_ioctl:00000000 SD_ioctl
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:621    .text.SD_ioctl:0000005c $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:626    .text.BSP_SD_WriteCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:632    .text.BSP_SD_WriteCpltCallback:00000000 BSP_SD_WriteCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:649    .text.BSP_SD_WriteCpltCallback:00000008 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:654    .text.BSP_SD_ReadCpltCallback:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:660    .text.BSP_SD_ReadCpltCallback:00000000 BSP_SD_ReadCpltCallback
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:677    .text.BSP_SD_ReadCpltCallback:00000008 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:686    .rodata.SD_Driver:00000000 SD_Driver
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:683    .rodata.SD_Driver:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:693    .bss.ReadStatus:00000000 $d
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccENk68v.s:699    .bss.WriteStatus:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:21     .text.SD_CheckStatus:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:26     .text.SD_CheckStatus:00000000 SD_CheckStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:66     .text.SD_CheckStatus:00000020 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:707    .data.Stat:00000000 Stat
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:71     .text.SD_initialize:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:77     .text.SD_initialize:00000000 SD_initialize
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:118    .text.SD_initialize:0000001c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:123    .text.SD_status:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:129    .text.SD_status:00000000 SD_status
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:152    .text.SD_CheckStatusWithTimeout:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:157    .text.SD_CheckStatusWithTimeout:00000000 SD_CheckStatusWithTimeout
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:210    .text.SD_read:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:216    .text.SD_read:00000000 SD_read
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:347    .text.SD_read:00000078 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:696    .bss.ReadStatus:00000000 ReadStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:352    .text.SD_write:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:358    .text.SD_write:00000000 SD_write
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:494    .text.SD_write:0000007c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:702    .bss.WriteStatus:00000000 WriteStatus
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:499    .text.SD_ioctl:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:505    .text.SD_ioctl:00000000 SD_ioctl
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:621    .text.SD_ioctl:0000005c $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:626    .text.BSP_SD_WriteCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:632    .text.BSP_SD_WriteCpltCallback:00000000 BSP_SD_WriteCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:649    .text.BSP_SD_WriteCpltCallback:00000008 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:654    .text.BSP_SD_ReadCpltCallback:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:660    .text.BSP_SD_ReadCpltCallback:00000000 BSP_SD_ReadCpltCallback
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:677    .text.BSP_SD_ReadCpltCallback:00000008 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:686    .rodata.SD_Driver:00000000 SD_Driver
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:683    .rodata.SD_Driver:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:693    .bss.ReadStatus:00000000 $d
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//cccsaPLr.s:699    .bss.WriteStatus:00000000 $d
 
 UNDEFINED SYMBOLS
 BSP_SD_GetCardState

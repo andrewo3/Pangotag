@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s 			page 1
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccty1Hsg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s 			page 1
   35              		.cfi_def_cfa_offset 8
   36              		.cfi_offset 3, -8
   37              		.cfi_offset 14, -4
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s 			page 2
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccty1Hsg.s 			page 2
 
 
   22:FATFS/Target/fatfs_platform.c ****     uint8_t status = SD_PRESENT;
@@ -105,13 +105,13 @@ ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s 			page 1
   67              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
   68              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
   69              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
-ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s 			page 3
+ARM GAS  /var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccty1Hsg.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 fatfs_platform.c
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s:21     .text.BSP_PlatformIsDetected:00000000 $t
-/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccPGtBqZ.s:27     .text.BSP_PlatformIsDetected:00000000 BSP_PlatformIsDetected
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccty1Hsg.s:21     .text.BSP_PlatformIsDetected:00000000 $t
+/var/folders/gv/t2w3mcd17yl2fynvjl120d0m0000gn/T//ccty1Hsg.s:27     .text.BSP_PlatformIsDetected:00000000 BSP_PlatformIsDetected
 
 UNDEFINED SYMBOLS
 HAL_GPIO_ReadPin

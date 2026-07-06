@@ -78,13 +78,19 @@ int writePacket(packet p) {
   if (res != FR_OK) {
     return res;
   }
+  res = f_write(&sdData, &p.rtcTimestamp, sizeof(uint32_t), nullptr);
+  if (res != FR_OK) {
+    return res;
+  }
   res = f_write(&sdData, &p.len, sizeof(uint32_t), nullptr);
   if (res != FR_OK) {
     return res;
   }
-  res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
-  if (res != FR_OK) {
-    return res;
+  if (p.len > 0) {
+    res = f_write(&sdData, p.payload, p.len * sizeof(uint8_t), nullptr);
+    if (res != FR_OK) {
+      return res;
+    }
   }
   res = f_close(&sdData);
   return res;
